@@ -9,7 +9,7 @@ module.exports = withMT({
   ],
   theme: {
     screens: {
-      sm: "640px",
+      sm: "375px",
       // => @media (min-width: 640px) { ... }
 
       md: "768px",
@@ -28,8 +28,10 @@ module.exports = withMT({
       transparent: "transparent",
       current: "currentColor",
       white: "#ffffff",
-      beige: '#F9f6f3',
-      // beige: '#FAFAFA',
+      gray: '#989898',
+      black: '#000',
+      // beige: '#F9f6f3',
+      beige: '#FAFAFA',
       purple: "#3f3cbb",
       midnight: "#121063",
       metal: "#565584",
@@ -48,7 +50,15 @@ module.exports = withMT({
       navbarMobile: '24px',
 
       h1: '96px',
+      h1Mobile: '56px',
+
+      h3: '66px',
+      h3Mobile: '46px',
+      
       subtitle: '42px',
+      subtitleMobile: '32px',
+
+      body1: '18px'
     },
     lineHeight: {
       '1': '.75rem',

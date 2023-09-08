@@ -5,6 +5,7 @@ import {
   Typography,
   Button,
   IconButton,
+  Collapse,
 } from "@material-tailwind/react";
 import { MAIN_NAVIGATION } from "../../utils/data";
 
@@ -81,9 +82,9 @@ export const NavbarComponent = () => {
             )}
           </IconButton>
         </div>
-        <MobileNav open={openNav}>
+        <Collapse open={openNav}>
           <div className="container mx-auto">{navList}</div>
-        </MobileNav>
+        </Collapse>
       </Navbar>
     </Fragment>
   );
