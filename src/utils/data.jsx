@@ -23,7 +23,8 @@ export const MAIN_NAVIGATION = [
 
 export const PROJECTS = [
   {
-    id: "1",
+    id: 1,
+    value: 'wd',
     img: '/images/Project Thumbnail/Recozy.png',
     title: "Recozy",
     url: "",
@@ -33,7 +34,8 @@ export const PROJECTS = [
     position: 'left',
   },
   {
-    id: "2",
+    id: 2,
+    value: 'wd',
     img: '/images/Project Thumbnail/Superare.png',
     title: "Superare",
     url: "",
@@ -43,7 +45,8 @@ export const PROJECTS = [
     position: 'right',
   },
   {
-    id: "3",
+    id: 3,
+    value: 'wd',
     img: '/images/Project Thumbnail/Hypeburger.png',
     title: "Hypeburger",
     url: "",
@@ -53,7 +56,8 @@ export const PROJECTS = [
     position: 'left',
   },
   {
-    id: "4",
+    id: 4,
+    value: 'wd',
     img: '/images/Project Thumbnail/Numa.png',
     title: "Numa",
     url: "",

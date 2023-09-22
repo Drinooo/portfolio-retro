@@ -54,6 +54,12 @@ module.exports = withMT({
 
       h3: '66px',
       h3Mobile: '46px',
+
+      h5: '46px',
+      h5Mobile: '26px',
+
+      h6: '36px',
+      h6Mobile: '16px',
       
       subtitle: '42px',
       subtitleMobile: '32px',
@@ -91,6 +97,9 @@ module.exports = withMT({
         5: "32px",
         6: "48px",
       },
+      boxShadow: {
+        'retro': '5px 5px'
+      }
     },
   },
   plugins: [],
