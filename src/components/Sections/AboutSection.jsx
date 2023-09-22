@@ -100,6 +100,21 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
+
+          <div className="grid grid-cols-4 gap-6 p-4">
+            <div>
+              <h4>Web/Mobile Design</h4>
+            </div>
+            <div>
+              <h4>Graphic Design</h4>
+            </div>
+            <div>
+              <h4>UI/UX Design</h4>
+            </div>
+            <div>
+              <h4>Web Development</h4>
+            </div>
+          </div>
         </div>
       </section>
     </Fragment>
