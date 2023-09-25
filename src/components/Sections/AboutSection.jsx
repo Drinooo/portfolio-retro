@@ -1,23 +1,5 @@
 import React, { Fragment } from "react";
-import {
-  AIIcon,
-  BootstrapIcon,
-  CSSIcon,
-  CanvaIcon,
-  FigmaIcon,
-  GithubIcon,
-  HTMLIcon,
-  IonicIcon,
-  JavascriptIcon,
-  MUIIcon,
-  NodeIcon,
-  PSDIcon,
-  ReactIcon,
-  TailwindIcon,
-  VSCodeIcon,
-  ViteIcon,
-  XDIcon,
-} from "../Common/IconComponent";
+import { DownloadButton, HireMeButton } from "../Common/ButtonComponent";
 
 const AboutSection = () => {
   return (
@@ -29,9 +11,16 @@ const AboutSection = () => {
           </h2>
         </div>
 
-        <div className="">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <div className="">
+            <img
+              className="h-full w-full rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
+              src="/images/joshua.jpg"
+              alt="Aldrin Villalobos"
+            />
+          </div>
           <div>
-            <p className="mb-6 font-light text-gray-500 text-body1 dark:text-gray-400">
+            <p className="mb-6 sm:text-aboutMobile md:text-about">
               Hi! I am Aldrin Villalobos. I'm a web designer based in the
               Philippines. I'm passionate about crafting visually appealing and
               user-friendly websites. With a strong foundation in design
@@ -41,78 +30,13 @@ const AboutSection = () => {
               to bring your vision to life and create an impactful online
               presence.
             </p>
-          </div>
-          <div className="border-4">
-            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-semibold text-gray-900 dark:text-white border-b-4 p-2">
-              Tech Stack
-            </h2>
-            <div className="grid grid-cols-8 gap-6 p-4">
+            <div className="flex sm:flex-col md:flex-row items-center gap-4">
               <div>
-                <HTMLIcon />
+                <HireMeButton>Hire Me</HireMeButton>
               </div>
               <div>
-                <CSSIcon />
+                <DownloadButton>Download Resume</DownloadButton>
               </div>
-              <div>
-                <BootstrapIcon />
-              </div>
-              <div>
-                <JavascriptIcon />
-              </div>
-              <div>
-                <ReactIcon />
-              </div>
-              <div>
-                <MUIIcon />
-              </div>
-              <div>
-                <NodeIcon />
-              </div>
-              <div>
-                <IonicIcon />
-              </div>
-              <div>
-                <TailwindIcon />
-              </div>
-              <div>
-                <ViteIcon />
-              </div>
-              <div>
-                <VSCodeIcon />
-              </div>
-              <div>
-                <GithubIcon />
-              </div>
-              <div>
-                <FigmaIcon />
-              </div>
-              <div>
-                <XDIcon />
-              </div>
-              <div>
-                <PSDIcon />
-              </div>
-              <div>
-                <AIIcon />
-              </div>
-              <div>
-                <CanvaIcon />
-              </div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-4 gap-6 p-4">
-            <div>
-              <h4>Web/Mobile Design</h4>
-            </div>
-            <div>
-              <h4>Graphic Design</h4>
-            </div>
-            <div>
-              <h4>UI/UX Design</h4>
-            </div>
-            <div>
-              <h4>Web Development</h4>
             </div>
           </div>
         </div>
