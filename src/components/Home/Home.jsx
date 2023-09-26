@@ -4,6 +4,7 @@ import ProjectSection from "../Sections/ProjectSection";
 import AboutSection from "../Sections/AboutSection";
 import TechStackSection from "../Sections/TechStackSection";
 import ServicesSection from "../Sections/ServicesSection";
+import ContactSection from "../Sections/ContactSection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <TechStackSection />
       <ServicesSection />
       <ProjectSection />
+      <ContactSection />
     </Fragment>
   );
 };

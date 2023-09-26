@@ -70,6 +70,7 @@ module.exports = withMT({
 
       services: "30px",
       servicesMobile: "24px",
+
     },
     lineHeight: {
       1: ".75rem",

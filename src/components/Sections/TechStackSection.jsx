@@ -12,9 +12,9 @@ const TechStackSection = () => {
 
       <div className="grid sm:grid-cols-3 md:grid-cols-8 gap-6 p-4">
         {TECH_STACK.map((item) => (
-          <div>
+          <div className="space-y-2">
             <div className="flex justify-center">{item.icon}</div>
-            <p className="text-center">{item.label}</p>
+            <p className="text-center font-light">{item.label}</p>
           </div>
         ))}
       </div>
