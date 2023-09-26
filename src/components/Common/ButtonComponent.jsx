@@ -28,11 +28,11 @@ export const ExploreButton = (props) => {
 };
 
 export const ViewMoreButton = (props) => {
-  const { variant = "text", children, className } = props;
+  const { variant = "outlined", children, className } = props;
   return (
     <Button
       variant={variant}
-      className="flex items-center rounded-none w-full md:w-auto p-0"
+      className="flex items-center rounded-none md:w-auto border-4 shadow-retro"
     >
       {children}
     </Button>

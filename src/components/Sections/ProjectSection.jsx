@@ -11,9 +11,6 @@ const ProjectSection = () => {
           <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-semibold text-gray-900 dark:text-white border-t-4 border-r-4 border-l-4 w-fit p-2">
             Projects
           </h2>
-          <div className="flex justify-end">
-            <ViewMoreButton>View More</ViewMoreButton>
-          </div>
         </div>
         {PROJECTS.map((item) => [
           item.position === "left" ? (
@@ -82,6 +79,9 @@ const ProjectSection = () => {
             </div>
           ),
         ])}
+        <div className="flex justify-center">
+          <ViewMoreButton>View More</ViewMoreButton>
+        </div>
       </section>
     </Fragment>
   );
