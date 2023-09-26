@@ -12,12 +12,13 @@ const AboutSection = () => {
         </div>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 items-center">
-          <div className="">
+          <div className="border-4 border-black">
             <img
-              className="h-full w-full rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
-              src="/images/joshua.jpg"
-              alt="Aldrin Villalobos"
+              src="/images/Joshua.png"
+              alt="mockup"
+              className="border-b-4 border-black w-full"
             />
+            <div className="border-gray border-8"></div>
           </div>
           <div>
             <p className="mb-6 sm:text-aboutMobile md:text-about">
