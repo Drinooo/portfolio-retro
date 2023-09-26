@@ -16,7 +16,7 @@ const AboutSection = () => {
             <img
               src="/images/Joshua.png"
               alt="mockup"
-              className="border-b-4 border-black w-full"
+              className="border-b-4 border-black w-screen"
             />
             <div className="border-gray border-8"></div>
           </div>
