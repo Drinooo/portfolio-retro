@@ -920,36 +920,6 @@ export const LogoIcon = () => {
   );
 };
 
-export const FacebookIcon = () => {
-  return (
-    <svg
-      width="34"
-      height="34"
-      viewBox="0 0 34 34"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g clip-path="url(#clip0_2705_5057)">
-        <path
-          d="M29.75 0H4.25C1.90612 0 0 1.90612 0 4.25V29.75C0 32.0939 1.90612 34 4.25 34H29.75C32.0939 34 34 32.0939 34 29.75V4.25C34 1.90612 32.0939 0 29.75 0Z"
-          fill="black"
-        />
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M28.6875 17H23.375V12.75C23.375 11.577 24.327 11.6875 25.5 11.6875H27.625V6.375H23.375C21.6842 6.375 20.0627 7.04665 18.8672 8.24219C17.6716 9.43774 17 11.0592 17 12.75V17H12.75V22.3125H17V34H23.375V22.3125H26.5625L28.6875 17Z"
-          fill="#FAFAFA"
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_2705_5057">
-          <rect width="34" height="34" fill="white" />
-        </clipPath>
-      </defs>
-    </svg>
-  );
-};
-
 export const InstagramIcon = () => {
   return (
     <svg
