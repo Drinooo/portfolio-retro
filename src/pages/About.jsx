@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import { DownloadButton, HireMeButton } from "../Common/ButtonComponent";
+import { DownloadButton, HireMeButton } from "../components/Common/ButtonComponent";
 
-export const AboutSection = () => {
+const About = () => {
   return (
     <Fragment>
       <section className="space-y-4 max-w-screen-2xl mx-auto">
@@ -45,3 +45,5 @@ export const AboutSection = () => {
     </Fragment>
   );
 };
+
+export default About;

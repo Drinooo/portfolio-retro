@@ -8,6 +8,7 @@ import {
   Collapse,
 } from "@material-tailwind/react";
 import { MAIN_NAVIGATION } from "../../utils/data";
+import { Link, Outlet } from "react-router-dom";
 
 export const NavbarComponent = () => {
   const [openNav, setOpenNav] = React.useState(false);
@@ -21,18 +22,22 @@ export const NavbarComponent = () => {
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      {MAIN_NAVIGATION.map((item) => [
-        <Typography
-          as="li"
-          variant="small"
-          color="blue-gray"
-          className="p-1 font-[600] lg:text-navbar sm:text-navbarMobile"
-        >
-          <a href={item.path} className="flex items-center">
-            {item.title}
-          </a>
-        </Typography>,
-      ])}
+      {MAIN_NAVIGATION.map((item) => (
+        <li>
+          <Link to={item.path}>
+            <Typography
+              as="li"
+              variant="small"
+              color="blue-gray"
+              className="p-1 font-[600] lg:text-navbar sm:text-navbarMobile"
+            >
+              {/* <a href={item.path} className="flex items-center"> */}
+              {item.title}
+              {/* </a> */}
+            </Typography>
+          </Link>
+        </li>
+      ))}
     </ul>
   );
 

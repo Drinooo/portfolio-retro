@@ -1,9 +1,8 @@
 import React, { Fragment, useEffect, useRef, useState } from "react";
-import { SendButton } from "../Common/ButtonComponent";
+import { SendButton } from "../components/Common/ButtonComponent";
 import emailjs from "@emailjs/browser";
-import { Alert } from "@material-tailwind/react";
 
-const ContactSection = () => {
+const Contact = () => {
   const emailRef = useRef();
   const nameRef = useRef();
   const contentRef = useRef();
@@ -25,13 +24,14 @@ const ContactSection = () => {
         content: contentRef.current.value,
         subject: subjectRef.current.value,
       });
-      alert("Your message succesfully sent to Aldrin Villalobos")
+      alert("Your message succesfully sent to Aldrin Villalobos");
     } catch (error) {
       console.log(error);
     } finally {
       setLoading(false);
     }
   };
+
   return (
     <Fragment>
       <section className="space-y-4 max-w-screen-2xl mx-auto">
@@ -117,4 +117,4 @@ const ContactSection = () => {
   );
 };
 
-export default ContactSection;
+export default Contact;
