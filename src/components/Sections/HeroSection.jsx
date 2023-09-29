@@ -1,6 +1,7 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useRef } from "react";
 
 const HeroSection = () => {
+
   return (
     <Fragment>
       <section className="">

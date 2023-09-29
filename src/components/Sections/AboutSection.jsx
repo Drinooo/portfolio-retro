@@ -1,10 +1,12 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useRef } from "react";
 import { DownloadButton, HireMeButton } from "../Common/ButtonComponent";
 
 export const AboutSection = () => {
+  const elementRef = useRef();
+
   return (
     <Fragment>
-      <section className="space-y-4 max-w-screen-2xl mx-auto">
+      <section className="space-y-4 max-w-screen-2xl mx-auto" ref={elementRef}>
         <div className="border-b-4">
           <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-semibold text-gray-900 dark:text-white border-t-4 border-r-4 border-l-4 w-fit p-2">
             About

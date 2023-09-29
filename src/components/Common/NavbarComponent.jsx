@@ -10,7 +10,7 @@ import {
 import { MAIN_NAVIGATION } from "../../utils/data";
 import { Link, Outlet } from "react-router-dom";
 
-export const NavbarComponent = () => {
+export const NavbarComponent = ({ scrollFunction }) => {
   const [openNav, setOpenNav] = React.useState(false);
 
   React.useEffect(() => {
@@ -24,6 +24,7 @@ export const NavbarComponent = () => {
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       {MAIN_NAVIGATION.map((item) => (
         <li>
+          {/* <Link to={item.path}> */}
           <Link to={item.path}>
             <Typography
               as="li"
