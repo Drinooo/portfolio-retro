@@ -17,7 +17,7 @@ const CTASection = () => {
             </Typography>
           </div>
           <div className="flex justify-center mt-4">
-            <a href="/contact">
+            <a href="https://aldrin-villalobos-portfolio-retro.vercel.app/contact">
               <SendButton>Contact Me</SendButton>
             </a>
           </div>

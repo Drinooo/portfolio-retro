@@ -84,7 +84,7 @@ export const ProjectSection = () => {
           ),
         ])}
         <div className="flex justify-center">
-          <a href="/projects">
+          <a href="https://aldrin-villalobos-portfolio-retro.vercel.app/projects">
             <ViewMoreButton>View More</ViewMoreButton>
           </a>
         </div>
