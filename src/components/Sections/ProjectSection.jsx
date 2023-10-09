@@ -5,13 +5,13 @@ import { ExploreButton, ViewMoreButton } from "../Common/ButtonComponent";
 export const ProjectSection = () => {
   return (
     <Fragment>
-      <section className="space-y-4 max-w-screen-2xl mx-auto">
+      <section className="space-y-4 max-w-screen-2xl mx-auto" id="projectSection">
         <div className="border-b-4 flex justify-between">
           <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-semibold text-gray-900 dark:text-white border-t-4 border-r-4 border-l-4 w-fit p-2">
             Projects
           </h2>
         </div>
-        {PROJECTS.map((item) => [
+        {PROJECTS.slice(0, 4).map((item) => [
           item.position === "left" ? (
             <div className="flex border-r-4">
               <div className="gap-8 border-4 border-black items-center mx-auto xl:gap-16 md:grid md:grid-cols-2 md:pr-[54px]">
@@ -33,7 +33,8 @@ export const ProjectSection = () => {
                     {item.desc}
                   </p>
                   <a
-                    href={item.path}
+                    href={item.url}
+                    target="_blank"
                     className="flex sm:justify-center md:justify-start"
                   >
                     <ExploreButton>Explore Now</ExploreButton>
@@ -58,7 +59,8 @@ export const ProjectSection = () => {
                     {item.desc}
                   </p>
                   <a
-                    href={item.path}
+                    href={item.url}
+                    target="_blank"
                     className="flex sm:justify-center md:justify-start"
                   >
                     <ExploreButton>Explore Now</ExploreButton>

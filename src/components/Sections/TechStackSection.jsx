@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { TECH_STACK } from "../../utils/data";
 
-export const TechStackSection = () => {
+const TechStackSection = () => {
   return (
     <Fragment>
       <section className="space-y-4 max-w-screen-2xl mx-auto ">
@@ -23,3 +23,5 @@ export const TechStackSection = () => {
     </Fragment>
   );
 };
+
+export default TechStackSection

@@ -29,8 +29,7 @@ export const NavbarComponent = ({ scrollFunction }) => {
             <Typography
               as="li"
               variant="small"
-              color="blue-gray"
-              className="p-1 font-[600] lg:text-navbar sm:text-navbarMobile"
+              className="p-1 font-[600] lg:text-navbar sm:text-navbarMobile text-black hover:text-gray"
             >
               {/* <a href={item.path} className="flex items-center"> */}
               {item.title}

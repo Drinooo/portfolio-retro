@@ -58,12 +58,14 @@ module.exports = withMT({
       h5Mobile: "26px",
 
       h6: "36px",
-      h6Mobile: "16px",
+      h6Mobile: "22px",
 
       subtitle: "42px",
       subtitleMobile: "32px",
 
       body1: "18px",
+
+      client: '20px',
       
       about: '24px',
       aboutMobile: '18px',

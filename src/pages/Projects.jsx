@@ -18,6 +18,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { PROJECTS } from "../utils/data";
+import CTASection from "../components/Sections/CTASection";
 
 const Projects = () => {
   const data = [
@@ -136,6 +137,7 @@ const Projects = () => {
             ])}
           </TabsBody>
         </Tabs>
+        <CTASection />
       </section>
     </Fragment>
   );

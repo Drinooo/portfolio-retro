@@ -77,7 +77,7 @@ export const PROJECTS = [
     value: "wd",
     img: "/images/Project Thumbnail/Hypeburger.png",
     title: "Hypeburger",
-    url: "",
+    url: "https://hypeburger-landing-page.vercel.app/",
     desc: "This design skillfully merges Figma, HTML, CSS, React.js, Material-Tailwind, and Tailwind CSS, creating an extraordinary user experience with visually striking elements and interactivity.",
     tools: "",
     path: "/portfolio-hypeburger",
@@ -88,7 +88,7 @@ export const PROJECTS = [
     value: "wd",
     img: "/images/Project Thumbnail/Numa.png",
     title: "Numa",
-    url: "",
+    url: "https://numarecoverycenters.com/",
     desc: "This meticulously crafted design, brought to life using Figma, seamlessly integrates with WordPress, enabling a seamless transition from design to development. The result is a dynamic and engaging website with unparalleled functionality and visual appeal.",
     tools: "",
     path: "/portfolio-numa",
@@ -236,5 +236,44 @@ export const SERVICES = [
     icon: <LogoIcon />,
     title: "Logo Design",
     desc: "Proficient in logo design, with expertise in creating distinctive and memorable logos that resonate with clients and audiences. Passionate about crafting visual identities that leave a lasting impression and effectively communicate brand messages.",
+  },
+];
+
+export const CLIENTS = [
+  {
+    id: "",
+    title: "NMS PH",
+  },
+  {
+    id: "",
+    title: "TribeTXT",
+  },
+  {
+    id: "",
+    title: "Share My Circle",
+  },
+  {
+    id: "",
+    title: "Her Erotic Story",
+  },
+  {
+    id: "",
+    title: "My Allied Health Academy",
+  },
+  {
+    id: "",
+    title: "Montrose Search and Rescue",
+  },
+  {
+    id: "",
+    title: "Home Renovation Guy",
+  },
+  {
+    id: "",
+    title: "Numa Recovery Centers",
+  },
+  {
+    id: "",
+    title: "LeadGen Crew",
   },
 ];
