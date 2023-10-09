@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { PROJECTS } from "../../utils/data";
 import { ExploreButton, ViewMoreButton } from "../Common/ButtonComponent";
+import { Link } from "react-router-dom";
 
 export const ProjectSection = () => {
   return (
@@ -84,9 +85,9 @@ export const ProjectSection = () => {
           ),
         ])}
         <div className="flex justify-center">
-          <a href="/projects">
+          <Link to={"/projects"}>
             <ViewMoreButton>View More</ViewMoreButton>
-          </a>
+          </Link>
         </div>
       </section>
     </Fragment>
