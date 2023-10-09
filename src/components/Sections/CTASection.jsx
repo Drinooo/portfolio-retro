@@ -1,6 +1,7 @@
 import { Typography } from "@material-tailwind/react";
 import React, { Fragment } from "react";
 import { SendButton } from "../Common/ButtonComponent";
+import { Link } from "react-router-dom";
 
 const CTASection = () => {
   return (
@@ -17,9 +18,9 @@ const CTASection = () => {
             </Typography>
           </div>
           <div className="flex justify-center mt-4">
-            <a href="https://aldrin-villalobos-portfolio-retro.vercel.app/contact">
+            <Link to={"/contact"}>
               <SendButton>Contact Me</SendButton>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
