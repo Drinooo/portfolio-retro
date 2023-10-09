@@ -1,3 +1,4 @@
+import { Chip } from "@material-tailwind/react";
 import {
   AIIcon,
   BootstrapIcon,
@@ -51,51 +52,77 @@ export const MAIN_NAVIGATION = [
 
 export const PROJECTS = [
   {
-    id: 1,
     value: "wd",
     img: "/images/Project Thumbnail/Recozy.png",
     title: "Recozy",
     url: "https://recozy-landing-page.vercel.app/",
     desc: "This design was artfully crafted in Figma, skillfully merging HTML, CSS, React.js, Material-Tailwind, and Tailwind CSS for front-end development. The harmonious integration of these technologies creates an immersive user experience that captivates with its visual allure and interactivity.",
-    tools: "",
+    tools: [
+      <Chip className="bg-black" value="Landing Page" />,
+      <Chip className="bg-black" value="Web Design" />,
+      <Chip className="bg-black" value="Web Development" />,
+    ],
     path: "/portfolio-recozy",
     position: "left",
   },
   {
-    id: 2,
     value: "wd",
     img: "/images/Project Thumbnail/Superare.png",
     title: "Superare",
     url: "https://superare-landing-page.vercel.app/",
     desc: "This meticulously crafted design in Figma seamlessly combines HTML, CSS, React.js, Material-Tailwind, and Tailwind CSS for front-end development, resulting in a visually stunning and interactive user experience.",
-    tools: "",
+    tools: [
+      <Chip className="bg-black" value="Landing Page" />,
+      <Chip className="bg-black" value="Web Design" />,
+      <Chip className="bg-black" value="Web Development" />,
+    ],
     path: "/portfolio-superare",
     position: "right",
   },
   {
-    id: 3,
     value: "wd",
     img: "/images/Project Thumbnail/Hypeburger.png",
     title: "Hypeburger",
     url: "https://hypeburger-landing-page.vercel.app/",
     desc: "This design skillfully merges Figma, HTML, CSS, React.js, Material-Tailwind, and Tailwind CSS, creating an extraordinary user experience with visually striking elements and interactivity.",
-    tools: "",
+    tools: [
+      <Chip className="bg-black" value="Landing Page" />,
+      <Chip className="bg-black" value="Web Design" />,
+      <Chip className="bg-black" value="Web Development" />,
+    ],
     path: "/portfolio-hypeburger",
     position: "left",
   },
   {
-    id: 4,
     value: "wd",
     img: "/images/Project Thumbnail/Numa.png",
     title: "Numa",
     url: "https://numarecoverycenters.com/",
     desc: "This meticulously crafted design, brought to life using Figma, seamlessly integrates with WordPress, enabling a seamless transition from design to development. The result is a dynamic and engaging website with unparalleled functionality and visual appeal.",
-    tools: "",
+    tools: [
+      <Chip className="bg-black" value="Landing Page" />,
+      <Chip className="bg-black" value="Web Design" />,
+      <Chip className="bg-black" value="Web Development" />,
+    ],
     path: "/portfolio-numa",
     position: "right",
   },
   {
-    id: 5,
+    value: "wd",
+    img: "/images/Project Thumbnail/MSAR.png",
+    title: "Montrose Search and Rescue",
+    url: "https://montrosesar.org/",
+    desc: "This meticulously crafted design, brought to life using Figma, seamlessly integrates with WordPress, enabling a seamless transition from design to development. The result is a dynamic and engaging website with unparalleled functionality and visual appeal.",
+    tools: [
+      <Chip className="bg-black" value="Landing Page" />,
+      <Chip className="bg-black" value="UI/UX Design" />,
+      <Chip className="bg-black" value="Web Design" />,
+      <Chip className="bg-black" value="Web Development" />,
+    ],
+    path: "/portfolio-numa",
+    position: "left",
+  },
+  {
     value: "ld",
     img: "/images/Logo/HRG White.png",
     title: "Home Renovation Guy",
@@ -106,7 +133,6 @@ export const PROJECTS = [
     position: "right",
   },
   {
-    id: 6,
     value: "ld",
     img: "/images/Logo/GR White.png",
     title: "Giving Recovery",
@@ -117,7 +143,6 @@ export const PROJECTS = [
     position: "left",
   },
   {
-    id: 7,
     value: "ld",
     img: "/images/Logo/VS WHite.png",
     title: "VS Gravel and Sand Trading",
@@ -128,7 +153,6 @@ export const PROJECTS = [
     position: "right",
   },
   {
-    id: 8,
     value: "ld",
     img: "/images/Logo/LGC 2 White.png",
     title: "LeadGen Crew",

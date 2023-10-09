@@ -45,7 +45,7 @@ export const NavbarComponent = ({ scrollFunction }) => {
     <Fragment>
       <Navbar className="sticky top-0 z-10 mx-auto max-w-full border-none rounded-none shadow-none bg-beige bg-opacity-100 backdrop-saturate-200 backdrop-blur-none">
         <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-          <Typography as="a" href="#" className="cursor-pointer">
+          <Typography as="a" href="/" className="cursor-pointer">
             <img src="/images/Logo Black.png" className="w-24" alt="" />
           </Typography>
           <div className="hidden lg:block">{navList}</div>

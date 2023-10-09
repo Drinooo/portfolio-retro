@@ -5,7 +5,10 @@ import { ExploreButton, ViewMoreButton } from "../Common/ButtonComponent";
 export const ProjectSection = () => {
   return (
     <Fragment>
-      <section className="space-y-4 max-w-screen-2xl mx-auto" id="projectSection">
+      <section
+        className="space-y-4 max-w-screen-2xl mx-auto"
+        id="projectSection"
+      >
         <div className="border-b-4 flex justify-between">
           <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-semibold text-gray-900 dark:text-white border-t-4 border-r-4 border-l-4 w-fit p-2">
             Projects
@@ -81,7 +84,9 @@ export const ProjectSection = () => {
           ),
         ])}
         <div className="flex justify-center">
-          <ViewMoreButton>View More</ViewMoreButton>
+          <a href="/projects">
+            <ViewMoreButton>View More</ViewMoreButton>
+          </a>
         </div>
       </section>
     </Fragment>
