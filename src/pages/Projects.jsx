@@ -39,7 +39,7 @@ const Projects = () => {
               <Tab
                 key={value}
                 value={value}
-                className="border-b-4 sm:text-h6aboutMobile md:text-about font-semibold"
+                className="border-b-4 sm:text-aboutMobile md:text-about font-semibold"
               >
                 {label}
               </Tab>
@@ -68,7 +68,7 @@ const Projects = () => {
                         <p className="mb-3 font-light text-gray-500 text-body1 dark:text-gray-400">
                           {item.desc}
                         </p>
-                        <div className="w-fit flex md:flex-row sm:flex-col gap-2 mb-3">
+                        <div className="w-fit text-center grid md:grid-cols-3 sm:grid-cols-1 gap-2 mb-3">
                           {item.tools}
                         </div>
                         <a
@@ -100,7 +100,7 @@ const Projects = () => {
                         <p className="mb-3 font-light text-gray-500 text-body1 dark:text-gray-400">
                           {item.desc}
                         </p>
-                        <div className="w-fit flex md:flex-row sm:flex-col gap-2 mb-3">
+                        <div className="w-fit text-center grid md:grid-cols-3 sm:grid-cols-1 gap-2 mb-3">
                           {item.tools}
                         </div>
                         <a

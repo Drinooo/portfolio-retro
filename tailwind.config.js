@@ -67,7 +67,7 @@ module.exports = withMT({
 
       client: '20px',
       
-      about: '24px',
+      about: '26px',
       aboutMobile: '18px',
 
       services: "30px",

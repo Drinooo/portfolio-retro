@@ -1,5 +1,6 @@
 import React, { Fragment, useRef } from "react";
 import { DownloadButton, HireMeButton } from "../Common/ButtonComponent";
+import { Link } from "react-router-dom";
 
 export const AboutSection = () => {
   const elementRef = useRef();
@@ -35,7 +36,9 @@ export const AboutSection = () => {
             </p>
             <div className="flex sm:flex-col md:flex-row items-center gap-4">
               <div>
-                <HireMeButton>Hire Me</HireMeButton>
+                <Link to={"/contact"}>
+                  <HireMeButton>Hire Me</HireMeButton>
+                </Link>
               </div>
               <div>
                 <DownloadButton>Download Resume</DownloadButton>

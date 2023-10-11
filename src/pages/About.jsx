@@ -8,6 +8,7 @@ import ServicesSection from "../components/Sections/ServicesSection";
 import ClientsSection from "../components/Sections/ClientsSection";
 import CTASection from "../components/Sections/CTASection";
 import { Typography } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -50,7 +51,9 @@ const About = () => {
             </Typography>
             <div className="flex sm:flex-col md:flex-row items-center gap-4">
               <div>
-                <HireMeButton>Hire Me</HireMeButton>
+                <Link to={"/contact"}>
+                  <HireMeButton>Hire Me</HireMeButton>
+                </Link>
               </div>
               <div>
                 <DownloadButton>Download Resume</DownloadButton>
