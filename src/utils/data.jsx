@@ -128,11 +128,12 @@ export const PROJECTS = [
     value: "wd",
     img: "/images/Project Thumbnail/Gretta.png",
     title: "Gretta",
-    url: "#",
+    url: "https://gretta-988d98.webflow.io/",
     desc: "This design expertly combines Figma to deliver an exceptional user experience through visually stunning elements and interactive features.",
     tools: [
       <Chip className="bg-black" value="Landing Page" />,
       <Chip className="bg-black" value="Web Design" />,
+      <Chip className="bg-black" value="Web Development" />,
     ],
     path: "/portfolio-hypeburger",
     position: "right",
