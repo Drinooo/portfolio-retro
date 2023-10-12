@@ -40,7 +40,7 @@ export const ProjectSection = () => {
                     href={item.url}
                     target="_blank"
                     className="flex sm:justify-center md:justify-start"
-                  >
+                  > 
                     <ExploreButton>Explore Now</ExploreButton>
                   </a>
                 </div>
