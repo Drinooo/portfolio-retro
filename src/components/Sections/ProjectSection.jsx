@@ -33,9 +33,9 @@ export const ProjectSection = () => {
                   <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                     {item.title}
                   </h2>
-                  <p className="mb-6 font-light text-gray-500 text-body1 dark:text-gray-400">
+                  {/* <p className="mb-6 font-light text-gray-500 text-body1 dark:text-gray-400">
                     {item.desc}
-                  </p>
+                  </p> */}
                   <a
                     href={item.url}
                     target="_blank"
@@ -59,9 +59,9 @@ export const ProjectSection = () => {
                   <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                     {item.title}
                   </h2>
-                  <p className="mb-6 font-light text-gray-500 text-body1 dark:text-gray-400">
+                  {/* <p className="mb-6 font-light text-gray-500 text-body1 dark:text-gray-400">
                     {item.desc}
-                  </p>
+                  </p> */}
                   <a
                     href={item.url}
                     target="_blank"
