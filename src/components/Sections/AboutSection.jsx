@@ -41,7 +41,9 @@ export const AboutSection = () => {
                 </Link>
               </div>
               <div>
+                <Link to={"/Aldrin Villalobos Resume.pdf"} target="_blank">
                 <DownloadButton>Download Resume</DownloadButton>
+                </Link>
               </div>
             </div>
           </div>
