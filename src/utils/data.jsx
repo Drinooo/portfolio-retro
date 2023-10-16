@@ -222,7 +222,7 @@ export const PROJECTS = [
   },
   {
     value: "ld",
-    img: "public/images/Logo/LGC White.png",
+    img: "/images/Logo/LGC White.png",
     title: "LeadGen Crew V2",
     url: "",
     desc: "",
