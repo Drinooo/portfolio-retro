@@ -368,4 +368,20 @@ export const CLIENTS = [
     id: "",
     title: "LeadGen Crew",
   },
+  {
+    id: "",
+    title: "VS Gravel and Sand Trading",
+  },
+  {
+    id: "",
+    title: "Villalobos-Santiago Land Surveying",
+  },
+  {
+    id: "",
+    title: "One Way Leisure",
+  },
+  {
+    id: "",
+    title: "Los Santos Customs Auto Repair",
+  },
 ];
