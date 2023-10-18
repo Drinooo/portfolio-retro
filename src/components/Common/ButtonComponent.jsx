@@ -6,7 +6,7 @@ export const ExploreButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center gap-2 rounded-none md:w-auto border-4 shadow-retro"
+      className="flex items-center gap-2 rounded-none md:w-auto border-4 shadow-retro hover:scale-105"
     >
       {children}
       <svg
@@ -32,7 +32,7 @@ export const ViewMoreButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center rounded-none md:w-auto border-4 shadow-retro"
+      className="flex items-center rounded-none md:w-auto border-4 shadow-retro hover:scale-105"
     >
       {children}
     </Button>
@@ -44,7 +44,7 @@ export const HireMeButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center gap-2 rounded-none w-full md:w-auto border-4 shadow-retro"
+      className="flex items-center gap-2 rounded-none w-full md:w-auto border-4 shadow-retro hover:scale-105"
     >
       {children}
       <svg
@@ -70,7 +70,7 @@ export const DownloadButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center gap-2 rounded-none text-white w-full md:w-auto border-4 border-black shadow-retro1 bg-black"
+      className="flex items-center gap-2 rounded-none text-white w-full md:w-auto border-4 border-black shadow-retro1 bg-black hover:scale-105"
     >
       {children}
       <svg
@@ -97,7 +97,7 @@ export const SendButton = (props) => {
     <Button
       variant={variant}
       type="submit"
-      className="flex items-center gap-2 rounded-none w-full md:w-auto border-4 shadow-retro"
+      className="flex items-center gap-2 rounded-none w-full md:w-auto border-4 shadow-retro hover:scale-105"
     >
       {children}
       <svg
