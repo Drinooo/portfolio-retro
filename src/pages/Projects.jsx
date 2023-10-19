@@ -17,8 +17,8 @@ const Projects = () => {
       value: "wd",
     },
     {
-      label: "Graphic Design",
-      value: "gd",
+      label: "UI/UX Design",
+      value: "ud",
     },
     {
       label: "Logo Design",
