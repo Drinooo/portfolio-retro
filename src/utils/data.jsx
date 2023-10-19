@@ -286,6 +286,20 @@ export const PROJECTS = [
     path: "/portfolio-hypeburger",
     position: "left",
   },
+  {
+    value: "wd",
+    img: "/images/Project Thumbnail/Juice Labs.png",
+    title: "Juice Labs",
+    url: "",
+    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    tools: [
+      <Chip className="bg-black" value="Landing Page" />,
+      <Chip className="bg-black" value="Web Design" />,
+      <Chip className="bg-black" value="Figma" />,
+    ],
+    path: "/portfolio-hypeburger",
+    position: "right",
+  },
   { 
     value: "ld",
     img: "/images/Logo/HRG White.png",
