@@ -10,7 +10,7 @@ const ServicesSection = () => {
             Services
           </h2>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-2 pt-4">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2 pt-4">
           {SERVICES.map((item) => (
             <div className="border-4 h-max">
               <div className="p-4 space-y-2 sm:h-full md:h-96">

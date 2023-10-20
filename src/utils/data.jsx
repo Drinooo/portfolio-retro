@@ -347,7 +347,7 @@ export const PROJECTS = [
   },
   {
     value: "ud",
-    img: "/images/Project Thumbnail/HES.png",
+    img: "/images/Project Thumbnail/TribeTXT.png",
     title: "TribeTXT (Rooms)",
     url: "http://design.nmscreative.com/tribetxt/",
     desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",

@@ -14,7 +14,7 @@ export const AboutSection = () => {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 items-center">
           <div className="border-4 border-black">
             <img
               src="/images/Joshua.png"
@@ -34,12 +34,7 @@ export const AboutSection = () => {
               to bring your vision to life and create an impactful online
               presence.
             </p>
-            <div className="flex sm:flex-col md:flex-row items-center gap-4">
-              <div>
-                <Link to={"/contact"}>
-                  <HireMeButton>Hire Me</HireMeButton>
-                </Link>
-              </div>
+            <div className="">
               <div>
                 <Link to={"/Aldrin Villalobos CV.pdf"} target="_blank">
                 <DownloadButton>Download Resume</DownloadButton>

@@ -50,30 +50,25 @@ const Projects = () => {
               item.position === "left" ? (
                 <TabPanel key={item.value} value={item.value}>
                   <div className="flex border-r-4">
-                    <div className="gap-8 border-4 border-black items-center mx-auto xl:gap-16 md:grid md:grid-cols-2 md:pr-[54px]">
+                    <div className="gap-8 border-4 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
                       <img
-                        className="w-full dark:hidden sm:border-b-4 md:border-b-0 md:border-r-4 border-black"
+                        className="w-full lg:h-full dark:hidden sm:border-b-4 lg:border-b-0 lg:border-r-4 border-black"
                         src={item.img}
                         alt="dashboard image"
                       />
-                      <img
-                        className="w-full hidden dark:block sm:border-b-4 md:border-b-0 md:border-r-4 border-black"
-                        src={item.img}
-                        alt="dashboard image"
-                      />
-                      <div className="mt-4 md:mt-0 mb-4 md:mb-0  md:text-start sm:text-center py-10">
+                      <div className="mt-4 md:mt-0 mb-4 md:mb-0  lg:text-start sm:text-center py-10">
                         <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white">
                           {item.title}
                         </h2>
                         {/* <p className="mb-3 font-light text-gray-500 text-body1 dark:text-gray-400">
                           {item.desc}
                         </p> */}
-                        <div className="w-fit text-center grid md:grid-cols-3 sm:grid-cols-1 gap-2 mb-3 sm:mx-auto md:mx-0">
+                        <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
                           {item.tools}
                         </div>
                         <a
                           href={item.url}
-                          className="flex sm:justify-center md:justify-start"
+                          className="flex sm:justify-center lg:justify-start"
                         >
                           {item.value === "ld" ? null : (
                             <ExploreButton>Explore Now</ExploreButton>
@@ -92,20 +87,20 @@ const Projects = () => {
                     <div className="border-t-4 border-b-4">
                       <div className="border-8 border-gray h-full"></div>
                     </div>
-                    <div className="gap-8 border-4 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 md:pl-[54px]">
-                      <div className="mt-4 md:mt-0 mb-4 md:mb-0 sm:text-center md:text-start py-10">
+                    <div className="gap-8 border-4 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
+                      <div className="mt-4 md:mt-0 mb-4 md:mb-0 sm:text-center lg:text-start py-10">
                         <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white">
                           {item.title}
                         </h2>
                         {/* <p className="mb-3 font-light text-gray-500 text-body1 dark:text-gray-400">
                           {item.desc}
                         </p> */}
-                        <div className="w-fit text-center grid md:grid-cols-3 sm:grid-cols-1 gap-2 mb-3 sm:mx-auto md:mx-0">
+                        <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
                           {item.tools}
                         </div>
                         <a
                           href={item.url}
-                          className="flex sm:justify-center md:justify-start"
+                          className="flex sm:justify-center lg:justify-start"
                         >
                           {item.value === "ld" ? null : (
                             <ExploreButton>Explore Now</ExploreButton>
@@ -113,12 +108,7 @@ const Projects = () => {
                         </a>
                       </div>
                       <img
-                        className="w-full dark:hidden sm:border-t-4 md:border-t-0 md:border-l-4 border-black"
-                        src={item.img}
-                        alt="dashboard image"
-                      />
-                      <img
-                        className="w-full hidden dark:block sm:border-t-4 md:border-t-0 md:border-l-4 border-black"
+                        className="w-full dark:hidden sm:border-t-4 lg:border-t-0 lg:border-l-4 border-black"
                         src={item.img}
                         alt="dashboard image"
                       />

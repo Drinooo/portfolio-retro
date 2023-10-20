@@ -19,7 +19,7 @@ const About = () => {
             About
           </h2>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 items-center">
           <div className="border-4 border-black">
             <img
               src="/images/Joshua.png"
@@ -49,12 +49,7 @@ const About = () => {
               to your challenges, work on solving them step by step, and
               celebrate your success with you.
             </Typography>
-            <div className="flex sm:flex-col md:flex-row items-center gap-4">
-              <div>
-                <Link to={"/contact"}>
-                  <HireMeButton>Hire Me</HireMeButton>
-                </Link>
-              </div>
+            <div className="">
               <div>
                 <DownloadButton>Download Resume</DownloadButton>
               </div>

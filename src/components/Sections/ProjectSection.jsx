@@ -18,18 +18,13 @@ export const ProjectSection = () => {
         {PROJECTS.slice(0, 4).map((item) => [
           item.position === "left" ? (
             <div className="flex border-r-4">
-              <div className="gap-8 border-4 border-black items-center mx-auto xl:gap-16 md:grid md:grid-cols-2 md:pr-[54px]">
+              <div className="gap-8 border-4 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
                 <img
-                  className="w-full dark:hidden sm:border-b-4 md:border-b-0 md:border-r-4 border-black"
+                  className="w-full lg:h-full dark:hidden sm:border-b-4 lg:border-b-0 lg:border-r-4 border-black"
                   src={item.img}
                   alt="dashboard image"
                 />
-                <img
-                  className="w-full hidden dark:block sm:border-b-4 md:border-b-0 md:border-r-4 border-black"
-                  src={item.img}
-                  alt="dashboard image"
-                />
-                <div className="mt-4 md:mt-0 mb-4 md:mb-0  md:text-start sm:text-center">
+                <div className="mt-4 md:mt-0 mb-4 lg:mb-0  lg:text-start sm:text-center">
                   <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                     {item.title}
                   </h2>
@@ -38,9 +33,8 @@ export const ProjectSection = () => {
                   </p> */}
                   <a
                     href={item.url}
-                    target="_blank"
-                    className="flex sm:justify-center md:justify-start"
-                  > 
+                    className="flex sm:justify-center lg:justify-start"
+                  >
                     <ExploreButton>Explore Now</ExploreButton>
                   </a>
                 </div>
@@ -54,8 +48,8 @@ export const ProjectSection = () => {
               <div className="border-t-4 border-b-4">
                 <div className="border-8 border-gray h-full"></div>
               </div>
-              <div className="gap-8 border-4 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 md:pl-[54px]">
-                <div className="mt-4 md:mt-0 mb-4 md:mb-0 sm:text-center md:text-start">
+              <div className="gap-8 border-4 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
+                <div className="mt-4 md:mt-0 mb-4 lg:mb-0 sm:text-center lg:text-start">
                   <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                     {item.title}
                   </h2>
@@ -65,18 +59,13 @@ export const ProjectSection = () => {
                   <a
                     href={item.url}
                     target="_blank"
-                    className="flex sm:justify-center md:justify-start"
+                    className="flex sm:justify-center lg:justify-start"
                   >
                     <ExploreButton>Explore Now</ExploreButton>
                   </a>
                 </div>
                 <img
-                  className="w-full dark:hidden sm:border-t-4 md:border-t-0 md:border-l-4 border-black"
-                  src={item.img}
-                  alt="dashboard image"
-                />
-                <img
-                  className="w-full hidden dark:block sm:border-t-4 md:border-t-0 md:border-l-4 border-black"
+                  className="w-full lg:h-full dark:hidden sm:border-t-4 lg:border-t-0 lg:border-l-4 border-black"
                   src={item.img}
                   alt="dashboard image"
                 />
