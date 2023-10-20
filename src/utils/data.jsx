@@ -317,7 +317,7 @@ export const PROJECTS = [
   },
   {
     value: "ud",
-    img: "public/images/Project Thumbnail/SMC.png",
+    img: "/images/Project Thumbnail/SMC.png",
     title: "Share My Circle",
     url: "http://design.nmscreative.com/share-my-circle-2/",
     desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
