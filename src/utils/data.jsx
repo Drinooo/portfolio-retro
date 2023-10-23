@@ -290,7 +290,7 @@ export const PROJECTS = [
     value: "wd",
     img: "/images/Project Thumbnail/Juice Labs.png",
     title: "Juice Labs",
-    url: "",
+    url: "#",
     desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
     tools: [
       <Chip className="bg-black" value="Landing Page" />,

@@ -70,7 +70,7 @@ const Projects = () => {
                           href={item.url}
                           className="flex sm:justify-center lg:justify-start"
                         >
-                          {item.value === "ld" ? null : (
+                          {(item.value === "ld") || (item.url === "#") ? null : (
                             <ExploreButton>Explore Now</ExploreButton>
                           )}
                         </a>
@@ -102,7 +102,7 @@ const Projects = () => {
                           href={item.url}
                           className="flex sm:justify-center lg:justify-start"
                         >
-                          {item.value === "ld" ? null : (
+                          {(item.value === "ld") || (item.url === "#") ? null : (
                             <ExploreButton>Explore Now</ExploreButton>
                           )}
                         </a>
