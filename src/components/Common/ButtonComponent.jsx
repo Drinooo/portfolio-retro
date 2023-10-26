@@ -92,7 +92,7 @@ export const DownloadButton = (props) => {
 };
 
 export const SendButton = (props) => {
-  const { variant = "outlined", children, className } = props;
+  const { variant = "outlined", children } = props;
   return (
     <Button
       variant={variant}
