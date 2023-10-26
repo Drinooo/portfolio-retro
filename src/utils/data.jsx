@@ -23,30 +23,23 @@ import {
   WebIcon,
   XDIcon,
 } from "../components/Common/IconComponent";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Projects from "../pages/Projects";
 
 export const MAIN_NAVIGATION = [
   {
     title: "Home",
     path: "/",
-    page: "",
   },
   {
     title: "About",
     path: "/about",
-    page: <About />,
   },
   {
     title: "Projects",
     path: "/projects",
-    page: <Projects />,
   },
   {
     title: "Contact",
     path: "/contact",
-    page: <Contact />,
   },
 ];
 

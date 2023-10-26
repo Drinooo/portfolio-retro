@@ -5,11 +5,9 @@ import Base from "../pages/Base";
 import Projects from "../pages/Projects";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
-import ScrollToTop from "./ScrollToTop";
 
 const MainRoutes = () => {
   return (
-    <ScrollToTop>
       <Routes>
         <Route path="/" element={<Base />}>
           <Route index element={<Home />} />
@@ -18,7 +16,6 @@ const MainRoutes = () => {
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
-    </ScrollToTop>
   );
 };
 
