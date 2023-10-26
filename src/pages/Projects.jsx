@@ -28,6 +28,11 @@ const Projects = () => {
   return (
     <Fragment>
       <section className="space-y-4 max-w-screen-2xl mx-auto">
+      <div className="border-b-4 flex justify-between">
+          <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-semibold text-gray-900 dark:text-white border-t-4 border-r-4 border-l-4 w-fit p-2">
+            Projects
+          </h2>
+        </div>
         <Tabs value="wd">
           <TabsHeader
             className="bg-transparent z-0"
