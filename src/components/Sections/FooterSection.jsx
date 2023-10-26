@@ -21,7 +21,6 @@ const FooterSection = () => {
                 className="w-20 mr-3"
                 alt="Flowbite Logo"
               />
-              {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">aldrinvilladesigns</span> */}
             </a>
             <ul className="flex flex-wrap items-center gap-4 mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <a href="https://www.instagram.com/aldrinvilladesigns/" target="_blank">

@@ -2,7 +2,7 @@ import { Button } from "@material-tailwind/react";
 import React from "react";
 
 export const ExploreButton = (props) => {
-  const { variant = "outlined", children, className } = props;
+  const { variant = "outlined", children } = props;
   return (
     <Button
       variant={variant}
@@ -28,7 +28,7 @@ export const ExploreButton = (props) => {
 };
 
 export const ViewMoreButton = (props) => {
-  const { variant = "outlined", children, className } = props;
+  const { variant = "outlined", children } = props;
   return (
     <Button
       variant={variant}
@@ -40,7 +40,7 @@ export const ViewMoreButton = (props) => {
 };
 
 export const HireMeButton = (props) => {
-  const { variant = "outlined", children, className } = props;
+  const { variant = "outlined", children } = props;
   return (
     <Button
       variant={variant}
@@ -66,7 +66,7 @@ export const HireMeButton = (props) => {
 };
 
 export const DownloadButton = (props) => {
-  const { variant = "outlined", children, className } = props;
+  const { variant = "outlined", children } = props;
   return (
     <Button
       variant={variant}

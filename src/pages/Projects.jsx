@@ -60,9 +60,6 @@ const Projects = () => {
                         <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white">
                           {item.title}
                         </h2>
-                        {/* <p className="mb-3 font-light text-gray-500 text-body1 dark:text-gray-400">
-                          {item.desc}
-                        </p> */}
                         <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
                           {item.tools}
                         </div>
@@ -92,9 +89,6 @@ const Projects = () => {
                         <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white">
                           {item.title}
                         </h2>
-                        {/* <p className="mb-3 font-light text-gray-500 text-body1 dark:text-gray-400">
-                          {item.desc}
-                        </p> */}
                         <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
                           {item.tools}
                         </div>

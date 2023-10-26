@@ -1,5 +1,5 @@
 import React, { Fragment, useRef } from "react";
-import { DownloadButton, HireMeButton } from "../Common/ButtonComponent";
+import { DownloadButton } from "../Common/ButtonComponent";
 import { Link } from "react-router-dom";
 
 export const AboutSection = () => {

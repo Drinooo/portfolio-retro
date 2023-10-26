@@ -1,14 +1,12 @@
 import React, { Fragment } from "react";
 import {
   DownloadButton,
-  HireMeButton,
 } from "../components/Common/ButtonComponent";
 import TechStackSection from "../components/Sections/TechStackSection";
 import ServicesSection from "../components/Sections/ServicesSection";
 import ClientsSection from "../components/Sections/ClientsSection";
 import CTASection from "../components/Sections/CTASection";
 import { Typography } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
 
 const About = () => {
   return (

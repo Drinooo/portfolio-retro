@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect, useRef, useState } from "react";
 import { SendButton } from "../Common/ButtonComponent";
 import emailjs from "@emailjs/browser";
-import { Alert } from "@material-tailwind/react";
 
 const ContactSection = () => {
   const emailRef = useRef();

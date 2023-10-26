@@ -1,16 +1,14 @@
 import React, { Fragment } from "react";
 import {
   Navbar,
-  MobileNav,
   Typography,
-  Button,
   IconButton,
   Collapse,
 } from "@material-tailwind/react";
 import { MAIN_NAVIGATION } from "../../utils/data";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export const NavbarComponent = ({ scrollFunction }) => {
+export const NavbarComponent = () => {
   const [openNav, setOpenNav] = React.useState(false);
 
   React.useEffect(() => {
@@ -24,16 +22,13 @@ export const NavbarComponent = ({ scrollFunction }) => {
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       {MAIN_NAVIGATION.map((item) => (
         <li className="">
-          {/* <Link to={item.path}> */}
           <Link to={item.path}>
             <Typography
               as="li"
               variant="small"
               className="p-1 font-[600] lg:text-navbar sm:text-navbarMobile text-black hover:text-gray"
             >
-              {/* <a href={item.path} className="flex items-center"> */}
               {item.title}
-              {/* </a> */}
             </Typography>
           </Link>
         </li>

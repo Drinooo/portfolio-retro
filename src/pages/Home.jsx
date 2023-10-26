@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import HeroSection from "../components/Sections/HeroSection";
-import ContactSection from "../components/Sections/ContactSection";
 import { AboutSection } from "../components/Sections/AboutSection";
 
 import ServicesSection from "../components/Sections/ServicesSection";
@@ -18,7 +17,6 @@ const Home = () => {
       <ServicesSection />
       <ClientsSection />
       <ProjectSection />
-      {/* <ContactSection /> */}
       <CTASection />
     </Fragment>
   );

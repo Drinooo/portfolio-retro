@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { CLIENTS } from "../../utils/data";
-import Marquee from "react-fast-marquee";
 import { Typography } from "@material-tailwind/react";
 
 const ClientsSection = () => {
@@ -13,7 +12,6 @@ const ClientsSection = () => {
           </h2>
         </div>
         <div className="grid md:grid-cols-4 sm:grid-cols-1 sm:text-center md:text-start gap-4">
-          {/* <Marquee autoFill> */}
           {CLIENTS.map((item) => (
             <div>
               <Typography className="mr-8 text-client font-semibold">
@@ -21,7 +19,6 @@ const ClientsSection = () => {
               </Typography>
             </div>
           ))}
-          {/* </Marquee> */}
         </div>
       </section>
     </Fragment>
