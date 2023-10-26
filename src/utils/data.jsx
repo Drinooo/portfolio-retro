@@ -492,17 +492,17 @@ export const SERVICES = [
   {
     icon: <UIUXIcon />,
     title: "UI/UX Design",
-    desc: "Proficient in Adobe Photoshop, Illustrator, and Canva for creating visually stunning graphics, translating client requirements and brand guidelines into compelling visual designs.",
+    desc: "Proficient in Figma and Adobe XD for engaging and user-centric UI/UX designs, including prototyping to communicate design concepts. Stay up-to-date with the latest UI/UX design trends and best practices.",
   },
   {
     icon: <WebIcon />,
     title: "Front End Web Development",
-    desc: "Proficient in Figma and Adobe XD for engaging and user-centric UI/UX designs, including prototyping to communicate design concepts. Stay up-to-date with the latest UI/UX design trends and best practices.",
+    desc: "Proficient in web development languages such as HTML, CSS, and JavaScript. Skilled in building responsive and user-friendly websites that work across different browsers and devices.",
   },
   {
     icon: <GraphicIcon />,
     title: "Graphic Design",
-    desc: "Proficient in web development languages such as HTML, CSS, and JavaScript. Skilled in building responsive and user-friendly websites that work across different browsers and devices.",
+    desc: "Proficient in Adobe Photoshop, Illustrator, and Canva for creating visually stunning graphics, translating client requirements and brand guidelines into compelling visual designs.",
   },
   {
     icon: <LogoIcon />,
