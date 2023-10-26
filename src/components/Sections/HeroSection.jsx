@@ -11,7 +11,7 @@ const HeroSection = () => {
               Hi, I'm Aldrin Villalobos
             </h1>
             <p className="max-w-2xl mb-6 font-[400] tracking-tighter leading-11 lg:mb-8 sm:text-subtitleMobile lg:text-subtitle">
-            I'm a web designer, ui/ux designer and front end developer based in the Philippines.
+            I'm a Web Designer, UI/UX Designer and Front-End Developer based in the Philippines.
             </p>
           </div>
           <div className="lg:mt-0 lg:col-span-6 lg:flex justify-end">

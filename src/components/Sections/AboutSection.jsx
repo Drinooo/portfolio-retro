@@ -25,7 +25,7 @@ export const AboutSection = () => {
           </div>
           <div>
             <p className="mb-6 sm:text-aboutMobile md:text-about">
-              Hi! I am Aldrin Villalobos. I'm a web designer based in the
+              Hi! I am Aldrin Villalobos. I'm a Web Designer, UI/UX Designer and Front-End Developer based in the
               Philippines. I'm passionate about crafting visually appealing and
               user-friendly websites. With a strong foundation in design
               principles, I'm eager to bring fresh perspectives to each project
