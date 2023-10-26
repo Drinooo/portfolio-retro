@@ -30,10 +30,6 @@ export const MAIN_NAVIGATION = [
     path: "/",
   },
   {
-    title: "About",
-    path: "/about",
-  },
-  {
     title: "Projects",
     path: "/projects",
   },
