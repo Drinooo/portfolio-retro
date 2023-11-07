@@ -12,9 +12,9 @@ const ServicesSection = () => {
         </div>
         <div className="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2 pt-4">
           {SERVICES.map((item) => (
-            <div className="border-4 h-max">
-              <div className="p-4 space-y-2 sm:h-full md:h-96">
-                <div className="bg-gray max-w-fit p-3 rounded-full">
+            <div className="border-4 h-max text-center">
+              <div className="p-4 space-y-2 sm:h-full md:h-96 flex flex-col justify-center">
+                <div className="bg-gray max-w-fit p-3 rounded-full mx-auto">
                   {item.icon}
                 </div>
                 <div>

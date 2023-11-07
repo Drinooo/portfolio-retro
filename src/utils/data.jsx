@@ -506,27 +506,27 @@ export const SERVICES = [
   {
     icon: <WebDesignIcon />,
     title: "Web/Mobile Design",
-    desc: "Proficient in Figma and Adobe XD for visually appealing and user-friendly website designs, including responsive interfaces for diverse screen sizes and devices.",
+    desc: "I design attractive and user-friendly websites and apps using Figma and Adobe XD. Let my expertise transform your ideas into visually appealing digital experiences.",
   },
   {
     icon: <UIUXIcon />,
     title: "UI/UX Design",
-    desc: "Proficient in Figma and Adobe XD for engaging and user-centric UI/UX designs, including prototyping to communicate design concepts. Stay up-to-date with the latest UI/UX design trends and best practices.",
+    desc: "I specialize in creating user-friendly, visually appealing interfaces for websites and apps using Figma and Adobe XD, turning your ideas into engaging digital experiences that enhance your brand.",
   },
   {
     icon: <WebIcon />,
     title: "Front End Web Development",
-    desc: "Proficient in web development languages such as HTML, CSS, and JavaScript. Skilled in building responsive and user-friendly websites that work across different browsers and devices.",
+    desc: "I create visually appealing, smoothly functioning, and responsive websites using HTML, CSS, and JavaScript. My expertise in React JS, Vite, WordPress, and Webflow ensures dynamic and engaging web experiences.",
   },
-  {
-    icon: <GraphicIcon />,
-    title: "Graphic Design",
-    desc: "Proficient in Adobe Photoshop, Illustrator, and Canva for creating visually stunning graphics, translating client requirements and brand guidelines into compelling visual designs.",
-  },
+  // {
+  //   icon: <GraphicIcon />,
+  //   title: "Graphic Design",
+  //   desc: "",
+  // },
   {
     icon: <LogoIcon />,
     title: "Logo Design",
-    desc: "Proficient in logo design, with expertise in creating distinctive and memorable logos that resonate with clients and audiences. Passionate about crafting visual identities that leave a lasting impression and effectively communicate brand messages.",
+    desc: "I create unique and memorable logos for your business or brand. Using design tools like Adobe Photoshop, Adobe Illustrator, Canva, and Figma, I'll bring your vision to life professionally and eye-catchingly.",
   },
 ];
 
