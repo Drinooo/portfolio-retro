@@ -13,6 +13,7 @@ import {
   LogoIcon,
   MUIIcon,
   NodeIcon,
+  OxygenIcon,
   PSDIcon,
   ReactIcon,
   TailwindIcon,
@@ -21,6 +22,8 @@ import {
   ViteIcon,
   WebDesignIcon,
   WebIcon,
+  WebflowIcon,
+  WordPressIcon,
   XDIcon,
 } from "../components/Common/IconComponent";
 
@@ -290,6 +293,21 @@ export const PROJECTS = [
     position: "right",
   },
   {
+    value: "wd",
+    img: "/images/Project Thumbnail/LearnTXT.png",
+    title: "LearnTXT",
+    url: "https://learntxt.com/",
+    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    tools: [
+      <Chip className="bg-black" value="Landing Page" />,
+      <Chip className="bg-black" value="Web Design" />,
+      <Chip className="bg-black" value="WordPress" />,
+      <Chip className="bg-black" value="Figma" />,
+    ],
+    path: "/portfolio-hypeburger",
+    position: "left",
+  },
+  {
     value: "ud",
     img: "/images/Project Thumbnail/MAHA.png",
     title: "My Allied Health Academy",
@@ -349,14 +367,14 @@ export const PROJECTS = [
     path: "/portfolio-hypeburger",
     position: "right",
   },
-  { 
+  {
     value: "ld",
     img: "/images/Logo/HRG White.png",
     title: "Home Renovation Guy",
     url: "",
-    desc: "", 
+    desc: "",
     tools: "",
-    path: "", 
+    path: "",
     position: "right",
   },
   {
@@ -453,6 +471,18 @@ export const TECH_STACK = [
   {
     icon: <FigmaIcon />,
     label: "Figma",
+  },
+  {
+    icon: <WordPressIcon />,
+    label: "WordPress",
+  },
+  {
+    icon: <WebflowIcon />,
+    label: "Webflow",
+  },
+  {
+    icon: <OxygenIcon />,
+    label: "Oxygen Builder",
   },
   {
     icon: <XDIcon />,
