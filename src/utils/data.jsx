@@ -368,6 +368,21 @@ export const PROJECTS = [
     position: "right",
   },
   {
+    value: "ud",
+    img: "/images/Project Thumbnail/LeadGen Crew.png",
+    title: "LeadGen Crew",
+    url: "#",
+    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    tools: [
+      <Chip className="bg-black" value="UI/UX Design" />,
+      <Chip className="bg-black" value="Web Application" />,
+      <Chip className="bg-black" value="Figma" />,
+      <Chip className="bg-black" value="Collaborated" />,
+    ],
+    path: "/portfolio-hypeburger",
+    position: "left",
+  },
+  {
     value: "ld",
     img: "/images/Logo/HRG White.png",
     title: "Home Renovation Guy",
