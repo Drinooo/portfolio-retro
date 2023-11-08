@@ -17,7 +17,7 @@ export const AboutSection = () => {
         <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 items-center">
           <div className="border-4 border-black">
             <img
-              src="/images/Joshua.png"
+              src="/images/Aldrin Villalobos.png"
               alt="mockup"
               className="border-b-4 border-black w-screen"
             />
