@@ -70,7 +70,7 @@ export const DownloadButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center gap-2 rounded-none text-white w-full md:w-auto border-4 border-black shadow-retro1 bg-black hover:scale-105"
+      className="flex items-center gap-2 rounded-none text-black w-full md:w-auto border-4 border-black shadow-retro1 hover:scale-105"
     >
       {children}
       <svg

@@ -14,7 +14,7 @@ export const AboutSection = () => {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+        {/* <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 items-center">
           <div className="border-4 border-black">
             <img
               src="/images/Aldrin Villalobos.png"
@@ -38,6 +38,35 @@ export const AboutSection = () => {
               <div>
                 <Link to={"/Aldrin Villalobos CV.pdf"} target="_blank">
                 <DownloadButton>Download Resume</DownloadButton>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 items-center border-4 shadow-bigShadow">
+          <div className="p-10 border-r-4">
+            <img
+              src="/images/Aldrin Villalobos.png"
+              alt="mockup"
+              className="w-screen"
+            />
+          </div>
+          <div className="">
+            <p className="mb-6 sm:text-aboutMobile md:text-about">
+              Hi! I am Aldrin Villalobos. I am a Web Designer, UI/UX Designer and
+              Front-End Developer based in the Philippines. I'm passionate about
+              crafting visually appealing and user-friendly websites. With a
+              strong foundation in design principles, I'm eager to bring fresh
+              perspectives to each project I undertake. My goal is to create
+              engaging web experiences that seamlessly blend aesthetics with
+              functionality. Let's collaborate to bring your vision to life and
+              create an impactful online presence.
+            </p>
+            <div className="">
+              <div>
+                <Link to={"/Aldrin Villalobos CV.pdf"} target="_blank">
+                  <DownloadButton>Download Resume</DownloadButton>
                 </Link>
               </div>
             </div>

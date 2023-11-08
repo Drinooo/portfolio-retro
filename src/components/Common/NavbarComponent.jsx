@@ -26,7 +26,7 @@ export const NavbarComponent = () => {
             <Typography
               as="li"
               variant="small"
-              className="p-1 font-[600] lg:text-navbar sm:text-navbarMobile text-black hover:text-gray"
+              className="p-1 font-[700] lg:text-navbar sm:text-navbarMobile text-black hover:text-gray"
             >
               {item.title}
             </Typography>

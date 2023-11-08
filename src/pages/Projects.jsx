@@ -28,29 +28,35 @@ const Projects = () => {
   return (
     <Fragment>
       <section className="space-y-4 max-w-screen-2xl mx-auto">
-      <div className="border-b-4 flex justify-between">
+        <div className="border-b-4 flex justify-between">
           <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-semibold text-gray-900 dark:text-white border-t-4 border-r-4 border-l-4 w-fit p-2">
             Projects
           </h2>
         </div>
-        <Tabs value="wd">
+        <Tabs value="wd" id="custom-animation">
           <TabsHeader
             className="bg-transparent z-0"
             indicatorProps={{
-              className: "border-t-4 border-r-4 border-l-4 rounded-none",
+              className: "bg-gray rounded-none border-x-4 border-t-4",
             }}
           >
             {data.map(({ label, value }) => (
               <Tab
                 key={value}
                 value={value}
-                className="border-b-4 sm:text-aboutMobile md:text-about font-semibold"
+                className="border-b-4 sm:text-aboutMobile md:text-about font-semibold pt-1 pb-0"
               >
                 {label}
               </Tab>
             ))}
           </TabsHeader>
-          <TabsBody>
+          <TabsBody
+            animate={{
+              initial: { y: 250 },
+              mount: { y: 0 },
+              unmount: { y: 250 },
+            }}
+          >
             {PROJECTS.map((item) => [
               item.position === "left" ? (
                 <TabPanel key={item.value} value={item.value}>
@@ -72,7 +78,7 @@ const Projects = () => {
                           href={item.url}
                           className="flex sm:justify-center lg:justify-start"
                         >
-                          {(item.value === "ld") || (item.url === "#") ? null : (
+                          {item.value === "ld" || item.url === "#" ? null : (
                             <ExploreButton>Explore Now</ExploreButton>
                           )}
                         </a>
@@ -101,7 +107,7 @@ const Projects = () => {
                           href={item.url}
                           className="flex sm:justify-center lg:justify-start"
                         >
-                          {(item.value === "ld") || (item.url === "#") ? null : (
+                          {item.value === "ld" || item.url === "#" ? null : (
                             <ExploreButton>Explore Now</ExploreButton>
                           )}
                         </a>
