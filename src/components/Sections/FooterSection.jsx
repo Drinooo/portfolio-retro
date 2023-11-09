@@ -9,8 +9,8 @@ import {
 const FooterSection = () => {
   return (
     <Fragment>
-      <footer className="bg-beige">
-        <div className="w-full mx-auto p-4 md:py-8">
+      <section className="bg-beige">
+        <div className="max-w-screen-2xl mx-auto md:py-8 block sm:px-8 2xl:px-0">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
               href="/"
@@ -45,8 +45,8 @@ const FooterSection = () => {
               </a>
             </ul>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <hr className="my-6 border-2 border-gray-200 sm:mx-auto lg:my-8" />
+          <span className="block text-sm text-gray-500 sm:text-center">
             © 2023{" "}
             <a href="https://flowbite.com/" className="hover:underline">
               Aldrin Villalobos
@@ -54,7 +54,7 @@ const FooterSection = () => {
             . All Rights Reserved.
           </span>
         </div>
-      </footer>
+      </section>
     </Fragment>
   );
 };
