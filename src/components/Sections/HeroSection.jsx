@@ -7,7 +7,7 @@ const HeroSection = () => {
       <section className="">
         <div className="grid max-w-screen-2xl mx-auto lg:gap-8 xl:gap-24 lg:py-0 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-6">
-            <h1 className="max-w-2xl mb-4 font-[700] tracking-wide leading-20 sm:text-h1Mobile lg:text-h1 dark:text-white">
+            <h1 className="max-w-2xl mb-4 font-[700] tracking-wide leading-22 sm:text-h1Mobile lg:text-h1 dark:text-white">
               Hi, I'm Aldrin Villalobos
             </h1>
             <p className="max-w-2xl mb-6 font-[400] tracking-tighter leading-11 lg:mb-8 sm:text-subtitleMobile lg:text-subtitle">

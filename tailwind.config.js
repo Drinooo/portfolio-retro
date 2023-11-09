@@ -97,6 +97,11 @@ module.exports = withMT({
       18: "5rem",
       19: "5.25rem",
       20: "5.5rem",
+      21: "5.75rem",
+      22: "6rem",
+      23: "6.25rem",
+      24: "6.5rem",
+      25: "6.75rem",
     },
     extend: {
       spacing: {
