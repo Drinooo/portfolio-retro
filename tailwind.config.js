@@ -110,7 +110,8 @@ module.exports = withMT({
       boxShadow: {
         retro: "5px 5px",
         retro1: "5px 5px #0C0908",
-        bigShadow: "15px 15px #3FCECC"
+        bigShadow: "15px 15px #3FCECC",
+        aboutShadow: "15px 15px"
       },
     },
   },

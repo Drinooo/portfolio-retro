@@ -44,15 +44,15 @@ export const AboutSection = () => {
           </div>
         </div> */}
 
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 items-center border-4 shadow-bigShadow">
-          <div className="p-10 border-r-4">
+        <div className="grid sm:grid-cols-1 xl:grid-cols-2 items-center border-4 shadow-aboutShadow">
+          <div className="xl:border-r-4 xl:border-b-0 sm:border-b-4 p-10 h-full">
             <img
               src="/images/Aldrin Villalobos.png"
               alt="mockup"
-              className="w-screen"
+              className="w-screen h-full"
             />
           </div>
-          <div className="">
+          <div className="lg:p-10 sm:p-5">
             <p className="mb-6 sm:text-aboutMobile md:text-about">
               Hi! I am Aldrin Villalobos. I am a Web Designer, UI/UX Designer and
               Front-End Developer based in the Philippines. I'm passionate about

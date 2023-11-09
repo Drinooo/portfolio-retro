@@ -39,14 +39,14 @@ export const NavbarComponent = () => {
   return (
     <Fragment>
       <Navbar className="sticky top-0 z-10 mx-auto max-w-full border-none rounded-none shadow-none bg-beige bg-opacity-100 backdrop-saturate-200 backdrop-blur-none py-1">
-        <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
+        <div className="mx-auto max-w-full flex items-center justify-between text-blue-gray-900">
           <Typography as="a" href="/" className="cursor-pointer">
             <img src="/images/Logo Black.png" className="w-24" alt="" />
           </Typography>
           <div className="hidden lg:block">{navList}</div>
           <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="ml-auto h-8 w-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
@@ -54,7 +54,7 @@ export const NavbarComponent = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
-                className="h-6 w-6"
+                className="h-8 w-8"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
                 strokeWidth={2}

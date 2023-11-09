@@ -68,7 +68,7 @@ const Projects = () => {
                         alt="dashboard image"
                       />
                       <div className="mt-4 md:mt-0 mb-4 md:mb-0  lg:text-start sm:text-center py-10">
-                        <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white">
+                        <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white ">
                           {item.title}
                         </h2>
                         <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
