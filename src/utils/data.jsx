@@ -308,6 +308,21 @@ export const PROJECTS = [
     position: "left",
   },
   {
+    value: "wd",
+    img: "/images/Project Thumbnail/Remagine.png",
+    title: "Remagine",
+    url: "https://remagine-landing-page.vercel.app/",
+    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    tools: [
+      <Chip className="bg-black rounded-none italic" value="Landing Page" />,
+      <Chip className="bg-black rounded-none italic" value="Web Design" />,
+      <Chip className="bg-black rounded-none italic" value="WordPress" />,
+      <Chip className="bg-black rounded-none italic" value="Figma" />,
+    ],
+    path: "/portfolio-hypeburger",
+    position: "left",
+  },
+  {
     value: "ud",
     img: "/images/Project Thumbnail/MAHA.png",
     title: "My Allied Health Academy",
