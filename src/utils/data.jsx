@@ -316,11 +316,13 @@ export const PROJECTS = [
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
-      <Chip className="bg-black rounded-none italic" value="WordPress" />,
       <Chip className="bg-black rounded-none italic" value="Figma" />,
+      <Chip className="bg-black rounded-none italic" value="React JS" />,
+      <Chip className="bg-black rounded-none italic" value="Tailwind CSS" />,
+      <Chip className="bg-black rounded-none italic" value="Material Tailwind" />,
     ],
     path: "/portfolio-hypeburger",
-    position: "left",
+    position: "right",
   },
   {
     value: "ud",
