@@ -14,42 +14,12 @@ export const AboutSection = () => {
           </h2>
         </div>
 
-        {/* <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 items-center">
-          <div className="border-4 border-black">
-            <img
-              src="/images/Aldrin Villalobos.png"
-              alt="mockup"
-              className="border-b-4 border-black w-screen"
-            />
-            <div className="border-gray border-8"></div>
-          </div>
-          <div>
-            <p className="mb-6 sm:text-aboutMobile md:text-about">
-              Hi! I am Aldrin Villalobos. I'm a Web Designer, UI/UX Designer and Front-End Developer based in the
-              Philippines. I'm passionate about crafting visually appealing and
-              user-friendly websites. With a strong foundation in design
-              principles, I'm eager to bring fresh perspectives to each project
-              I undertake. My goal is to create engaging web experiences that
-              seamlessly blend aesthetics with functionality. Let's collaborate
-              to bring your vision to life and create an impactful online
-              presence.
-            </p>
-            <div className="">
-              <div>
-                <Link to={"/Aldrin Villalobos CV.pdf"} target="_blank">
-                <DownloadButton>Download Resume</DownloadButton>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
         <div className="grid sm:grid-cols-1 xl:grid-cols-2 items-center border-4 shadow-aboutShadow">
-          <div className="xl:border-r-4 xl:border-b-0 sm:border-b-4 p-10 h-full">
+          <div className="xl:border-r-4 xl:border-b-0 sm:border-b-4 p-10 h-full flex items-center">
             <img
               src="/images/Aldrin Villalobos.png"
               alt="mockup"
-              className="w-screen h-full"
+              className="w-full"
             />
           </div>
           <div className="lg:p-10 sm:p-5">
