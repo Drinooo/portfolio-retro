@@ -29,15 +29,15 @@ import {
 
 export const MAIN_NAVIGATION = [
   {
-    title: "HOME",
+    title: "Home",
     path: "/",
   },
   {
-    title: "PROJECTS",
+    title: "Projects",
     path: "/projects",
   },
   {
-    title: "CONTACT",
+    title: "Contact",
     path: "/contact",
   },
 ];

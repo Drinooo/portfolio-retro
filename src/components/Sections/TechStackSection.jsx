@@ -7,8 +7,8 @@ const TechStackSection = () => {
     <Fragment>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section className="space-y-4 max-w-screen-2xl mx-auto ">
-          <div className="border-b-4">
-            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-normal text-gray-900 dark:text-white border-t-4 border-r-4 border-l-4 w-fit px-5 py-2">
+          <div className="border-b-3">
+            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-normal text-gray-900 dark:text-white border-t-3 border-r-3 border-l-3 w-fit px-5 py-2">
               Tech Stack
             </h2>
           </div>

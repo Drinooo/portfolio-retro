@@ -12,18 +12,18 @@ export const ProjectSection = () => {
           className="space-y-4 max-w-screen-2xl mx-auto"
           id="projectSection"
         >
-          <div className="border-b-4 flex justify-between">
-            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-normal text-gray-900 dark:text-white border-t-4 border-r-4 border-l-4 w-fit px-5 py-2">
+          <div className="border-b-3 flex justify-between">
+            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-normal text-gray-900 dark:text-white border-t-3 border-r-3 border-l-3 w-fit px-5 py-2">
               Projects
             </h2>
           </div>
           {PROJECTS.slice(0, 4).map((item) => [
             item.position === "left" ? (
               <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-                <div className="flex border-r-4">
-                  <div className="gap-8 border-4 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
+                <div className="flex border-r-3">
+                  <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
                     <img
-                      className="w-full lg:h-full dark:hidden sm:border-b-4 lg:border-b-0 lg:border-r-4 border-black"
+                      className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
                       src={item.img}
                       alt="dashboard image"
                     />
@@ -39,18 +39,18 @@ export const ProjectSection = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="border-t-4 border-b-4">
-                    <div className="border-5 border-gray h-full"></div>
+                  <div className="border-t-3 border-b-3">
+                    <div className="border-4 border-gray h-full"></div>
                   </div>
                 </div>
               </motion.div>
             ) : (
               <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-                <div className="flex border-l-4">
-                  <div className="border-t-4 border-b-4">
-                    <div className="border-5 border-gray h-full"></div>
+                <div className="flex border-l-3">
+                  <div className="border-t-3 border-b-3">
+                    <div className="border-4 border-gray h-full"></div>
                   </div>
-                  <div className="gap-8 border-4 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
+                  <div className="gap-8 border-3 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
                     <div className="mt-4 md:mt-0 mb-4 lg:mb-0 sm:text-center lg:text-start">
                       <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                         {item.title}
@@ -64,7 +64,7 @@ export const ProjectSection = () => {
                       </a>
                     </div>
                     <img
-                      className="w-full lg:h-full dark:hidden sm:border-t-4 lg:border-t-0 lg:border-l-4 border-black"
+                      className="w-full lg:h-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
                       src={item.img}
                       alt="dashboard image"
                     />

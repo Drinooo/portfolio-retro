@@ -21,16 +21,16 @@ const HeroSection = () => {
                 <DownloadButton>Download Resume</DownloadButton>
               </Link>
             </div>
-            <div className="lg:mt-0 lg:col-span-6 lg:flex justify-end border-r-4">
-              <div className="border-4 border-black">
+            <div className="lg:mt-0 lg:col-span-6 lg:flex justify-end border-r-3">
+              <div className="border-3 border-black">
                 <img
                   src="/images/Hero-Image.png"
                   alt="mockup"
                   className="w-full"
                 />
               </div>
-              <div className="border-t-4 border-b-4">
-                <div className="border-5 border-gray h-full"></div>
+              <div className="border-t-3 border-b-3">
+                <div className="border-4 border-gray h-full"></div>
               </div>
             </div>
           </div>

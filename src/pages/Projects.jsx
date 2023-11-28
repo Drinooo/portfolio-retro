@@ -39,14 +39,14 @@ const Projects = () => {
             <TabsHeader
               className="bg-transparent z-0"
               indicatorProps={{
-                className: "bg-gray rounded-none border-x-4 border-t-4",
+                className: "bg-gray rounded-none border-x-3 border-t-3",
               }}
             >
               {data.map(({ label, value }) => (
                 <Tab
                   key={value}
                   value={value}
-                  className="border-b-4 sm:text-aboutMobile md:text-about font-semibold pt-1 pb-0"
+                  className="border-b-3 sm:text-aboutMobile md:text-about font-semibold pt-1 pb-0"
                 >
                   {label}
                 </Tab>
@@ -66,10 +66,10 @@ const Projects = () => {
                     whileInView={{ opacity: 1 }}
                   >
                     <TabPanel key={item.value} value={item.value}>
-                      <div className="flex border-r-4">
-                        <div className="gap-8 border-4 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
+                      <div className="flex border-r-3">
+                        <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
                           <img
-                            className="w-full lg:h-full dark:hidden sm:border-b-4 lg:border-b-0 lg:border-r-4 border-black"
+                            className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
                             src={item.img}
                             alt="dashboard image"
                           />
@@ -91,8 +91,8 @@ const Projects = () => {
                             </a>
                           </div>
                         </div>
-                        <div className="border-t-4 border-b-4">
-                          <div className="border-5 border-gray h-full"></div>
+                        <div className="border-t-3 border-b-3">
+                          <div className="border-4 border-gray h-full"></div>
                         </div>
                       </div>
                     </TabPanel>
@@ -103,11 +103,11 @@ const Projects = () => {
                     whileInView={{ opacity: 1 }}
                   >
                     <TabPanel key={item.value} value={item.value}>
-                      <div className="flex border-l-4">
-                        <div className="border-t-4 border-b-4">
-                          <div className="border-5 border-gray h-full"></div>
+                      <div className="flex border-l-3">
+                        <div className="border-t-3 border-b-3">
+                          <div className="border-4 border-gray h-full"></div>
                         </div>
-                        <div className="gap-8 border-4 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
+                        <div className="gap-8 border-3 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
                           <div className="mt-4 md:mt-0 mb-4 md:mb-0 sm:text-center lg:text-start py-10">
                             <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white">
                               {item.title}
@@ -126,7 +126,7 @@ const Projects = () => {
                             </a>
                           </div>
                           <img
-                            className="w-full dark:hidden sm:border-t-4 lg:border-t-0 lg:border-l-4 border-black"
+                            className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
                             src={item.img}
                             alt="dashboard image"
                           />

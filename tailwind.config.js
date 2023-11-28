@@ -28,8 +28,7 @@ module.exports = withMT({
       white: "#ffffff",
       gray: "#c4c4c4",
       black: "#000",
-      green: "#005f73",
-      // beige: '#F9f6f3',
+      green: "#3FCECC",
       beige: "#FAFAFA",
       purple: "#3f3cbb",
       midnight: "#121063",
@@ -45,14 +44,14 @@ module.exports = withMT({
       serif: ["Sofia Pro", "serif"],
     },
     fontSize: {
-      navbar: "28px",
+      navbar: "30px",
       navbarMobile: "24px",
 
       h1: "96px",
       h1Mobile: "56px",
 
-      h3: "66px",
-      h3Mobile: "46px",
+      h3: "60px",
+      h3Mobile: "40px",
 
       h5: "46px",
       h5Mobile: "26px",
@@ -125,8 +124,8 @@ module.exports = withMT({
       boxShadow: {
         retro: "5px 5px",
         retro1: "5px 5px #0C0908",
-        bigShadow: "15px 15px #3FCECC",
-        aboutShadow: "15px 15px",
+        bigShadow: "10px 10px #3FCECC",
+        aboutShadow: "10px 10px",
       },
     },
   },
