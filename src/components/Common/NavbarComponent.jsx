@@ -7,6 +7,7 @@ import {
 } from "@material-tailwind/react";
 import { MAIN_NAVIGATION } from "../../utils/data";
 import { Link } from "react-router-dom";
+import { DownloadButton } from "./ButtonComponent";
 
 export const NavbarComponent = () => {
   const [openNav, setOpenNav] = React.useState(false);
@@ -43,7 +44,9 @@ export const NavbarComponent = () => {
           <Typography as="a" href="/" className="cursor-pointer">
             <img src="/images/Logo Black.png" className="w-24" alt="" />
           </Typography>
-          <div className="hidden lg:block">{navList}</div>
+          <div className="hidden lg:block">
+            {navList}
+          </div>
           <IconButton
             variant="text"
             className="ml-auto h-8 w-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"

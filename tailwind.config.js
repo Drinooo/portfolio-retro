@@ -26,7 +26,7 @@ module.exports = withMT({
     },
     colors: {
       white: "#ffffff",
-      gray: "#3FCECC",
+      gray: "#c4c4c4",
       black: "#000",
       green: "#005f73",
       // beige: '#F9f6f3',
@@ -57,7 +57,7 @@ module.exports = withMT({
       h5: "46px",
       h5Mobile: "26px",
 
-      h6: "36px",
+      h6: "30px",
       h6Mobile: "22px",
 
       subtitle: "42px",
@@ -65,16 +65,26 @@ module.exports = withMT({
 
       body1: "18px",
 
-      client: '20px',
-      
-      about: '26px',
-      aboutMobile: '18px',
+      client: "20px",
+
+      about: "26px",
+      aboutMobile: "18px",
 
       services: "30px",
       servicesMobile: "24px",
 
-      chip: '18px',
-
+      chip: "18px",
+    },
+    borderWidth: {
+      '0': '0',
+      '1': '1px',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '5': '5px',
+      '6': '6px',
+      '7': '7px',
+      '8': '8px',
     },
     lineHeight: {
       1: ".75rem",
@@ -116,17 +126,14 @@ module.exports = withMT({
         retro: "5px 5px",
         retro1: "5px 5px #0C0908",
         bigShadow: "15px 15px #3FCECC",
-        aboutShadow: "15px 15px"
+        aboutShadow: "15px 15px",
       },
     },
   },
-  plugins: [
-    require('taos/plugin')
-  ],
+  plugins: [require("taos/plugin")],
   safelist: [
-    '!duration-[0ms]',
-    '!delay-[0ms]',
-    'html.js :where([class*="taos:"]:not(.taos-init))'
+    "!duration-[0ms]",
+    "!delay-[0ms]",
+    'html.js :where([class*="taos:"]:not(.taos-init))',
   ],
-
 });

@@ -6,7 +6,7 @@ export const ExploreButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center gap-2 rounded-none md:w-auto border-0 bg-gray shadow-retro transition-all hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
+      className="flex items-center gap-2 rounded-none md:w-auto text-white bg-black border-black border-4 hover:shadow-none hover:bg-gray hover:border-black hover:border-4 hover:text-black"
     >
       {children}
     </Button>
@@ -18,7 +18,7 @@ export const ViewMoreButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center rounded-none md:w-auto border-0 bg-gray shadow-retro transition-all hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
+      className="flex items-center rounded-none md:w-auto text-white bg-black border-black border-4 hover:shadow-none hover:bg-gray hover:border-black hover:border-4 hover:text-black"
     >
       {children}
     </Button>
@@ -30,7 +30,7 @@ export const HireMeButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center gap-2 rounded-none w-full md:w-auto border-4 shadow-retro transition-all hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
+      className="flex items-center gap-2 rounded-none w-full md:w-auto text-white border-black border-4 hover:shadow-none hover:bg-gray hover:border-black hover:border-4 hover:text-black"
     >
       {children}
       <svg
@@ -56,7 +56,7 @@ export const DownloadButton = (props) => {
   return (
     <Button
       variant={variant}
-      className="flex items-center gap-2 rounded-none text-black  md:w-auto border-0 bg-gray border-black shadow-retro1 transition-all hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
+      className="flex items-center gap-2 rounded-none text-white md:w-auto bg-black border-black border-4 hover:shadow-none hover:bg-gray hover:border-black hover:border-4 hover:text-black"
     >
       {children}
       <svg
@@ -83,7 +83,7 @@ export const SendButton = (props) => {
     <Button
       variant={variant}
       type="submit"
-      className="flex items-center gap-2 rounded-none w-full md:w-auto border-0 bg-gray shadow-retro transition-all hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
+      className="flex items-center gap-2 rounded-none w-full md:w-auto text-white bg-black border-black border-4 hover:shadow-none hover:bg-gray hover:border-black hover:border-4 hover:text-black"
     >
       {children}
       <svg
