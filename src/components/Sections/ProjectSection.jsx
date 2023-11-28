@@ -31,6 +31,9 @@ export const ProjectSection = () => {
                       <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                         {item.title}
                       </h2>
+                      <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
+                        {item.tools}
+                      </div>
                       <a
                         href={item.url}
                         className="flex sm:justify-center lg:justify-start"
@@ -55,6 +58,9 @@ export const ProjectSection = () => {
                       <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                         {item.title}
                       </h2>
+                      <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
+                        {item.tools}
+                      </div>
                       <a
                         href={item.url}
                         target="_blank"

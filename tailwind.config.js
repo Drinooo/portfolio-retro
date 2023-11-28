@@ -59,8 +59,8 @@ module.exports = withMT({
       h6: "30px",
       h6Mobile: "22px",
 
-      subtitle: "42px",
-      subtitleMobile: "32px",
+      subtitle: "36px",
+      subtitleMobile: "26px",
 
       body1: "18px",
 

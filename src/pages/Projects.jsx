@@ -39,7 +39,7 @@ const Projects = () => {
             <TabsHeader
               className="bg-transparent z-0"
               indicatorProps={{
-                className: "bg-gray rounded-none border-x-3 border-t-3",
+                className: "bg-green rounded-none border-x-3 border-t-3",
               }}
             >
               {data.map(({ label, value }) => (
@@ -52,13 +52,7 @@ const Projects = () => {
                 </Tab>
               ))}
             </TabsHeader>
-            <TabsBody
-              animate={{
-                initial: { y: 250 },
-                mount: { y: 0 },
-                unmount: { y: 250 },
-              }}
-            >
+            <TabsBody>
               {PROJECTS.map((item) => [
                 item.position === "left" ? (
                   <motion.div
@@ -86,7 +80,11 @@ const Projects = () => {
                             >
                               {item.value === "ld" ||
                               item.url === "#" ? null : (
-                                <ExploreButton>Explore Now</ExploreButton>
+                                <ExploreButton>
+                                  {item.caseStudy === "yes"
+                                    ? "View Case Study"
+                                    : "Explore Now"}
+                                </ExploreButton>
                               )}
                             </a>
                           </div>
@@ -121,7 +119,11 @@ const Projects = () => {
                             >
                               {item.value === "ld" ||
                               item.url === "#" ? null : (
-                                <ExploreButton>Explore Now</ExploreButton>
+                                <ExploreButton>
+                                  {item.caseStudy === "yes"
+                                    ? "View Case Study"
+                                    : "Explore Now"}
+                                </ExploreButton>
                               )}
                             </a>
                           </div>

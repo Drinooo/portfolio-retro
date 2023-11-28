@@ -48,7 +48,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Recozy.png",
     title: "Recozy",
     url: "https://recozy-landing-page.vercel.app/",
-    desc: "This design was artfully crafted in Figma, skillfully merging HTML, CSS, React.js, Material-Tailwind, and Tailwind CSS for front-end development. The harmonious integration of these technologies creates an immersive user experience that captivates with its visual allure and interactivity.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -65,7 +65,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Superare.png",
     title: "Superare",
     url: "https://superare-landing-page.vercel.app/",
-    desc: "This meticulously crafted design in Figma seamlessly combines HTML, CSS, React.js, Material-Tailwind, and Tailwind CSS for front-end development, resulting in a visually stunning and interactive user experience.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -82,7 +82,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Hypeburger.png",
     title: "Hypeburger",
     url: "https://hypeburger-landing-page.vercel.app/",
-    desc: "This design skillfully merges Figma, HTML, CSS, React.js, Material-Tailwind, and Tailwind CSS, creating an extraordinary user experience with visually striking elements and interactivity.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -99,7 +99,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Numa.png",
     title: "Numa",
     url: "https://numarecoverycenters.com/",
-    desc: "This meticulously crafted design, brought to life using Figma, seamlessly integrates with WordPress, enabling a seamless transition from design to development. The result is a dynamic and engaging website with unparalleled functionality and visual appeal.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -116,7 +116,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/MSAR.png",
     title: "Montrose Search and Rescue",
     url: "https://montrosesar.org/",
-    desc: "The intricately designed layout, meticulously created in Figma, smoothly integrates into WordPress, facilitating a seamless shift from design to development. The outcome is a vibrant and captivating website boasting exceptional functionality and visual allure.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -133,7 +133,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Gretta.png",
     title: "Gretta",
     url: "https://gretta-988d98.webflow.io/",
-    desc: "This design expertly combines Figma to deliver an exceptional user experience through visually stunning elements and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -149,7 +149,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Rebank.png",
     title: "Rebank",
     url: "#",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -163,7 +163,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Radiant.png",
     title: "Radiant",
     url: "#",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -177,7 +177,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Portfolio V1.png",
     title: "Portfolio V1",
     url: "https://aldrinvillalobos.vercel.app/",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Portfolio" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -194,7 +194,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Portfolio V2.png",
     title: "Portfolio V2",
     url: "https://villalobosaldrin.vercel.app/",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Portfolio" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -211,7 +211,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Travel Agency.png",
     title: "Travel Agency",
     url: "https://www.figma.com/proto/qolgK9l7dxZEt3i33IDcQa/Travel-Agency-Landing-Page?node-id=1-2&starting-point-node-id=1%3A2&mode=design&t=A6Ao9WjQU67F3v4l-1",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -226,7 +226,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Plant Shop.png",
     title: "Plant Shop",
     url: "https://www.figma.com/file/paOiHR81p3FfPcErZ27SxP/Plant-Shop-Landing-Page?type=design&node-id=0%3A1&mode=design&t=aA9iLThMU8B0F9Zv-1",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -240,7 +240,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/NFT.png",
     title: "NFT Marketplace",
     url: "https://www.figma.com/file/mN6nxFdvKOirzQjlfensSM/NFT-Marketplace-Landing-Page?type=design&node-id=0%3A1&mode=design&t=CnYACF4bvWvkOedB-1",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -254,7 +254,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Food.png",
     title: "Food",
     url: "https://www.figma.com/file/H315mWNisX8u7MIJ1hSlND/Food-Website-Landing-Page?type=design&node-id=0%3A1&mode=design&t=OTABiAO73Yo0w96b-1",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -268,7 +268,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Coffee.png",
     title: "Coffee Shop",
     url: "https://www.figma.com/proto/Pkgx9gX8vCRhoorT7iGTyj/Coffee-Shop-Landing-Page?type=design&node-id=6-8&t=Q9zhG0lQrRbsFpiQ-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=6%3A8&mode=design",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -283,7 +283,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Juice Labs.png",
     title: "Juice Labs",
     url: "#",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -297,7 +297,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/LearnTXT.png",
     title: "LearnTXT",
     url: "https://learntxt.com/",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -312,7 +312,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/Remagine.png",
     title: "Remagine",
     url: "https://remagine-landing-page.vercel.app/",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
       <Chip className="bg-black rounded-none italic" value="Web Design" />,
@@ -329,7 +329,7 @@ export const PROJECTS = [
     img: "/images/Project Thumbnail/MAHA.png",
     title: "My Allied Health Academy",
     url: "http://design.nmscreative.com/my-allied-health-academy/",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
       <Chip className="bg-black rounded-none italic" value="Web Application" />,
@@ -338,13 +338,14 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    caseStudy: "yes"
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/SMC.png",
     title: "Share My Circle",
     url: "http://design.nmscreative.com/share-my-circle-2/",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
       <Chip className="bg-black rounded-none italic" value="Web Application" />,
@@ -353,13 +354,14 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    caseStudy: "yes"
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/HES.png",
     title: "Her Erotic Story",
     url: "http://design.nmscreative.com/her-erotic-story/",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
       <Chip className="bg-black rounded-none italic" value="Web Application" />,
@@ -368,13 +370,14 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    caseStudy: "yes"
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/TribeTXT.png",
     title: "TribeTXT (Rooms)",
     url: "http://design.nmscreative.com/tribetxt/",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
       <Chip className="bg-black rounded-none italic" value="Web Application" />,
@@ -383,13 +386,14 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    caseStudy: "yes"
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/LeadGen Crew.png",
     title: "LeadGen Crew",
     url: "#",
-    desc: "This design expertly combines Figma to craft an exceptional user experience enriched with visually impressive components and interactive features.",
+    desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
       <Chip className="bg-black rounded-none italic" value="Web Application" />,
@@ -398,6 +402,7 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    caseStudy: "no"
   },
   {
     value: "ld",
