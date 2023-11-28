@@ -45,7 +45,7 @@ export const NavbarComponent = () => {
             <Typography as="a" href="/" className="cursor-pointer">
               <img src="/images/Logo Black.png" className="w-24" alt="" />
             </Typography>
-            <Typography className="md:text-h6 sm:text-h6Mobile font-semibold">creative.drin</Typography>
+            <Typography as="a" href="/"  className="md:text-h6 sm:text-h6Mobile font-semibold">creative.drin</Typography>
           </div>
 
           <div className="hidden lg:block">{navList}</div>
