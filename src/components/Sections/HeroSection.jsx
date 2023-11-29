@@ -17,7 +17,7 @@ const HeroSection = () => {
                 I'm a Web Designer, UI/UX Designer and Front-End Developer based
                 in the Philippines.
               </p>
-              <Link to={"/Aldrin Villalobos CV.pdf"} target="_blank">
+              <Link to={"/Aldrin Villalobos CV - Web Designer.pdf"} target="_blank">
                 <DownloadButton>Download Resume</DownloadButton>
               </Link>
             </div>
