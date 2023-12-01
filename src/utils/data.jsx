@@ -133,7 +133,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/MSAR.png",
+    img: [
+      "/images/Project Thumbnail/MSAR.png",
+      "/images/MSAR/MSAR-2.png",
+      "/images/MSAR/MSAR-3.png",
+      "/images/MSAR/MSAR.png",
+    ],
     title: "Montrose Search and Rescue",
     url: "https://montrosesar.org/",
     desc: "",
@@ -150,7 +155,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Gretta.png",
+    img: [
+      "/images/Project Thumbnail/Gretta.png",
+      "/images/Gretta/Gretta-2.png",
+      "/images/Gretta/Gretta-3.png",
+      "/images/Gretta/Gretta.png",
+    ],
     title: "Gretta",
     url: "https://gretta-988d98.webflow.io/",
     desc: "",
@@ -166,7 +176,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Rebank.png",
+    img: [
+      "/images/Project Thumbnail/Rebank.png",
+      "/images/Rebank/Rebank-2.png",
+      "/images/Rebank/Rebank-3.png",
+      "/images/Rebank/Rebank.png",
+    ],
     title: "Rebank",
     url: "#",
     desc: "",
@@ -180,7 +195,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Radiant.png",
+    img: [
+      "/images/Project Thumbnail/Radiant.png",
+      "/images/Radiant/Radiant-2.png",
+      "/images/Radiant/Radiant-3.png",
+      "/images/Radiant/Radiant.png",
+    ],
     title: "Radiant",
     url: "#",
     desc: "",
@@ -194,7 +214,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Portfolio V1.png",
+    img: [
+      "/images/Project Thumbnail/Portfolio V1.png",
+      "/images/Portfolio V1/Portfolio V1-2.png",
+      "/images/Portfolio V1/Portfolio V1-3.png",
+      "/images/Portfolio V1/Portfolio V1.png",
+    ],
     title: "Portfolio V1",
     url: "https://aldrinvillalobos.vercel.app/",
     desc: "",
@@ -211,7 +236,10 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Portfolio V2.png",
+    img: [
+      "/images/Project Thumbnail/Portfolio V2.png",
+      "/images/Portfolio V2/Portfolio V2.png",
+    ],
     title: "Portfolio V2",
     url: "https://villalobosaldrin.vercel.app/",
     desc: "",
@@ -228,7 +256,10 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Travel Agency.png",
+    img: [
+      "/images/Project Thumbnail/Travel Agency.png",
+      "/images/Travel Agency/Travel Agency.png",
+    ],
     title: "Travel Agency",
     url: "https://www.figma.com/proto/qolgK9l7dxZEt3i33IDcQa/Travel-Agency-Landing-Page?node-id=1-2&starting-point-node-id=1%3A2&mode=design&t=A6Ao9WjQU67F3v4l-1",
     desc: "",
@@ -243,7 +274,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Plant Shop.png",
+    img: [
+      "/images/Project Thumbnail/Plant Shop.png",
+      "/images/Plant Shop/Plant Shop-2.png",
+      "/images/Plant Shop/Plant Shop-3.png",
+      "/images/Plant Shop/Plant Shop.png",
+    ],
     title: "Plant Shop",
     url: "https://www.figma.com/file/paOiHR81p3FfPcErZ27SxP/Plant-Shop-Landing-Page?type=design&node-id=0%3A1&mode=design&t=aA9iLThMU8B0F9Zv-1",
     desc: "",
@@ -257,7 +293,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/NFT.png",
+    img: [
+      "/images/Project Thumbnail/NFT.png",
+      "/images/NFT/NFT-2.png",
+      "/images/NFT/NFT-3.png",
+      "/images/NFT/NFT.png",
+    ],
     title: "NFT Marketplace",
     url: "https://www.figma.com/file/mN6nxFdvKOirzQjlfensSM/NFT-Marketplace-Landing-Page?type=design&node-id=0%3A1&mode=design&t=CnYACF4bvWvkOedB-1",
     desc: "",
@@ -271,7 +312,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Food.png",
+    img: [
+      "/images/Project Thumbnail/Food.png",
+      "/images/Food/Food-2.png",
+      "/images/Food/Food-3.png",
+      "/images/Food/Food.png",
+    ],
     title: "Food",
     url: "https://www.figma.com/file/H315mWNisX8u7MIJ1hSlND/Food-Website-Landing-Page?type=design&node-id=0%3A1&mode=design&t=OTABiAO73Yo0w96b-1",
     desc: "",
@@ -285,7 +331,7 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Coffee.png",
+    img: ["/images/Project Thumbnail/Coffee.png", "/images/Coffee/Coffee.png"],
     title: "Coffee Shop",
     url: "https://www.figma.com/proto/Pkgx9gX8vCRhoorT7iGTyj/Coffee-Shop-Landing-Page?type=design&node-id=6-8&t=Q9zhG0lQrRbsFpiQ-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=6%3A8&mode=design",
     desc: "",
@@ -300,7 +346,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Juice Labs.png",
+    img: [
+      "/images/Project Thumbnail/Juice Labs.png",
+      "/images/Juice Labs/Juice Labs-2.png",
+      "/images/Juice Labs/Juice Labs-3.png",
+      "/images/Juice Labs/Juice Labs.png",
+    ],
     title: "Juice Labs",
     url: "#",
     desc: "",
@@ -314,7 +365,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/LearnTXT.png",
+    img: [
+      "/images/Project Thumbnail/LearnTXT.png",
+      "/images/LearnTXT/LearnTXT-2.png",
+      "/images/LearnTXT/LearnTXT-3.png",
+      "/images/LearnTXT/LearnTXT.png",
+    ],
     title: "LearnTXT",
     url: "https://learntxt.com/",
     desc: "",
@@ -329,7 +385,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Remagine.png",
+    img: [
+      "/images/Project Thumbnail/Remagine.png",
+      "/images/Remagine/Remagine-2.png",
+      "/images/Remagine/Remagine-3.png",
+      "/images/Remagine/Remagine.png"
+    ],
     title: "Remagine",
     url: "https://remagine-landing-page.vercel.app/",
     desc: "",
