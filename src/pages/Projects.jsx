@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { ExploreButton } from "../components/Common/ButtonComponent";
 import {
+  Carousel,
   Tab,
   TabPanel,
   Tabs,
@@ -62,11 +63,24 @@ const Projects = () => {
                     <TabPanel key={item.value} value={item.value}>
                       <div className="flex border-r-3">
                         <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
-                          <img
-                            className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
-                            src={item.img}
-                            alt="dashboard image"
-                          />
+                          {Array.isArray(item.img) ? (
+                            <Carousel>
+                              {item.img.map((image, imgIndex) => (
+                                <img
+                                  key={imgIndex}
+                                  className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                                  src={image}
+                                  alt={`Image ${imgIndex + 1}`}
+                                />
+                              ))}
+                            </Carousel>
+                          ) : (
+                            <img
+                              className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                              src={item.img}
+                              alt="Project Picture"
+                            />
+                          )}
                           <div className="mt-4 md:mt-0 mb-4 md:mb-0  lg:text-start sm:text-center py-10">
                             <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white ">
                               {item.title}
@@ -127,11 +141,24 @@ const Projects = () => {
                               )}
                             </a>
                           </div>
-                          <img
-                            className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
-                            src={item.img}
-                            alt="dashboard image"
-                          />
+                          {Array.isArray(item.img) ? (
+                            <Carousel>
+                              {item.img.map((image, imgIndex) => (
+                                <img
+                                  key={imgIndex}
+                                  className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
+                                  src={image}
+                                  alt={`Image ${imgIndex + 1}`}
+                                />
+                              ))}
+                            </Carousel>
+                          ) : (
+                            <img
+                              className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
+                              src={item.img}
+                              alt="Project Picture"
+                            />
+                          )}
                         </div>
                       </div>
                     </TabPanel>

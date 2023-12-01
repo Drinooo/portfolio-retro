@@ -35,7 +35,11 @@ export const ProjectSection = () => {
                         ))}
                       </Carousel>
                     ) : (
-                      <p>No images available</p>
+                      <img
+                        className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                        src={item.img}
+                        alt="Project Picture"
+                      />
                     )}
                     <div className="mt-4 md:mt-0 mb-4 lg:mb-0  lg:text-start sm:text-center">
                       <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
@@ -84,14 +88,18 @@ export const ProjectSection = () => {
                         {item.img.map((image, imgIndex) => (
                           <img
                             key={imgIndex}
-                            className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                            className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
                             src={image}
                             alt={`Image ${imgIndex + 1}`}
                           />
                         ))}
                       </Carousel>
                     ) : (
-                      <p>No images available</p>
+                      <img
+                        className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
+                        src={item.img}
+                        alt="Project Picture"
+                      />
                     )}
                   </div>
                 </div>
