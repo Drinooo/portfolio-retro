@@ -45,7 +45,12 @@ export const MAIN_NAVIGATION = [
 export const PROJECTS = [
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Recozy.png",
+    img: [
+      "/images/Project Thumbnail/Recozy.png",
+      "/images/Recozy/Recozy-2.png",
+      "/images/Recozy/Recozy-3.png",
+      "/images/Recozy/Recozy.png",
+    ],
     title: "Recozy",
     url: "https://recozy-landing-page.vercel.app/",
     desc: "",
@@ -62,7 +67,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Superare.png",
+    img: [
+      "/images/Project Thumbnail/Superare.png",
+      "/images/Superare/Superare-2.png",
+      "/images/Superare/Superare-3.png",
+      "/images/Superare/Superare.png",
+    ],
     title: "Superare",
     url: "https://superare-landing-page.vercel.app/",
     desc: "",
@@ -79,7 +89,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Hypeburger.png",
+    img: [
+      "/images/Project Thumbnail/Hypeburger.png",
+      "/images/Hypeburger/Hypeburger-2.png",
+      "/images/Hypeburger/Hypeburger-3.png",
+      "/images/Hypeburger/Hypeburger.png",
+    ],
     title: "Hypeburger",
     url: "https://hypeburger-landing-page.vercel.app/",
     desc: "",
@@ -96,7 +111,12 @@ export const PROJECTS = [
   },
   {
     value: "wd",
-    img: "/images/Project Thumbnail/Numa.png",
+    img: [
+      "/images/Project Thumbnail/Numa.png",
+      "/images/NUMA/Numa-2.png",
+      "/images/NUMA/Numa-3.png",
+      "/images/NUMA/Numa.png",
+    ],
     title: "Numa",
     url: "https://numarecoverycenters.com/",
     desc: "",
@@ -319,7 +339,10 @@ export const PROJECTS = [
       <Chip className="bg-black rounded-none italic" value="Figma" />,
       <Chip className="bg-black rounded-none italic" value="React JS" />,
       <Chip className="bg-black rounded-none italic" value="Tailwind CSS" />,
-      <Chip className="bg-black rounded-none italic" value="Material Tailwind" />,
+      <Chip
+        className="bg-black rounded-none italic"
+        value="Material Tailwind"
+      />,
     ],
     path: "/portfolio-hypeburger",
     position: "right",
@@ -338,7 +361,7 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
-    caseStudy: "yes"
+    caseStudy: "yes",
   },
   {
     value: "ud",
@@ -354,7 +377,7 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
-    caseStudy: "yes"
+    caseStudy: "yes",
   },
   {
     value: "ud",
@@ -370,7 +393,7 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
-    caseStudy: "yes"
+    caseStudy: "yes",
   },
   {
     value: "ud",
@@ -386,7 +409,7 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
-    caseStudy: "yes"
+    caseStudy: "yes",
   },
   {
     value: "ud",
@@ -402,7 +425,7 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
-    caseStudy: "no"
+    caseStudy: "no",
   },
   {
     value: "ld",

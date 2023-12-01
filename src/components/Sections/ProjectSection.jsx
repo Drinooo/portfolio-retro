@@ -3,6 +3,7 @@ import { PROJECTS } from "../../utils/data";
 import { ExploreButton, ViewMoreButton } from "../Common/ButtonComponent";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Carousel } from "@material-tailwind/react";
 
 export const ProjectSection = () => {
   return (
@@ -17,16 +18,25 @@ export const ProjectSection = () => {
               Projects
             </h2>
           </div>
-          {PROJECTS.slice(0, 4).map((item) => [
+          {PROJECTS.slice(0, 4).map((item, img) => [
             item.position === "left" ? (
               <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
                 <div className="flex border-r-3">
                   <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
-                    <img
-                      className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
-                      src={item.img}
-                      alt="dashboard image"
-                    />
+                    {Array.isArray(item.img) ? (
+                      <Carousel>
+                        {item.img.map((image, imgIndex) => (
+                          <img
+                            key={imgIndex}
+                            className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                            src={image}
+                            alt={`Image ${imgIndex + 1}`}
+                          />
+                        ))}
+                      </Carousel>
+                    ) : (
+                      <p>No images available</p>
+                    )}
                     <div className="mt-4 md:mt-0 mb-4 lg:mb-0  lg:text-start sm:text-center">
                       <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                         {item.title}
@@ -69,11 +79,20 @@ export const ProjectSection = () => {
                         <ExploreButton>Explore Now</ExploreButton>
                       </a>
                     </div>
-                    <img
-                      className="w-full lg:h-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
-                      src={item.img}
-                      alt="dashboard image"
-                    />
+                    {Array.isArray(item.img) ? (
+                      <Carousel>
+                        {item.img.map((image, imgIndex) => (
+                          <img
+                            key={imgIndex}
+                            className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                            src={image}
+                            alt={`Image ${imgIndex + 1}`}
+                          />
+                        ))}
+                      </Carousel>
+                    ) : (
+                      <p>No images available</p>
+                    )}
                   </div>
                 </div>
               </motion.div>
