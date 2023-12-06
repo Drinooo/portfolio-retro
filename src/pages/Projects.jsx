@@ -68,7 +68,7 @@ const Projects = () => {
                               {item.img.map((image, imgIndex) => (
                                 <img
                                   key={imgIndex}
-                                  className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                                  className="w-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
                                   src={image}
                                   alt={`Image ${imgIndex + 1}`}
                                 />
@@ -76,7 +76,7 @@ const Projects = () => {
                             </Carousel>
                           ) : (
                             <img
-                              className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                              className="w-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
                               src={item.img}
                               alt="Project Picture"
                             />
@@ -146,7 +146,7 @@ const Projects = () => {
                               {item.img.map((image, imgIndex) => (
                                 <img
                                   key={imgIndex}
-                                  className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
+                                  className="w-full sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
                                   src={image}
                                   alt={`Image ${imgIndex + 1}`}
                                 />
@@ -154,7 +154,7 @@ const Projects = () => {
                             </Carousel>
                           ) : (
                             <img
-                              className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
+                              className="w-full sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
                               src={item.img}
                               alt="Project Picture"
                             />
