@@ -496,7 +496,7 @@ export const PROJECTS = [
     desc: "",
     tools: "",
     path: "",
-    position: "right",
+    position: "left",
   },
   {
     value: "ld",
@@ -506,7 +506,7 @@ export const PROJECTS = [
     desc: "",
     tools: "",
     path: "",
-    position: "left",
+    position: "right",
   },
   {
     value: "ld",
@@ -516,7 +516,7 @@ export const PROJECTS = [
     desc: "",
     tools: "",
     path: "",
-    position: "right",
+    position: "left",
   },
   {
     value: "ld",
@@ -526,7 +526,7 @@ export const PROJECTS = [
     desc: "",
     tools: "",
     path: "",
-    position: "left",
+    position: "right",
   },
   {
     value: "ld",
@@ -536,7 +536,7 @@ export const PROJECTS = [
     desc: "",
     tools: "",
     path: "",
-    position: "right",
+    position: "left",
   },
 ];
 
