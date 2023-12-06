@@ -64,7 +64,7 @@ const Projects = () => {
                       <div className="flex border-r-3">
                         <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
                           {Array.isArray(item.img) ? (
-                            <Carousel>
+                            <Carousel className="h-fit">
                               {item.img.map((image, imgIndex) => (
                                 <img
                                   key={imgIndex}
@@ -142,7 +142,7 @@ const Projects = () => {
                             </a>
                           </div>
                           {Array.isArray(item.img) ? (
-                            <Carousel>
+                            <Carousel className="h-fit">
                               {item.img.map((image, imgIndex) => (
                                 <img
                                   key={imgIndex}

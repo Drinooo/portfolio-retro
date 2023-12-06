@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const CTASection = () => {
   return (
     <Fragment>
-      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="sm:pb-24 lg:pb-48">
         <section className="max-w-screen-2xl mx-auto border-3 shadow-aboutShadow">
           <div className="py-8 px-4 mx-auto max-w-full sm:py-16 lg:px-6">
             <div className="mx-auto max-w-full text-center">

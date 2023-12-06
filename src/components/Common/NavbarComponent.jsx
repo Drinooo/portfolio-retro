@@ -23,7 +23,7 @@ export const NavbarComponent = () => {
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       {MAIN_NAVIGATION.map((item) => (
         <li className="">
-          <Link to={item.path}>
+          <Link to={item.path} onClick={() => setOpenNav(!openNav)}>
             <Typography
               as="li"
               variant="small"

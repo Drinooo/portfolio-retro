@@ -24,11 +24,11 @@ export const ProjectSection = () => {
                 <div className="flex border-r-3">
                   <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
                     {Array.isArray(item.img) ? (
-                      <Carousel>
+                      <Carousel className="h-fit">
                         {item.img.map((image, imgIndex) => (
                           <img
                             key={imgIndex}
-                            className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                            className="w-full sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
                             src={image}
                             alt={`Image ${imgIndex + 1}`}
                           />
@@ -36,7 +36,7 @@ export const ProjectSection = () => {
                       </Carousel>
                     ) : (
                       <img
-                        className="w-full lg:h-full dark:hidden sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
+                        className="w-full sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
                         src={item.img}
                         alt="Project Picture"
                       />
@@ -84,11 +84,11 @@ export const ProjectSection = () => {
                       </a>
                     </div>
                     {Array.isArray(item.img) ? (
-                      <Carousel>
+                      <Carousel className="h-fit">
                         {item.img.map((image, imgIndex) => (
                           <img
                             key={imgIndex}
-                            className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
+                            className="w-full sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
                             src={image}
                             alt={`Image ${imgIndex + 1}`}
                           />
@@ -96,7 +96,7 @@ export const ProjectSection = () => {
                       </Carousel>
                     ) : (
                       <img
-                        className="w-full dark:hidden sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
+                        className="w-full sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
                         src={item.img}
                         alt="Project Picture"
                       />
