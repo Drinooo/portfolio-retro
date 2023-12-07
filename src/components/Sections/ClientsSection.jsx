@@ -13,10 +13,10 @@ const ClientsSection = () => {
               Clients I've Worked With
             </h2>
           </div>
-          <div className="grid md:grid-cols-4 sm:grid-cols-1 sm:text-center md:text-start gap-4">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 sm:text-center md:text-start gap-4">
             {CLIENTS.map((item) => (
               <div>
-                <Typography className="mr-8 text-client font-semibold">
+                <Typography className="text-client font-semibold">
                   {item.title}
                 </Typography>
               </div>
