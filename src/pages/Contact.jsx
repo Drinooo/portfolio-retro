@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <Fragment>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-        <section className="space-y-4 max-w-screen-2xl mx-auto">
+        <section className="space-y-4 max-w-screen-2xl mx-auto sm:pt-12 lg:pt-24 ">
           <div className="">
             <div className="">
               <h2 className="mb-0 sm:text-h1Mobile md:text-h1 tracking-tight font-semibold text-gray-900">
