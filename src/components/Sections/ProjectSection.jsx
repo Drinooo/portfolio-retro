@@ -52,7 +52,7 @@ export const ProjectSection = () => {
                         href={item.url}
                         className="flex sm:justify-center lg:justify-start"
                       >
-                        <ExploreButton>Explore Now</ExploreButton>
+                        <ExploreButton>View Website</ExploreButton>
                       </a>
                     </div>
                   </div>
@@ -80,7 +80,7 @@ export const ProjectSection = () => {
                         target="_blank"
                         className="flex sm:justify-center lg:justify-start"
                       >
-                        <ExploreButton>Explore Now</ExploreButton>
+                        <ExploreButton>View Website</ExploreButton>
                       </a>
                     </div>
                     {Array.isArray(item.img) ? (

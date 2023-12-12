@@ -97,7 +97,7 @@ const Projects = () => {
                                 <ExploreButton>
                                   {item.caseStudy === "yes"
                                     ? "View Case Study"
-                                    : "Explore Now"}
+                                    : "View Website"}
                                 </ExploreButton>
                               )}
                             </a>
@@ -136,7 +136,7 @@ const Projects = () => {
                                 <ExploreButton>
                                   {item.caseStudy === "yes"
                                     ? "View Case Study"
-                                    : "Explore Now"}
+                                    : "View Website"}
                                 </ExploreButton>
                               )}
                             </a>
