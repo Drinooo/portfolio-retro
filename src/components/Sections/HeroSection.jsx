@@ -1,6 +1,10 @@
 import React, { Fragment } from "react";
 import { motion } from "framer-motion";
-import { DownloadButton } from "../Common/ButtonComponent";
+import {
+  DownloadButton,
+  SeeDesignButton,
+  ViewMoreButton,
+} from "../Common/ButtonComponent";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -17,9 +21,17 @@ const HeroSection = () => {
                 I'm a Web Designer, UI/UX Designer and Front-End Developer based
                 in the Philippines.
               </p>
-              <Link to={"/Aldrin Villalobos CV - Web Designer.pdf"} target="_blank">
-                <DownloadButton>Download Resume</DownloadButton>
-              </Link>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  to={"/Aldrin Villalobos CV - Web Designer.pdf"}
+                  target="_blank"
+                >
+                  <DownloadButton>Download Resume</DownloadButton>
+                </Link>
+                <Link to={"/projects"}>
+                  <SeeDesignButton>See Design Work</SeeDesignButton>
+                </Link>
+              </div>
             </div>
             <div className="lg:mt-0 lg:col-span-6 lg:flex justify-end sm:border-r-0 lg:border-r-3 h-fit">
               <div className="border-3 border-black h-fit">
