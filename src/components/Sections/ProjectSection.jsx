@@ -23,24 +23,48 @@ export const ProjectSection = () => {
               <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
                 <div className="flex border-r-3">
                   <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
-                    {Array.isArray(item.img) ? (
-                      <Carousel className="h-fit">
-                        {item.img.map((image, imgIndex) => (
-                          <img
-                            key={imgIndex}
-                            className="w-full sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
-                            src={image}
-                            alt={`Image ${imgIndex + 1}`}
-                          />
-                        ))}
-                      </Carousel>
-                    ) : (
-                      <img
-                        className="w-full sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black"
-                        src={item.img}
-                        alt="Project Picture"
-                      />
-                    )}
+                    <div className="sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black">
+                      {Array.isArray(item.img) ? (
+                        <Carousel
+                          className="h-fit"
+                          navigation={({
+                            setActiveIndex,
+                            activeIndex,
+                            length,
+                          }) => (
+                            <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+                              {new Array(length).fill("").map((_, i) => (
+                                <span
+                                  key={i}
+                                  className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
+                                    activeIndex === i
+                                      ? "w-8 bg-white"
+                                      : "w-4 bg-white/50"
+                                  }`}
+                                  onClick={() => setActiveIndex(i)}
+                                />
+                              ))}
+                            </div>
+                          )}
+                        >
+                          {item.img.map((image, imgIndex) => (
+                            <img
+                              key={imgIndex}
+                              className="w-full"
+                              src={image}
+                              alt={`Image ${imgIndex + 1}`}
+                            />
+                          ))}
+                        </Carousel>
+                      ) : (
+                        <img
+                          className="w-full"
+                          src={item.img}
+                          alt="Project Picture"
+                        />
+                      )}
+                    </div>
+
                     <div className="mt-4 md:mt-0 mb-4 lg:mb-0  lg:text-start sm:text-center">
                       <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                         {item.title}
@@ -83,24 +107,47 @@ export const ProjectSection = () => {
                         <ExploreButton>View Website</ExploreButton>
                       </a>
                     </div>
-                    {Array.isArray(item.img) ? (
-                      <Carousel className="h-fit">
-                        {item.img.map((image, imgIndex) => (
-                          <img
-                            key={imgIndex}
-                            className="w-full sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
-                            src={image}
-                            alt={`Image ${imgIndex + 1}`}
-                          />
-                        ))}
-                      </Carousel>
-                    ) : (
-                      <img
-                        className="w-full sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black"
-                        src={item.img}
-                        alt="Project Picture"
-                      />
-                    )}
+                    <div className="sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black">
+                      {Array.isArray(item.img) ? (
+                        <Carousel
+                          className="h-fit"
+                          navigation={({
+                            setActiveIndex,
+                            activeIndex,
+                            length,
+                          }) => (
+                            <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+                              {new Array(length).fill("").map((_, i) => (
+                                <span
+                                  key={i}
+                                  className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
+                                    activeIndex === i
+                                      ? "w-8 bg-white"
+                                      : "w-4 bg-white/50"
+                                  }`}
+                                  onClick={() => setActiveIndex(i)}
+                                />
+                              ))}
+                            </div>
+                          )}
+                        >
+                          {item.img.map((image, imgIndex) => (
+                            <img
+                              key={imgIndex}
+                              className="w-full"
+                              src={image}
+                              alt={`Image ${imgIndex + 1}`}
+                            />
+                          ))}
+                        </Carousel>
+                      ) : (
+                        <img
+                          className="w-full"
+                          src={item.img}
+                          alt="Project Picture"
+                        />
+                      )}
+                    </div>
                   </div>
                 </div>
               </motion.div>
