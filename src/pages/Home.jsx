@@ -13,10 +13,10 @@ const Home = () => {
     <Fragment>
       <HeroSection />
       {/* <AboutSection /> */}
+      <ProjectSection />
       <TechStackSection />
       <ServicesSection />
       <ClientsSection />
-      <ProjectSection />
       <CTASection />
     </Fragment>
   );
