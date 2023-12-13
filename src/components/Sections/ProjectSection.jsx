@@ -91,7 +91,7 @@ export const ProjectSection = () => {
                   <div className="border-t-3 border-b-3">
                     <div className="border-4 border-gray h-full"></div>
                   </div>
-                  <div className="gap-8 border-3 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
+                  <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
                     <div className="mt-4 md:mt-0 mb-4 lg:mb-0 sm:text-center lg:text-start">
                       <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
                         {item.title}

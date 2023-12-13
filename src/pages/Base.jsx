@@ -7,7 +7,7 @@ const Base = () => {
   return (
     <Fragment>
       <NavbarComponent />
-      <div className="px-8 sm:space-y-24 lg:space-y-48 bg-beige">
+      <div className="px-8 sm:space-y-24 lg:space-y-48 pb-24 bg-beige">
         <Outlet />
       </div>
       <FooterSection />
