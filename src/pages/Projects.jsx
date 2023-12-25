@@ -113,17 +113,21 @@ const Projects = () => {
                               {item.tools}
                             </div>
                             <a
-                              href={item.url}
+                              href=""
                               className="flex sm:justify-center lg:justify-start"
                             >
-                              {item.value === "ld" ||
-                              item.url === "#" ? null : (
-                                <ExploreButton>
-                                  {item.caseStudy === "yes"
-                                    ? "View Case Study"
-                                    : "View Website"}
-                                </ExploreButton>
-                              )}
+                              {item.website === "yes" ? (
+                                <ExploreButton>View Website</ExploreButton>
+                              ) : null}
+                            </a>
+
+                            <a
+                              href=""
+                              className="flex sm:justify-center lg:justify-start"
+                            >
+                              {item.caseStudy === "yes" ? (
+                                <ExploreButton>View Case Study</ExploreButton>
+                              ) : null}
                             </a>
                           </div>
                         </div>
@@ -155,14 +159,23 @@ const Projects = () => {
                               href={item.url}
                               className="flex sm:justify-center lg:justify-start"
                             >
-                              {item.value === "ld" ||
-                              item.url === "#" ? null : (
-                                <ExploreButton>
-                                  {item.caseStudy === "yes"
-                                    ? "View Case Study"
-                                    : "View Website"}
-                                </ExploreButton>
-                              )}
+                              <a
+                                href=""
+                                className="flex sm:justify-center lg:justify-start"
+                              >
+                                {item.website === "yes" ? (
+                                  <ExploreButton>View Website</ExploreButton>
+                                ) : null}
+                              </a>
+
+                              <a
+                                href=""
+                                className="flex sm:justify-center lg:justify-start"
+                              >
+                                {item.caseStudy === "yes" ? (
+                                  <ExploreButton>View Case Study</ExploreButton>
+                                ) : null}
+                              </a>
                             </a>
                           </div>
                           <div className="sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black">

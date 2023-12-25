@@ -52,7 +52,8 @@ export const PROJECTS = [
       "/images/Recozy/Recozy.png",
     ],
     title: "Recozy",
-    url: "https://recozy-landing-page.vercel.app/",
+    urlWebsite: "https://recozy-landing-page.vercel.app/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -64,6 +65,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-recozy",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -74,7 +77,8 @@ export const PROJECTS = [
       "/images/Superare/Superare.png",
     ],
     title: "Superare",
-    url: "https://superare-landing-page.vercel.app/",
+    urlWebsite: "https://superare-landing-page.vercel.app/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -86,6 +90,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-superare",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -96,7 +102,8 @@ export const PROJECTS = [
       "/images/Hypeburger/Hypeburger.png",
     ],
     title: "Hypeburger",
-    url: "https://hypeburger-landing-page.vercel.app/",
+    urlWebsite: "https://hypeburger-landing-page.vercel.app/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -108,6 +115,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -118,7 +127,8 @@ export const PROJECTS = [
       "/images/NUMA/Numa.png",
     ],
     title: "Numa",
-    url: "https://numarecoverycenters.com/",
+    urlWebsite: "https://numarecoverycenters.com/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -130,6 +140,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-numa",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -140,7 +152,8 @@ export const PROJECTS = [
       "/images/MSAR/MSAR.png",
     ],
     title: "Montrose Search and Rescue",
-    url: "https://montrosesar.org/",
+    urlWebsite: "https://montrosesar.org/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
@@ -152,6 +165,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-msar",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -162,7 +177,8 @@ export const PROJECTS = [
       "/images/Gretta/Gretta.png",
     ],
     title: "Gretta",
-    url: "https://gretta-988d98.webflow.io/",
+    urlWebsite: "https://gretta-988d98.webflow.io/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -173,6 +189,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -183,7 +201,8 @@ export const PROJECTS = [
       "/images/Rebank/Rebank.png",
     ],
     title: "Rebank",
-    url: "#",
+    urlWebsite: "#",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -192,6 +211,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -202,7 +223,8 @@ export const PROJECTS = [
       "/images/Radiant/Radiant.png",
     ],
     title: "Radiant",
-    url: "#",
+    urlWebsite: "#",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -211,6 +233,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -221,7 +245,8 @@ export const PROJECTS = [
       "/images/Portfolio V1/Portfolio V1.png",
     ],
     title: "Portfolio V1",
-    url: "https://aldrinvillalobos.vercel.app/",
+    urlWebsite: "https://aldrinvillalobos.vercel.app/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Portfolio" />,
@@ -233,6 +258,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -241,7 +268,8 @@ export const PROJECTS = [
       "/images/Portfolio V2/Portfolio V2.png",
     ],
     title: "Portfolio V2",
-    url: "https://villalobosaldrin.vercel.app/",
+    urlWebsite: "https://villalobosaldrin.vercel.app/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Portfolio" />,
@@ -253,6 +281,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -261,7 +291,8 @@ export const PROJECTS = [
       "/images/Travel Agency/Travel Agency.png",
     ],
     title: "Travel Agency",
-    url: "https://www.figma.com/proto/qolgK9l7dxZEt3i33IDcQa/Travel-Agency-Landing-Page?node-id=1-2&starting-point-node-id=1%3A2&mode=design&t=A6Ao9WjQU67F3v4l-1",
+    urlWebsite: "https://www.figma.com/proto/qolgK9l7dxZEt3i33IDcQa/Travel-Agency-Landing-Page?node-id=1-2&starting-point-node-id=1%3A2&mode=design&t=A6Ao9WjQU67F3v4l-1",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -271,6 +302,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -281,7 +314,8 @@ export const PROJECTS = [
       "/images/Plant Shop/Plant Shop.png",
     ],
     title: "Plant Shop",
-    url: "https://www.figma.com/file/paOiHR81p3FfPcErZ27SxP/Plant-Shop-Landing-Page?type=design&node-id=0%3A1&mode=design&t=aA9iLThMU8B0F9Zv-1",
+    urlWebsite: "https://www.figma.com/file/paOiHR81p3FfPcErZ27SxP/Plant-Shop-Landing-Page?type=design&node-id=0%3A1&mode=design&t=aA9iLThMU8B0F9Zv-1",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -290,6 +324,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -300,7 +336,8 @@ export const PROJECTS = [
       "/images/NFT/NFT.png",
     ],
     title: "NFT Marketplace",
-    url: "https://www.figma.com/file/mN6nxFdvKOirzQjlfensSM/NFT-Marketplace-Landing-Page?type=design&node-id=0%3A1&mode=design&t=CnYACF4bvWvkOedB-1",
+    urlWebsite: "https://www.figma.com/file/mN6nxFdvKOirzQjlfensSM/NFT-Marketplace-Landing-Page?type=design&node-id=0%3A1&mode=design&t=CnYACF4bvWvkOedB-1",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -309,6 +346,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -319,7 +358,8 @@ export const PROJECTS = [
       "/images/Food/Food.png",
     ],
     title: "Food",
-    url: "https://www.figma.com/file/H315mWNisX8u7MIJ1hSlND/Food-Website-Landing-Page?type=design&node-id=0%3A1&mode=design&t=OTABiAO73Yo0w96b-1",
+    urlWebsite: "https://www.figma.com/file/H315mWNisX8u7MIJ1hSlND/Food-Website-Landing-Page?type=design&node-id=0%3A1&mode=design&t=OTABiAO73Yo0w96b-1",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -328,12 +368,15 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
     img: ["/images/Project Thumbnail/Coffee.png", "/images/Coffee/Coffee.png"],
     title: "Coffee Shop",
-    url: "https://www.figma.com/proto/Pkgx9gX8vCRhoorT7iGTyj/Coffee-Shop-Landing-Page?type=design&node-id=6-8&t=Q9zhG0lQrRbsFpiQ-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=6%3A8&mode=design",
+    urlWebsite: "https://www.figma.com/proto/Pkgx9gX8vCRhoorT7iGTyj/Coffee-Shop-Landing-Page?type=design&node-id=6-8&t=Q9zhG0lQrRbsFpiQ-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=6%3A8&mode=design",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -343,6 +386,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -353,7 +398,8 @@ export const PROJECTS = [
       "/images/Juice Labs/Juice Labs.png",
     ],
     title: "Juice Labs",
-    url: "#",
+    urlWebsite: "#",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -362,6 +408,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -372,7 +420,8 @@ export const PROJECTS = [
       "/images/LearnTXT/LearnTXT.png",
     ],
     title: "LearnTXT",
-    url: "https://learntxt.com/",
+    urlWebsite: "https://learntxt.com/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -382,6 +431,8 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "wd",
@@ -392,7 +443,8 @@ export const PROJECTS = [
       "/images/Remagine/Remagine.png"
     ],
     title: "Remagine",
-    url: "https://remagine-landing-page.vercel.app/",
+    urlWebsite: "https://remagine-landing-page.vercel.app/",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -407,12 +459,15 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "yes",
+    caseStudy: "no",
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/MAHA.png",
     title: "My Allied Health Academy",
-    url: "http://design.nmscreative.com/my-allied-health-academy/",
+    urlWebsite: "#",
+    urlCaseStudy: "http://design.nmscreative.com/my-allied-health-academy/",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
@@ -422,13 +477,15 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "no",
     caseStudy: "yes",
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/SMC.png",
     title: "Share My Circle",
-    url: "http://design.nmscreative.com/share-my-circle-2/",
+    urlWebsite: "#",
+    urlCaseStudy: "http://design.nmscreative.com/share-my-circle-2/",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
@@ -438,13 +495,15 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "no",
     caseStudy: "yes",
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/HES.png",
     title: "Her Erotic Story",
-    url: "http://design.nmscreative.com/her-erotic-story/",
+    urlWebsite: "#",
+    urlCaseStudy: "http://design.nmscreative.com/her-erotic-story/",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
@@ -454,13 +513,15 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "no",
     caseStudy: "yes",
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/TribeTXT.png",
     title: "TribeTXT (Rooms)",
-    url: "http://design.nmscreative.com/tribetxt/",
+    urlWebsite: "#",
+    urlCaseStudy: "http://design.nmscreative.com/tribetxt/",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
@@ -470,13 +531,15 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
+    website: "no",
     caseStudy: "yes",
   },
   {
     value: "ud",
     img: "/images/Project Thumbnail/LeadGen Crew.png",
     title: "LeadGen Crew",
-    url: "#",
+    urlWebsite: "#",
+    urlCaseStudy: "#",
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="UI/UX Design" />,
@@ -486,6 +549,7 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "left",
+    website: "no",
     caseStudy: "no",
   },
   {

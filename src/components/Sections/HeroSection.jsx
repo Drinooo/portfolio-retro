@@ -36,7 +36,7 @@ const HeroSection = () => {
             <div className="lg:mt-0 lg:col-span-6 lg:flex justify-end sm:border-r-0 lg:border-r-3 h-fit">
               <div className="border-3 border-black h-fit">
                 <img
-                  src="/images/Hero-Image.png"
+                  src="/images/Hero-Image.jpg"
                   alt="mockup"
                   className="w-full h-fit"
                 />
