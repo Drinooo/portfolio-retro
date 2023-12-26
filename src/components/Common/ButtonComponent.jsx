@@ -62,7 +62,7 @@ export const SendButton = (props) => {
   );
 };
 
-export const SeeDesignButton = (props) => {
+export const OutlinedButton = (props) => {
   const { variant = "outlined", children } = props;
   return (
     <Button

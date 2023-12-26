@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { ExploreButton } from "../components/Common/ButtonComponent";
+import { ExploreButton, OutlinedButton } from "../components/Common/ButtonComponent";
 import {
   Carousel,
   Tab,
@@ -112,23 +112,25 @@ const Projects = () => {
                             <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
                               {item.tools}
                             </div>
-                            <a
-                              href=""
-                              className="flex sm:justify-center lg:justify-start"
-                            >
-                              {item.website === "yes" ? (
-                                <ExploreButton>View Website</ExploreButton>
-                              ) : null}
-                            </a>
+                            <div className="flex flex-wrap gap-4">
+                              <a
+                                href={item.urlWebsite}
+                                className="flex sm:justify-center lg:justify-start"
+                              >
+                                {item.website === "yes" ? (
+                                  <ExploreButton>View Website</ExploreButton>
+                                ) : null}
+                              </a>
 
-                            <a
-                              href=""
-                              className="flex sm:justify-center lg:justify-start"
-                            >
-                              {item.caseStudy === "yes" ? (
-                                <ExploreButton>View Case Study</ExploreButton>
-                              ) : null}
-                            </a>
+                              <a
+                                href={item.urlCaseStudy}
+                                className="flex sm:justify-center lg:justify-start"
+                              >
+                                {item.caseStudy === "yes" ? (
+                                  <OutlinedButton>View Case Study</OutlinedButton>
+                                ) : null}
+                              </a>
+                            </div>
                           </div>
                         </div>
                         <div className="border-t-3 border-b-3">
@@ -155,12 +157,9 @@ const Projects = () => {
                             <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
                               {item.tools}
                             </div>
-                            <a
-                              href={item.url}
-                              className="flex sm:justify-center lg:justify-start"
-                            >
+                            <div className="flex flex-wrap gap-4">
                               <a
-                                href=""
+                                href={item.urlWebsite}
                                 className="flex sm:justify-center lg:justify-start"
                               >
                                 {item.website === "yes" ? (
@@ -169,14 +168,14 @@ const Projects = () => {
                               </a>
 
                               <a
-                                href=""
+                                href={item.urlCaseStudy}
                                 className="flex sm:justify-center lg:justify-start"
                               >
                                 {item.caseStudy === "yes" ? (
-                                  <ExploreButton>View Case Study</ExploreButton>
+                                  <OutlinedButton>View Case Study</OutlinedButton>
                                 ) : null}
                               </a>
-                            </a>
+                            </div>
                           </div>
                           <div className="sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black">
                             {Array.isArray(item.img) ? (

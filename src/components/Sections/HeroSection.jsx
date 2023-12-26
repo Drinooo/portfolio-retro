@@ -2,8 +2,7 @@ import React, { Fragment } from "react";
 import { motion } from "framer-motion";
 import {
   DownloadButton,
-  SeeDesignButton,
-  ViewMoreButton,
+  OutlinedButton,
 } from "../Common/ButtonComponent";
 import { Link } from "react-router-dom";
 
@@ -13,7 +12,7 @@ const HeroSection = () => {
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section className="">
           <div className="grid max-w-screen-2xl mx-auto lg:gap-8 xl:gap-24 sm:pt-12 lg:pt-24 lg:grid-cols-12">
-            <div className="mr-auto place-self-center lg:col-span-6 sm:pb-16">
+            <div className="mr-auto place-self-center lg:col-span-6 sm:pb-16 lg:pb-0">
               <h1 className="max-w-2xl mb-4 font-[700] tracking-wide sm:leading-15 lg:leading-25 sm:text-h1Mobile lg:text-h1 dark:text-white">
                 Hi, I'm Aldrin Villalobos
               </h1>
@@ -29,14 +28,14 @@ const HeroSection = () => {
                   <DownloadButton>Download Resume</DownloadButton>
                 </Link>
                 <Link to={"/projects"}>
-                  <SeeDesignButton>See Design Work</SeeDesignButton>
+                  <OutlinedButton>See Design Work</OutlinedButton>
                 </Link>
               </div>
             </div>
             <div className="lg:mt-0 lg:col-span-6 lg:flex justify-end sm:border-r-0 lg:border-r-3 h-fit">
               <div className="border-3 border-black h-fit">
                 <img
-                  src="/images/Hero-Image.jpg"
+                  src="/images/Hero-Image.png"
                   alt="mockup"
                   className="w-full h-fit"
                 />
