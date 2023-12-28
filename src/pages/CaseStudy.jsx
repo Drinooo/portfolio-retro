@@ -149,11 +149,19 @@ const CaseStudy = () => {
                   <div
                     className="p-[50px]"
                     style={{ background: caseStudy.primaryColor1 }}
-                  ></div>
+                  >
+                    <p className={`text-${caseStudy.contrastText1}`}>
+                      {caseStudy.primaryColor1}
+                    </p>
+                  </div>
                   <div
                     className="p-[50px]"
                     style={{ background: caseStudy.primaryColor2 }}
-                  ></div>
+                  >
+                    <p className={`text-${caseStudy.contrastText1}`}>
+                      {caseStudy.primaryColor2}
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="space-y-4">
@@ -162,11 +170,19 @@ const CaseStudy = () => {
                   <div
                     className="p-[50px]"
                     style={{ background: caseStudy.accentColor1 }}
-                  ></div>
+                  >
+                    <p className={`text-${caseStudy.contrastText2}`}>
+                      {caseStudy.accentColor1}
+                    </p>
+                  </div>
                   <div
                     className="p-[50px]"
                     style={{ background: caseStudy.accentColor2 }}
-                  ></div>
+                  >
+                    <p className={`text-${caseStudy.contrastText2}`}>
+                      {caseStudy.accentColor2}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

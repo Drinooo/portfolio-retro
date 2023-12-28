@@ -42,6 +42,9 @@ export const CONTENT = {
     colorDesc:
       "Collectively, these colors provide a striking contrast that appeals to both the cozy and modern tastes",
 
+    contrastText1: "white",
+    contrastText2: "black",
+
     primaryColor1: "#1D1D1D",
     primaryColor2: "#E75833",
 
@@ -49,7 +52,8 @@ export const CONTENT = {
     accentColor2: "#f4f5fa",
 
     fontFamily: "Bebas Neue",
-    fontDesc: "Bebas Neue, a typeface with a jet black, bold, uppercase design that speaks volumes. It radiates confidence and modernity, making each heading a stand-alone piece that skillfully leads you through our carefully chosen selections.",
+    fontDesc:
+      "Bebas Neue, a typeface with a jet black, bold, uppercase design that speaks volumes. It radiates confidence and modernity, making each heading a stand-alone piece that skillfully leads you through our carefully chosen selections.",
 
     conclusion:
       "Customers are welcomed into a world where their virtual visions of a cozy home effortlessly translate into warm and welcoming realities, thanks to Recozy's successful transformation of the online furniture shopping experience. In addition to the final design, the incorporation of eye-catching imagery, thoughtful product overviews, and improved navigation has established Recozy as a place where customers can effortlessly and joyfully curate cozy-inspired living spaces.",
