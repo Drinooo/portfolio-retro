@@ -3,11 +3,17 @@ import React, { Fragment } from "react";
 import { useParams } from "react-router-dom";
 import { CONTENT } from "../utils/CaseStudies";
 import { motion } from "framer-motion";
+import CopyToClipboard from "react-copy-to-clipboard";
 
 const CaseStudy = () => {
   const { id } = useParams();
 
   const caseStudy = CONTENT[id];
+
+  const copy = {
+    value: "",
+    copied: false,
+  };
 
   return (
     <Fragment>
@@ -137,26 +143,30 @@ const CaseStudy = () => {
               </p>
             </div>
             <div className="flex gap-[48px]">
-              <div>
+              <div className="space-y-4">
                 <p className="text-gray2 text-caption">Primary Colors</p>
                 <div className="flex gap-[24px]">
-                  <div className={`p-[50px] bg-[${caseStudy.primaryColor1}]`}>
-                    <p>{caseStudy.primaryColor1}</p>
-                  </div>
-                  <div className={`p-[50px] bg-[${caseStudy.primaryColor2}]`}>
-                    <p>{caseStudy.primaryColor2}</p>
-                  </div>
+                  <div
+                    className="p-[50px]"
+                    style={{ background: caseStudy.primaryColor1 }}
+                  ></div>
+                  <div
+                    className="p-[50px]"
+                    style={{ background: caseStudy.primaryColor2 }}
+                  ></div>
                 </div>
               </div>
-              <div>
+              <div className="space-y-4">
                 <p className="text-gray2 text-caption">Accent Colors</p>
                 <div className="flex gap-[24px]">
-                  <div className={`p-[50px] bg-[${caseStudy.accentColor1}]`}>
-                    <p>{caseStudy.accentColor1}</p>
-                  </div>
-                  <div className={`p-[50px] bg-[${caseStudy.accentColor2}]`}>
-                    {caseStudy.accentColor2}
-                  </div>
+                  <div
+                    className="p-[50px]"
+                    style={{ background: caseStudy.accentColor1 }}
+                  ></div>
+                  <div
+                    className="p-[50px]"
+                    style={{ background: caseStudy.accentColor2 }}
+                  ></div>
                 </div>
               </div>
             </div>
