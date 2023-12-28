@@ -1,5 +1,8 @@
 import React, { Fragment } from "react";
-import { ExploreButton, OutlinedButton } from "../components/Common/ButtonComponent";
+import {
+  ExploreButton,
+  OutlinedButton,
+} from "../components/Common/ButtonComponent";
 import {
   Carousel,
   Tab,
@@ -112,24 +115,30 @@ const Projects = () => {
                             <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
                               {item.tools}
                             </div>
-                            <div className="flex flex-wrap gap-4">
-                              <a
-                                href={item.urlWebsite}
-                                className="flex sm:justify-center lg:justify-start"
-                              >
-                                {item.website === "yes" ? (
-                                  <ExploreButton>View Website</ExploreButton>
-                                ) : null}
-                              </a>
 
-                              <a
-                                href={item.urlCaseStudy}
-                                className="flex sm:justify-center lg:justify-start"
-                              >
-                                {item.caseStudy === "yes" ? (
-                                  <OutlinedButton>View Case Study</OutlinedButton>
-                                ) : null}
-                              </a>
+                            <div
+                              className={`flex flex-wrap ${item.website === "yes" && item.caseStudy === "yes" ? 'gap-4' : ''}`}
+                            >
+                              <div>
+                                <a
+                                  href={item.urlWebsite}
+                                  className="flex sm:justify-center lg:justify-start"
+                                >
+                                  {item.website === "yes" ? (
+                                    <ExploreButton>View Website</ExploreButton>
+                                  ) : null}
+                                </a>
+                              </div>
+
+                              <div>
+                                <a href={`/case-study/${item.id}`} key={item.id}>
+                                  {item.caseStudy === "yes" ? (
+                                    <OutlinedButton>
+                                      View Case Study
+                                    </OutlinedButton>
+                                  ) : null}
+                                </a>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -157,7 +166,12 @@ const Projects = () => {
                             <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
                               {item.tools}
                             </div>
-                            <div className="flex flex-wrap gap-4">
+
+                            <div
+                              className={
+                                'flex flex-wrap ${item.website === "yes" && item.caseStudy === "yes" ? gap-4 : gap-0}'
+                              }
+                            >
                               <a
                                 href={item.urlWebsite}
                                 className="flex sm:justify-center lg:justify-start"
@@ -166,13 +180,15 @@ const Projects = () => {
                                   <ExploreButton>View Website</ExploreButton>
                                 ) : null}
                               </a>
-
                               <a
-                                href={item.urlCaseStudy}
+                                href={`/case-study/${item.id}`}
                                 className="flex sm:justify-center lg:justify-start"
+                                key={item.id}
                               >
                                 {item.caseStudy === "yes" ? (
-                                  <OutlinedButton>View Case Study</OutlinedButton>
+                                  <OutlinedButton>
+                                    View Case Study
+                                  </OutlinedButton>
                                 ) : null}
                               </a>
                             </div>

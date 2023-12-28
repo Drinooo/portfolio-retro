@@ -26,6 +26,7 @@ import {
   WordPressIcon,
   XDIcon,
 } from "../components/Common/IconComponent";
+import { CONTENT } from "./CaseStudies";
 
 export const MAIN_NAVIGATION = [
   {
@@ -44,6 +45,7 @@ export const MAIN_NAVIGATION = [
 
 export const PROJECTS = [
   {
+    id: 1,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Recozy.png",
@@ -53,7 +55,7 @@ export const PROJECTS = [
     ],
     title: "Recozy",
     urlWebsite: "https://recozy-landing-page.vercel.app/",
-    urlCaseStudy: "#",
+    // urlCaseStudy: '/case-study/recozy',
     desc: "",
     tools: [
       <Chip className="bg-black rounded-none italic" value="Landing Page" />,
@@ -66,9 +68,10 @@ export const PROJECTS = [
     path: "/portfolio-recozy",
     position: "left",
     website: "yes",
-    caseStudy: "no",
+    caseStudy: "yes",
   },
   {
+    id: 2,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Superare.png",
@@ -94,6 +97,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 3,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Hypeburger.png",
@@ -119,6 +123,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 4,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Numa.png",
@@ -144,6 +149,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 5,
     value: "wd",
     img: [
       "/images/Project Thumbnail/MSAR.png",
@@ -169,6 +175,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 6,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Gretta.png",
@@ -193,6 +200,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 7,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Rebank.png",
@@ -215,6 +223,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 8,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Radiant.png",
@@ -233,10 +242,11 @@ export const PROJECTS = [
     ],
     path: "/portfolio-hypeburger",
     position: "right",
-    website: "yes",
+    website: "no",
     caseStudy: "no",
   },
   {
+    id: 9,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Portfolio V1.png",
@@ -262,6 +272,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 10,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Portfolio V2.png",
@@ -285,6 +296,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 11,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Travel Agency.png",
@@ -306,6 +318,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 12,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Plant Shop.png",
@@ -314,7 +327,7 @@ export const PROJECTS = [
       "/images/Plant Shop/Plant Shop.png",
     ],
     title: "Plant Shop",
-    urlWebsite: "https://www.figma.com/file/paOiHR81p3FfPcErZ27SxP/Plant-Shop-Landing-Page?type=design&node-id=0%3A1&mode=design&t=aA9iLThMU8B0F9Zv-1",
+    urlWebsite: "https://www.figma.com/proto/paOiHR81p3FfPcErZ27SxP/Plant-Shop-Landing-Page?page-id=0%3A1&type=design&node-id=8-84&viewport=526%2C126%2C0.16&t=aUAcJwTX6YnjzyHX-1&scaling=min-zoom&starting-point-node-id=8%3A84&mode=design",
     urlCaseStudy: "#",
     desc: "",
     tools: [
@@ -328,6 +341,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 13,
     value: "wd",
     img: [
       "/images/Project Thumbnail/NFT.png",
@@ -336,7 +350,7 @@ export const PROJECTS = [
       "/images/NFT/NFT.png",
     ],
     title: "NFT Marketplace",
-    urlWebsite: "https://www.figma.com/file/mN6nxFdvKOirzQjlfensSM/NFT-Marketplace-Landing-Page?type=design&node-id=0%3A1&mode=design&t=CnYACF4bvWvkOedB-1",
+    urlWebsite: "https://www.figma.com/proto/mN6nxFdvKOirzQjlfensSM/NFT-Marketplace-Landing-Page?page-id=0%3A1&type=design&node-id=2-2&viewport=577%2C84%2C0.17&t=x2nPVXGK19mG51Bx-1&scaling=min-zoom&mode=design",
     urlCaseStudy: "#",
     desc: "",
     tools: [
@@ -350,6 +364,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 14,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Food.png",
@@ -358,7 +373,7 @@ export const PROJECTS = [
       "/images/Food/Food.png",
     ],
     title: "Food",
-    urlWebsite: "https://www.figma.com/file/H315mWNisX8u7MIJ1hSlND/Food-Website-Landing-Page?type=design&node-id=0%3A1&mode=design&t=OTABiAO73Yo0w96b-1",
+    urlWebsite: "https://www.figma.com/proto/H315mWNisX8u7MIJ1hSlND/Food-Website-Landing-Page?page-id=0%3A1&type=design&node-id=5-8&viewport=578%2C25%2C0.15&t=iBn5vSWGry2FkHKb-1&scaling=min-zoom&mode=design",
     urlCaseStudy: "#",
     desc: "",
     tools: [
@@ -372,6 +387,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 15,
     value: "wd",
     img: ["/images/Project Thumbnail/Coffee.png", "/images/Coffee/Coffee.png"],
     title: "Coffee Shop",
@@ -390,6 +406,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 16,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Juice Labs.png",
@@ -412,6 +429,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 17,
     value: "wd",
     img: [
       "/images/Project Thumbnail/LearnTXT.png",
@@ -435,6 +453,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 18,
     value: "wd",
     img: [
       "/images/Project Thumbnail/Remagine.png",
@@ -463,6 +482,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 19,
     value: "ud",
     img: "/images/Project Thumbnail/MAHA.png",
     title: "My Allied Health Academy",
@@ -481,6 +501,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
+    id: 20,
     value: "ud",
     img: "/images/Project Thumbnail/SMC.png",
     title: "Share My Circle",
@@ -499,6 +520,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
+    id: 21,
     value: "ud",
     img: "/images/Project Thumbnail/HES.png",
     title: "Her Erotic Story",
@@ -517,6 +539,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
+    id: 22,
     value: "ud",
     img: "/images/Project Thumbnail/TribeTXT.png",
     title: "TribeTXT (Rooms)",
@@ -535,6 +558,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
+    id: 23,
     value: "ud",
     img: "/images/Project Thumbnail/LeadGen Crew.png",
     title: "LeadGen Crew",
@@ -553,6 +577,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 24,
     value: "ld",
     img: "/images/Logo/HRG White.png",
     title: "Home Renovation Guy",
@@ -563,6 +588,7 @@ export const PROJECTS = [
     position: "left",
   },
   {
+    id: 25,
     value: "ld",
     img: "/images/Logo/GR White.png",
     title: "Giving Recovery",
@@ -573,6 +599,7 @@ export const PROJECTS = [
     position: "right",
   },
   {
+    id: 26,
     value: "ld",
     img: "/images/Logo/VS WHite.png",
     title: "VS Gravel and Sand Trading",
@@ -583,6 +610,7 @@ export const PROJECTS = [
     position: "left",
   },
   {
+    id: 27,
     value: "ld",
     img: "/images/Logo/LGC 2 White.png",
     title: "LeadGen Crew V1",
@@ -593,6 +621,7 @@ export const PROJECTS = [
     position: "right",
   },
   {
+    id: 28,
     value: "ld",
     img: "/images/Logo/LGC White.png",
     title: "LeadGen Crew V2",

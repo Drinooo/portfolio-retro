@@ -24,24 +24,18 @@ module.exports = withMT({
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
+
     colors: {
       white: "#ffffff",
       gray: "#c4c4c4",
       black: "#000",
       green: "#3FCECC",
       beige: "#FAFAFA",
-      purple: "#3f3cbb",
-      midnight: "#121063",
-      metal: "#565584",
-      tahiti: "#3ab7bf",
       silver: "#ecebff",
       "bubble-gum": "#ff77e9",
-      bermuda: "#78dcca",
-    },
-    //TYPOGRAPHY
-    fontFamily: {
-      sans: ["Sofia Pro", "sans-serif"],
-      serif: ["Sofia Pro", "serif"],
+      gray2: "#606060",
+      color1: "#1D1D1D"
+
     },
     fontSize: {
       navbar: "30px",
@@ -50,8 +44,14 @@ module.exports = withMT({
       h1: "96px",
       h1Mobile: "56px",
 
+      h2: "80px",
+      h2Mobile: "66px",
+
       h3: "60px",
       h3Mobile: "40px",
+
+      h4: "50px",
+      h4Mobile: "30px",
 
       h5: "46px",
       h5Mobile: "26px",
@@ -63,6 +63,9 @@ module.exports = withMT({
       subtitleMobile: "26px",
 
       body1: "18px",
+      body2: "25px",
+
+      caption: "20px",
 
       client: "20px",
 
@@ -74,6 +77,13 @@ module.exports = withMT({
 
       chip: "18px",
     },
+
+    //TYPOGRAPHY
+    fontFamily: {
+      sans: ["Sofia Pro", "sans-serif"],
+      serif: ["Sofia Pro", "serif"],
+    },
+
     borderWidth: {
       '0': '0',
       '1': '1px',
