@@ -33,7 +33,7 @@ const CaseStudy = () => {
           </div>
 
           {/* TIMELINE */}
-          <div className="flex gap-[250px]">
+          <div className="flex flex-wrap sm:gap-[50px] lg:gap-[250px]">
             <div>
               <p className="text-gray2 text-caption">Timeline</p>
               <h6 className="text-black text-body2 font-normal">
@@ -110,14 +110,14 @@ const CaseStudy = () => {
                 {caseStudy.colorDesc}
               </p>
             </div>
-            <div className="flex gap-[48px]">
+            <div className="flex gap-[48px] flex-wrap">
               <div className="space-y-4">
                 <p className="text-gray2 text-caption">Primary Colors</p>
                 <div className="flex gap-[24px]">
                   {primaryColorsData.map((item, index) => (
                     <div
                       key={index}
-                      className="p-[100px]"
+                      className="sm:p-[70px] lg:p-[100px]"
                       style={{ background: item }}
                     ></div>
                   ))}
@@ -130,7 +130,7 @@ const CaseStudy = () => {
                   {accentColorsData.map((item, index) => (
                     <div
                       key={index}
-                      className="p-[100px]"
+                      className="sm:p-[70px] lg:p-[100px]"
                       style={{ background: item }}
                     ></div>
                   ))}
@@ -144,7 +144,7 @@ const CaseStudy = () => {
             <div>
               <h4 className="text-h4 font-semibold">Typeface</h4>
             </div>
-            <div className="flex justify-evenly items-center">
+            <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-center">
               <div className="w-full">
                 <h1 className="text-h2 font-bold">{caseStudy.fontFamily}</h1>
               </div>
