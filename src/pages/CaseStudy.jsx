@@ -1,19 +1,17 @@
-import { Typography } from "@material-tailwind/react";
+import { Card, CardBody } from "@material-tailwind/react";
 import React, { Fragment } from "react";
 import { useParams } from "react-router-dom";
 import { CONTENT } from "../utils/CaseStudies";
 import { motion } from "framer-motion";
-import CopyToClipboard from "react-copy-to-clipboard";
 
 const CaseStudy = () => {
   const { id } = useParams();
 
   const caseStudy = CONTENT[id];
-
-  const copy = {
-    value: "",
-    copied: false,
-  };
+  const objectivesData = CONTENT[id].objectives;
+  const strategiesData = CONTENT[id].strategies;
+  const primaryColorsData = CONTENT[id].design.primaryColors;
+  const accentColorsData = CONTENT[id].design.accentColors;
 
   return (
     <Fragment>
@@ -59,78 +57,48 @@ const CaseStudy = () => {
           {/* OBJECTIVES */}
           <div className="space-y-[38px]">
             <p className="text-gray2 text-caption">Objectives</p>
-            <div className="space-y-[48px]">
-              <div>
-                <p className="text-black text-body2 font-semibold">
-                  {caseStudy.objectiveTitle1}
-                </p>
-                <h6 className="text-black text-body2">
-                  {caseStudy.objectiveDesc1}
-                </h6>
-              </div>
-              <div>
-                <p className="text-black text-body2 font-semibold">
-                  {caseStudy.objectiveTitle2}
-                </p>
-                <h6 className="text-black text-body2">
-                  {caseStudy.objectiveDesc2}
-                </h6>
-              </div>
-              <div>
-                <p className="text-black text-body2 font-semibold">
-                  {caseStudy.objectiveTitle3}
-                </p>
-                <h6 className="text-black text-body2">
-                  {caseStudy.objectiveDesc3}
-                </h6>
-              </div>
-              <div>
-                <p className="text-black text-body2 font-semibold">
-                  {caseStudy.objectiveTitle4}
-                </p>
-                <h6 className="text-black text-body2">
-                  {caseStudy.objectiveDesc4}
-                </h6>
-              </div>
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+              {objectivesData.map((objective, index) => (
+                <Card
+                  className="w-full shadow-none bg-transparent border-3 rounded-none"
+                  key={index}
+                >
+                  <CardBody className="text-center h-full">
+                    <p className="text-black text-body2 font-semibold">
+                      {objective.title}
+                    </p>
+                    <p className="text-black text-body2">
+                      {objective.description}
+                    </p>
+                  </CardBody>
+                  <div className="border-t-3"></div>
+                  <div className="border-gray border-4"></div>
+                </Card>
+              ))}
             </div>
           </div>
 
           {/* STRATEGIES IMPLEMENTED */}
           <div className="space-y-[38px]">
             <p className="text-gray2 text-caption">Strategies Implemented</p>
-            <div className="space-y-[48px]">
-              <div>
-                <p className="text-black text-body2 font-semibold">
-                  {caseStudy.strategiesTitle1}
-                </p>
-                <h6 className="text-black text-body2">
-                  {caseStudy.strategiesDesc1}
-                </h6>
-              </div>
-              <div>
-                <p className="text-black text-body2 font-semibold">
-                  {caseStudy.strategiesTitle2}
-                </p>
-                <h6 className="text-black text-body2">
-                  {caseStudy.strategiesDesc2}
-                </h6>
-              </div>
-              <div>
-                <p className="text-black text-body2 font-semibold">
-                  {caseStudy.strategiesTitle3}
-                </p>
-                <h6 className="text-black text-body2">
-                  {caseStudy.strategiesDesc3}
-                </h6>
-              </div>
-              <div>
-                <p className="text-black text-body2 font-semibold">
-                  {caseStudy.strategiesTitle4}
-                </p>
-                <h6 className="text-black text-body2">
-                  {caseStudy.strategiesDesc4}
-                </h6>
-              </div>
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+              {strategiesData.map((strategy, index) => (
+                <Card
+                  className="w-full shadow-none bg-transparent border-3 rounded-none"
+                  key={index}
+                >
+                  <CardBody className="text-center h-full">
+                    <p className="text-black text-body2 font-semibold">
+                      {strategy.title}
+                    </p>
+                    <p className="text-black text-body2">
+                      {strategy.description}
+                    </p>
+                  </CardBody>
+                  <div className="border-t-3"></div>
+                  <div className="border-gray border-4"></div>
+                </Card>
+              ))}
             </div>
           </div>
 
@@ -146,43 +114,26 @@ const CaseStudy = () => {
               <div className="space-y-4">
                 <p className="text-gray2 text-caption">Primary Colors</p>
                 <div className="flex gap-[24px]">
-                  <div
-                    className="p-[50px]"
-                    style={{ background: caseStudy.primaryColor1 }}
-                  >
-                    <p className={`text-${caseStudy.contrastText1}`}>
-                      {caseStudy.primaryColor1}
-                    </p>
-                  </div>
-                  <div
-                    className="p-[50px]"
-                    style={{ background: caseStudy.primaryColor2 }}
-                  >
-                    <p className={`text-${caseStudy.contrastText1}`}>
-                      {caseStudy.primaryColor2}
-                    </p>
-                  </div>
+                  {primaryColorsData.map((item, index) => (
+                    <div
+                      key={index}
+                      className="p-[100px]"
+                      style={{ background: item }}
+                    ></div>
+                  ))}
                 </div>
               </div>
+
               <div className="space-y-4">
                 <p className="text-gray2 text-caption">Accent Colors</p>
                 <div className="flex gap-[24px]">
-                  <div
-                    className="p-[50px]"
-                    style={{ background: caseStudy.accentColor1 }}
-                  >
-                    <p className={`text-${caseStudy.contrastText2}`}>
-                      {caseStudy.accentColor1}
-                    </p>
-                  </div>
-                  <div
-                    className="p-[50px]"
-                    style={{ background: caseStudy.accentColor2 }}
-                  >
-                    <p className={`text-${caseStudy.contrastText2}`}>
-                      {caseStudy.accentColor2}
-                    </p>
-                  </div>
+                  {accentColorsData.map((item, index) => (
+                    <div
+                      key={index}
+                      className="p-[100px]"
+                      style={{ background: item }}
+                    ></div>
+                  ))}
                 </div>
               </div>
             </div>

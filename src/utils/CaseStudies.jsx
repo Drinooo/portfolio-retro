@@ -7,43 +7,68 @@ export const CONTENT = {
     platform: "Responsive Website",
     role: "Lead Designer",
 
-    objectiveTitle1: "Increase Conversation Rates",
-    objectiveDesc1:
-      "Optimize the user experience to improve the website's potential to convert visitors into customers.",
+    objectives: [
+      {
+        title: "Increase Conversation Rates",
+        description:
+          "Optimize the user experience to improve the website's potential to convert visitors into customers.",
+      },
+      {
+        title: "Enhance User Engagement",
+        description:
+          "Increase users' time spent on the website and interaction with product pages, particularly in the furniture collection and shop sections.",
+      },
+      {
+        title: "Build Trust and Credibility",
+        description:
+          "Strengthen your brand identity by showing your customer’s feedback.",
+      },
+      {
+        title: "User-friendly navigation",
+        description:
+          "Navigate the website with ease. Clear menus and distinct categories make it easy for users to find the furniture they want.",
+      },
+    ],
 
-    objectiveTitle2: "Enhance User Engagement",
-    objectiveDesc2:
-      "Increase users time spent on the website and interaction with product pages, particularly in the furniture collection and shop sections.",
-
-    objectiveTitle3: "Build Trust and Credibility",
-    objectiveDesc3:
-      "Strenghten your brand identity by showing your customer’s feedback ",
-
-    objectiveTitle4: "User-friendly navigation",
-    objectiveDesc4:
-      "Navigate the website with ease. Clear menus and distinct categories make it easy for users to find the furniture they want.",
-
-    strategiesTitle1: "Engaging Hero Section",
-    strategiesDesc1:
-      "Created a hero section that is captivating and reflects brand’s dedication to comfort with stunning imagery and a engaging message.",
-
-    strategiesTitle2: "Featured Section",
-    strategiesDesc2:
-      "This section builds rapport for the user. It shows your brand credibility to captivate visitor’s attention.",
-
-    strategiesTitle3: "Imagery Section",
-    strategiesDesc3:
-      "Incorporated a section of dynamic images to improve the overall visual experience by offering a close-up view of specific furniture pieces in various settings.",
-
-    strategiesTitle4: "Optimized Shop Section",
-    strategiesDesc4:
-      "Added a feature that allows users to view a product overview before going to shopping page, which improves the pre-purchase experience.",
+    strategies: [
+      {
+        title: "Engaging Hero Section",
+        description:
+          "Created a hero section that is captivating and reflects the brand’s dedication to comfort with stunning imagery and an engaging message.",
+      },
+      {
+        title: "Featured Section",
+        description:
+          "This section builds rapport for the user. It shows your brand credibility to captivate visitor’s attention.",
+      },
+      {
+        title: "Imagery Section",
+        description:
+          "Incorporated a section of dynamic images to improve the overall visual experience by offering a close-up view of specific furniture pieces in various settings.",
+      },
+      {
+        title: "Optimized Shop Section",
+        description:
+          "Added a feature that allows users to view a product overview before going to the shopping page, which improves the pre-purchase experience.",
+      },
+    ],
 
     colorDesc:
       "Collectively, these colors provide a striking contrast that appeals to both the cozy and modern tastes",
 
     contrastText1: "white",
     contrastText2: "black",
+
+    design: {
+      colorDesc:
+        "Collectively, these colors provide a striking contrast that appeals to both cozy and modern tastes.",
+      contrastText: ["white", "black"],
+      primaryColors: ["#1D1D1D", "#E75833"],
+      accentColors: ["#f4f5fa", "#f4f5fa"],
+      fontFamily: "Bebas Neue",
+      fontDesc:
+        "Bebas Neue, a typeface with a jet black, bold, uppercase design that speaks volumes. It radiates confidence and modernity, making each heading a stand-alone piece that skillfully leads you through our carefully chosen selections.",
+    },
 
     primaryColor1: "#1D1D1D",
     primaryColor2: "#E75833",
