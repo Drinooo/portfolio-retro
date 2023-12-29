@@ -3,7 +3,7 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/*.{react,js,ts,jsx,tsx}",
     "path-to-your-node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
     "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
   ],
@@ -34,8 +34,7 @@ module.exports = withMT({
       silver: "#ecebff",
       "bubble-gum": "#ff77e9",
       gray2: "#606060",
-      color1: "#1D1D1D"
-
+      color1: "#1D1D1D",
     },
     fontSize: {
       navbar: "30px",
@@ -78,22 +77,16 @@ module.exports = withMT({
       chip: "18px",
     },
 
-    //TYPOGRAPHY
-    fontFamily: {
-      sans: ["Sofia Pro", "sans-serif"],
-      serif: ["Sofia Pro", "serif"],
-    },
-
     borderWidth: {
-      '0': '0',
-      '1': '1px',
-      '2': '2px',
-      '3': '3px',
-      '4': '4px',
-      '5': '5px',
-      '6': '6px',
-      '7': '7px',
-      '8': '8px',
+      0: "0",
+      1: "1px",
+      2: "2px",
+      3: "3px",
+      4: "4px",
+      5: "5px",
+      6: "6px",
+      7: "7px",
+      8: "8px",
     },
     lineHeight: {
       1: ".75rem",
@@ -136,6 +129,13 @@ module.exports = withMT({
         retro1: "5px 5px #0C0908",
         bigShadow: "10px 10px #3FCECC",
         aboutShadow: "10px 10px",
+      },
+      //TYPOGRAPHY
+      fontFamily: {
+        sans: ["Sofia Pro", "sans-serif"],
+        serif: ["Sofia Pro", "serif"],
+        // bebas: ["Bebas Neue", "sans-serif"],
+        // roboto: ["Roboto", "sans-serif"],
       },
     },
   },

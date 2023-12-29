@@ -144,18 +144,32 @@ const CaseStudy = () => {
             <div>
               <h4 className="text-h4 font-semibold">Typeface</h4>
             </div>
-            <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-center">
-              <div className="w-full">
-                <h1 className="text-h2 font-bold">{caseStudy.fontFamily}</h1>
+            <div className="space-y-6">
+              <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-start">
+                <div className="w-full">
+                  <h1 className="text-h2 font-bold" style={{ fontFamily: caseStudy.fontFamily1 }}>
+                    {caseStudy.fontFamily1}
+                  </h1>
+                </div>
+                <div className="w-full">
+                  <p className="text-caption">{caseStudy.fontDesc1}</p>
+                </div>
               </div>
-              <div className="w-full">
-                <p className="text-caption">{caseStudy.fontDesc}</p>
+              <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-start">
+                <div className="w-full">
+                  <h1 className="text-h2 font-bold" style={{ fontFamily: caseStudy.fontFamily2 }}>
+                    {caseStudy.fontFamily2}
+                  </h1>
+                </div>
+                <div className="w-full">
+                  <p className="text-caption">{caseStudy.fontDesc2}</p>
+                </div>
               </div>
             </div>
           </div>
 
           {/* CONCLUSION */}
-          <div>
+          <div className="space-y-[38px]">
             <p className="text-gray2 text-caption">Conclusion</p>
             <p className="text-black text-body2 font-normal">
               {caseStudy.conclusion}

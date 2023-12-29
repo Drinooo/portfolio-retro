@@ -60,25 +60,17 @@ export const CONTENT = {
     contrastText2: "black",
 
     design: {
-      colorDesc:
-        "Collectively, these colors provide a striking contrast that appeals to both cozy and modern tastes.",
-      contrastText: ["white", "black"],
       primaryColors: ["#1D1D1D", "#E75833"],
-      accentColors: ["#f4f5fa", "#f4f5fa"],
-      fontFamily: "Bebas Neue",
-      fontDesc:
-        "Bebas Neue, a typeface with a jet black, bold, uppercase design that speaks volumes. It radiates confidence and modernity, making each heading a stand-alone piece that skillfully leads you through our carefully chosen selections.",
+      accentColors: ["#f4f5fa", "#1d1d1d"],
     },
 
-    primaryColor1: "#1D1D1D",
-    primaryColor2: "#E75833",
+    fontFamily1: "Bebas Neue",
+    fontDesc1:
+      "Bebas Neue by Ryoichi Tsunekawa is a versatile font for headlines, captions, and packaging, upgraded from the original Bebas typeface for professional use with added characters and OpenType features.",
 
-    accentColor1: "#f4f5fa",
-    accentColor2: "#f4f5fa",
-
-    fontFamily: "Bebas Neue",
-    fontDesc:
-      "Bebas Neue, a typeface with a jet black, bold, uppercase design that speaks volumes. It radiates confidence and modernity, making each heading a stand-alone piece that skillfully leads you through our carefully chosen selections.",
+    fontFamily2: "Roboto",
+    fontDesc2:
+      "Roboto combines a mechanical structure with friendly, open curves. Unlike other fonts, it maintains natural letter widths, offering a smoother, more human-like reading experience akin to serif fonts.",
 
     conclusion:
       "Customers are welcomed into a world where their virtual visions of a cozy home effortlessly translate into warm and welcoming realities, thanks to Recozy's successful transformation of the online furniture shopping experience. In addition to the final design, the incorporation of eye-catching imagery, thoughtful product overviews, and improved navigation has established Recozy as a place where customers can effortlessly and joyfully curate cozy-inspired living spaces.",
