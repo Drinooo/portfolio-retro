@@ -172,7 +172,7 @@ export const PROJECTS = [
     path: "/portfolio-msar",
     position: "left",
     website: "yes",
-    caseStudy: "no",
+    caseStudy: "yes",
   },
   {
     id: 6,

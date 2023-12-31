@@ -10,8 +10,10 @@ const CaseStudy = () => {
   const caseStudy = CONTENT[id];
   const objectivesData = CONTENT[id].objectives;
   const strategiesData = CONTENT[id].strategies;
+  const fontsData = CONTENT[id].typography;
   const primaryColorsData = CONTENT[id].design.primaryColors;
   const accentColorsData = CONTENT[id].design.accentColors;
+
 
   return (
     <Fragment>
@@ -145,26 +147,21 @@ const CaseStudy = () => {
               <h4 className="text-h4 font-semibold">Typeface</h4>
             </div>
             <div className="space-y-6">
-              <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-start">
-                <div className="w-full">
-                  <h1 className="text-h2 font-bold" style={{ fontFamily: caseStudy.fontFamily1 }}>
-                    {caseStudy.fontFamily1}
-                  </h1>
+              {fontsData.map((font) => (
+                <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-start">
+                  <div className="w-full">
+                    <h1
+                      className="text-h2 font-bold"
+                      style={{ fontFamily: font.title }}
+                    >
+                      {font.title}
+                    </h1>
+                  </div>
+                  <div className="w-full">
+                    <p className="text-caption">{font.description}</p>
+                  </div>
                 </div>
-                <div className="w-full">
-                  <p className="text-caption">{caseStudy.fontDesc1}</p>
-                </div>
-              </div>
-              <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-start">
-                <div className="w-full">
-                  <h1 className="text-h2 font-bold" style={{ fontFamily: caseStudy.fontFamily2 }}>
-                    {caseStudy.fontFamily2}
-                  </h1>
-                </div>
-                <div className="w-full">
-                  <p className="text-caption">{caseStudy.fontDesc2}</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
