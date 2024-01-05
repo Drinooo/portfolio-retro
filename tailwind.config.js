@@ -134,8 +134,6 @@ module.exports = withMT({
       fontFamily: {
         sans: ["Sofia Pro", "sans-serif"],
         serif: ["Sofia Pro", "serif"],
-        // bebas: ["Bebas Neue", "sans-serif"],
-        // roboto: ["Roboto", "sans-serif"],
       },
     },
   },

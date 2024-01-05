@@ -197,7 +197,7 @@ export const PROJECTS = [
     path: "/portfolio-hypeburger",
     position: "right",
     website: "yes",
-    caseStudy: "no",
+    caseStudy: "yes",
   },
   {
     id: 7,
