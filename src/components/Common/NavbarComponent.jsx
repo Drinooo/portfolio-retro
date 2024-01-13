@@ -43,7 +43,7 @@ export const NavbarComponent = () => {
         <div className="mx-auto max-w-screen-2xl flex items-center justify-between text-blue-gray-900">
           <div className="flex items-center gap-4 hover:text-green">
             <Typography as="a" href="/" className="cursor-pointer">
-              <img src="/images/Logo Black.png" className="w-24" alt="" />
+              <img src="/images/Logo Black.png" className="w-[64px]" alt="" />
             </Typography>
             <Typography as="a" href="/"  className="md:text-h6 sm:text-h6Mobile font-semibold">creative.drin</Typography>
           </div>
