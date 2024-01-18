@@ -22,7 +22,7 @@ const HeroSection = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
-                  to={"/Aldrin Villalobos CV - Web Designer.pdf"}
+                  to={"/Aldrin Villalobos CV - Front-End Developer.pdf"}
                   target="_blank"
                 >
                   <DownloadButton>Download Resume</DownloadButton>
