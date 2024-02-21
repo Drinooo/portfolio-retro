@@ -54,7 +54,7 @@ export const PROJECTS = [
       "/images/Recozy/Recozy.png",
     ],
     title: "Recozy",
-    urlWebsite: "https://recozy-landing-page.vercel.app/",
+    urlWebsite: "https://recozy.vercel.app/",
     // urlCaseStudy: '/case-study/recozy',
     desc: "",
     tools: [
@@ -106,7 +106,7 @@ export const PROJECTS = [
       "/images/Hypeburger/Hypeburger.png",
     ],
     title: "Hypeburger",
-    urlWebsite: "https://hypeburger-landing-page.vercel.app/",
+    urlWebsite: "https://hypeburger.vercel.app/",
     urlCaseStudy: "#",
     desc: "",
     tools: [
