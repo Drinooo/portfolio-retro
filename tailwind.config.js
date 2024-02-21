@@ -46,8 +46,8 @@ module.exports = withMT({
       h2: "80px",
       h2Mobile: "66px",
 
-      h3: "60px",
-      h3Mobile: "40px",
+      h3: "55px",
+      h3Mobile: "35px",
 
       h4: "50px",
       h4Mobile: "30px",
@@ -74,7 +74,7 @@ module.exports = withMT({
       services: "30px",
       servicesMobile: "24px",
 
-      chip: "18px",
+      chip: "14px",
     },
 
     borderWidth: {

@@ -108,11 +108,11 @@ const Projects = () => {
                             )}
                           </div>
 
-                          <div className="mt-4 md:mt-0 mb-4 md:mb-0  lg:text-start sm:text-center py-10">
-                            <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white ">
+                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 lg:text-start sm:text-center space-y-2">
+                            <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight sm:leading-10 md:leading-15 font-semibold text-gray-900 dark:text-white ">
                               {item.title}
                             </h2>
-                            <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
+                            <div className="text-center text-chip flex flex-wrap sm:justify-center lg:justify-start gap-2">
                               {item.tools}
                             </div>
 
@@ -159,18 +159,16 @@ const Projects = () => {
                           <div className="border-4 border-gray h-full"></div>
                         </div>
                         <div className="gap-8 border-3 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
-                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 sm:text-center lg:text-start py-10">
-                            <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight leading-20 font-semibold text-gray-900 dark:text-white">
+                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 sm:text-center lg:text-start space-y-2">
+                            <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight sm:leading-10 md:leading-15 font-semibold text-gray-900 dark:text-white">
                               {item.title}
                             </h2>
-                            <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
+                            <div className="text-center text-chip flex flex-wrap sm:justify-center lg:justify-start gap-2">
                               {item.tools}
                             </div>
 
                             <div
-                              className={
-                                'flex flex-wrap ${item.website === "yes" && item.caseStudy === "yes" ? gap-4 : gap-0}'
-                              }
+                              className={`flex flex-wrap ${item.website === "yes" && item.caseStudy === "yes" ? 'gap-4' : ''}`}
                             >
                               <a
                                 href={item.urlWebsite}

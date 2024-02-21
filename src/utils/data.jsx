@@ -462,7 +462,7 @@ export const PROJECTS = [
       "/images/Remagine/Remagine.png"
     ],
     title: "Remagine",
-    urlWebsite: "https://remagine-landing-page.vercel.app/",
+    urlWebsite: "https://remagine.vercel.app/",
     urlCaseStudy: "#",
     desc: "",
     tools: [
