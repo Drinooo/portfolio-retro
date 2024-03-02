@@ -5,13 +5,13 @@ import FooterSection from "../components/Sections/FooterSection";
 
 const Base = () => {
   return (
-    <Fragment>
+    <div className="max-w-screen-2xl mx-auto lg:px-12 md:px-10 px-8">
       <NavbarComponent />
-      <div className="px-8 sm:space-y-24 lg:space-y-48 pb-24 bg-beige">
+      <div className="sm:space-y-24 lg:space-y-20 pb-24">
         <Outlet />
       </div>
       <FooterSection />
-    </Fragment>
+    </div>
   );
 };
 

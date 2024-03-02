@@ -10,10 +10,12 @@ import {
   Tabs,
   TabsBody,
   TabsHeader,
+  Typography,
 } from "@material-tailwind/react";
 import { PROJECTS } from "../utils/data";
 import CTASection from "../components/Sections/CTASection";
 import { motion } from "framer-motion";
+import { CheckIcon } from "../components/Common/IconComponent";
 
 const Projects = () => {
   const data = [
@@ -35,41 +37,43 @@ const Projects = () => {
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section className="space-y-4 max-w-screen-2xl mx-auto sm:pt-12 lg:pt-24">
           <div className="">
-            <h2 className="mb-0 sm:text-h1Mobile md:text-h1 tracking-tight font-semibold text-gray-900">
+            <h2 className="mb-0 xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.1] tracking-tight font-semibold text-gray-900">
               Projects
             </h2>
           </div>
           <Tabs value="wd" id="custom-animation">
             <TabsHeader
-              className="bg-transparent z-0"
+              className="bg-transparent z-0 p-0 lg:pb-6 pb-4"
               indicatorProps={{
                 className: "bg-green rounded-none border-x-3 border-t-3",
               }}
             >
               {data.map(({ label, value }) => (
-                <Tab
-                  key={value}
-                  value={value}
-                  className="border-b-3 sm:text-aboutMobile md:text-about font-semibold pt-1 pb-0"
-                >
-                  {label}
+                <Tab key={value} value={value} className="border-b-3 pt-1 pb-0">
+                  <Typography className="sm:text-aboutMobile md:text-about font-semibold">
+                    {label}
+                  </Typography>
                 </Tab>
               ))}
             </TabsHeader>
-            <TabsBody>
+            <TabsBody className="space-y-6">
               {PROJECTS.map((item) => [
                 item.position === "left" ? (
                   <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                   >
-                    <TabPanel key={item.value} value={item.value}>
+                    <TabPanel
+                      key={item.value}
+                      value={item.value}
+                      className="p-0"
+                    >
                       <div className="flex border-r-3">
-                        <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
+                        <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
                           <div className="sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black">
                             {Array.isArray(item.img) ? (
                               <Carousel
-                                className="h-fit"
+                                className="max-h-fit"
                                 navigation={({
                                   setActiveIndex,
                                   activeIndex,
@@ -108,34 +112,52 @@ const Projects = () => {
                             )}
                           </div>
 
-                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 lg:text-start sm:text-center space-y-2">
-                            <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight sm:leading-10 md:leading-15 font-semibold text-gray-900 dark:text-white ">
+                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
+                            <h2 className="lg:text-h3-lg md:text-h3-md text-h3-sm lg:leading-[64px] md:leading-[1.1] leading-[40px] text-start font-bold text-gray-900">
                               {item.title}
                             </h2>
-                            <div className="text-center text-chip flex flex-wrap sm:justify-center lg:justify-start gap-2">
-                              {item.tools}
+                            <div className="flex flex-wrap justify-start gap-2">
+                              {Array.isArray(item.tools) ? (
+                                <ul className="space-y-2">
+                                  {item.tools.map((name, index) => (
+                                    <li className="flex items-center gap-2">
+                                      <div className="p-1 border-3 border-black bg-green">
+                                        <CheckIcon />
+                                      </div>
+                                      <Typography className="lg:text-chip-lg text-chip-md lg:leading-[30px] leading-[26px] font-[600]">
+                                        {name}
+                                      </Typography>
+                                    </li>
+                                  ))}
+                                </ul>
+                              ) : (
+                                <></>
+                              )}
                             </div>
 
                             <div
-                              className={`flex flex-wrap ${item.website === "yes" && item.caseStudy === "yes" ? 'gap-4' : ''}`}
+                              className={`flex flex-wrap justify-start ${
+                                item.website === "yes" &&
+                                item.caseStudy === "yes"
+                                  ? "gap-4"
+                                  : ""
+                              }`}
                             >
                               <div>
-                                <a
-                                  href={item.urlWebsite}
-                                  className="flex sm:justify-center lg:justify-start"
-                                >
+                                <a href={item.urlWebsite}>
                                   {item.website === "yes" ? (
-                                    <ExploreButton>View Website</ExploreButton>
+                                    <ExploreButton>Live Preview</ExploreButton>
                                   ) : null}
                                 </a>
                               </div>
 
                               <div>
-                                <a href={`/case-study/${item.id}`} key={item.id}>
+                                <a
+                                  href={`/case-study/${item.id}`}
+                                  key={item.id}
+                                >
                                   {item.caseStudy === "yes" ? (
-                                    <OutlinedButton>
-                                      View Case Study
-                                    </OutlinedButton>
+                                    <OutlinedButton>Case Study</OutlinedButton>
                                   ) : null}
                                 </a>
                               </div>
@@ -153,40 +175,55 @@ const Projects = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                   >
-                    <TabPanel key={item.value} value={item.value}>
+                    <TabPanel
+                      key={item.value}
+                      value={item.value}
+                      className="p-0"
+                    >
                       <div className="flex border-l-3">
                         <div className="border-t-3 border-b-3">
                           <div className="border-4 border-gray h-full"></div>
                         </div>
-                        <div className="gap-8 border-3 border-black items-center mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
-                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 sm:text-center lg:text-start space-y-2">
-                            <h2 className="sm:text-h3Mobile md:text-h3 tracking-tight sm:leading-10 md:leading-15 font-semibold text-gray-900 dark:text-white">
+                        <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
+                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
+                            <h2 className="lg:text-h3-lg md:text-h3-md text-h3-sm lg:leading-[64px] md:leading-[1.1] leading-[40px] font-bold text-gray-900 dark:text-white">
                               {item.title}
                             </h2>
-                            <div className="text-center text-chip flex flex-wrap sm:justify-center lg:justify-start gap-2">
-                              {item.tools}
+                            <div className="flex flex-wrap justify-start gap-2">
+                              {Array.isArray(item.tools) ? (
+                                <ul className="space-y-2">
+                                  {item.tools.map((name, index) => (
+                                    <li className="flex items-center gap-2">
+                                      <div className="p-1 border-3 border-black bg-green">
+                                        <CheckIcon />
+                                      </div>
+                                      <Typography className="lg:text-chip-lg text-chip-md lg:leading-[30px] leading-[26px] font-[600]">
+                                        {name}
+                                      </Typography>
+                                    </li>
+                                  ))}
+                                </ul>
+                              ) : (
+                                <></>
+                              )}
                             </div>
 
                             <div
-                              className={`flex flex-wrap ${item.website === "yes" && item.caseStudy === "yes" ? 'gap-4' : ''}`}
+                              className={`flex flex-wrap justify-start ${
+                                item.website === "yes" &&
+                                item.caseStudy === "yes"
+                                  ? "gap-4"
+                                  : ""
+                              }`}
                             >
-                              <a
-                                href={item.urlWebsite}
-                                className="flex sm:justify-center lg:justify-start"
-                              >
+                              <a href={item.urlWebsite}>
                                 {item.website === "yes" ? (
-                                  <ExploreButton>View Website</ExploreButton>
+                                  <ExploreButton>Live Preview</ExploreButton>
                                 ) : null}
                               </a>
-                              <a
-                                href={`/case-study/${item.id}`}
-                                className="flex sm:justify-center lg:justify-start"
-                                key={item.id}
-                              >
+                              <a href={`/case-study/${item.id}`} key={item.id}>
                                 {item.caseStudy === "yes" ? (
-                                  <OutlinedButton>
-                                    View Case Study
-                                  </OutlinedButton>
+                                  <OutlinedButton>Case Study</OutlinedButton>
                                 ) : null}
                               </a>
                             </div>
@@ -194,7 +231,7 @@ const Projects = () => {
                           <div className="sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black">
                             {Array.isArray(item.img) ? (
                               <Carousel
-                                className="h-fit"
+                                className="max-h-fit"
                                 navigation={({
                                   setActiveIndex,
                                   activeIndex,
