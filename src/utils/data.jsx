@@ -307,7 +307,7 @@ export const PROJECTS = [
       "https://www.figma.com/proto/paOiHR81p3FfPcErZ27SxP/Plant-Shop-Landing-Page?page-id=0%3A1&type=design&node-id=8-84&viewport=526%2C126%2C0.16&t=aUAcJwTX6YnjzyHX-1&scaling=min-zoom&starting-point-node-id=8%3A84&mode=design",
     // urlCaseStudy: "#",
     desc: "",
-    tools: ["Landing page website"],
+    tools: ["Landing page design"],
     path: "/portfolio-plant-shop",
     position: "right",
     website: "yes",
@@ -444,7 +444,10 @@ export const PROJECTS = [
   {
     id: 19,
     value: "ud",
-    img: "/images/Project Thumbnail/MAHA.png",
+    img: [
+      "/images/My Allied Health Academy Web Application/MAHA - Thumbnail.jpg",
+      "/images/My Allied Health Academy Web Application/MAHA - Mockup.jpg",
+    ],
     title: "My Allied Health Academy",
     urlWebsite: "#",
     urlCaseStudy: "http://design.nmscreative.com/my-allied-health-academy/",
@@ -458,7 +461,10 @@ export const PROJECTS = [
   {
     id: 20,
     value: "ud",
-    img: "/images/Project Thumbnail/SMC.png",
+    img: [
+      "/images/Share My Circle Web Application/SMC - Thumbnail.jpg",
+      "/images/Share My Circle Web Application/SMC - Mockup.jpg",
+    ],
     title: "Share My Circle",
     urlWebsite: "#",
     urlCaseStudy: "http://design.nmscreative.com/share-my-circle-2/",
@@ -472,7 +478,10 @@ export const PROJECTS = [
   {
     id: 21,
     value: "ud",
-    img: "/images/Project Thumbnail/HES.png",
+    img: [
+      "/images/Her Erotic Story Web Application/HES - Thumbnail.jpg",
+      "/images/Her Erotic Story Web Application/HES - Mockup.jpg",
+    ],
     title: "Her Erotic Story",
     urlWebsite: "#",
     urlCaseStudy: "http://design.nmscreative.com/her-erotic-story/",
@@ -486,7 +495,10 @@ export const PROJECTS = [
   {
     id: 22,
     value: "ud",
-    img: "/images/Project Thumbnail/TribeTXT.png",
+    img: [
+      "/images/TribeTXT Rooms Web Application/TribeTXT - Thumbnail.jpg",
+      "/images/TribeTXT Rooms Web Application/TribeTXT - Mockup.jpg",
+    ],
     title: "TribeTXT (Rooms)",
     urlWebsite: "#",
     urlCaseStudy: "http://design.nmscreative.com/tribetxt/",
@@ -500,7 +512,10 @@ export const PROJECTS = [
   {
     id: 23,
     value: "ud",
-    img: "/images/Project Thumbnail/LeadGen Crew.png",
+    img: [
+      "/images/LeadGen Crew Web Application/LeadGen Crew - Thumbnail.jpg",
+      "/images/LeadGen Crew Web Application/LeadGen Crew - Mockup.jpg",
+    ],
     title: "LeadGen Crew",
     urlWebsite: "#",
     urlCaseStudy: "#",

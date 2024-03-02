@@ -3,14 +3,15 @@ import { PROJECTS } from "../../utils/data";
 import { ExploreButton, ViewMoreButton } from "../Common/ButtonComponent";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Carousel } from "@material-tailwind/react";
+import { Carousel, Typography } from "@material-tailwind/react";
+import { CheckIcon } from "../Common/IconComponent";
 
 export const ProjectSection = () => {
   return (
     <Fragment>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section
-          className="space-y-4 max-w-screen-2xl mx-auto"
+          className="space-y-6 max-w-screen-2xl mx-auto"
           id="projectSection"
         >
           <div className="border-b-3 flex justify-between">
@@ -22,7 +23,7 @@ export const ProjectSection = () => {
             item.position === "left" ? (
               <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
                 <div className="flex border-r-3">
-                  <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pr-[54px]">
+                  <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
                     <div className="sm:border-b-3 lg:border-b-0 lg:border-r-3 border-black">
                       {Array.isArray(item.img) ? (
                         <Carousel
@@ -65,12 +66,27 @@ export const ProjectSection = () => {
                       )}
                     </div>
 
-                    <div className="mt-4 md:mt-0 mb-4 lg:mb-0  lg:text-start sm:text-center">
-                      <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
+                    <div className="mt-4 md:mt-0 mb-4 lg:mb-0 text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
+                      <h2 className="lg:text-h3-lg md:text-h3-md text-h3-sm lg:leading-[64px] md:leading-[1.1] leading-[40px] text-start font-bold text-gray-900">
                         {item.title}
                       </h2>
-                      <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
-                        {item.tools}
+                      <div className="flex flex-wrap justify-start gap-2">
+                        {Array.isArray(item.tools) ? (
+                          <ul className="space-y-2">
+                            {item.tools.map((name, index) => (
+                              <li className="flex items-center gap-2">
+                                <div className="p-1 border-3 border-black bg-green">
+                                  <CheckIcon />
+                                </div>
+                                <Typography className="lg:text-chip-lg text-chip-md lg:leading-[30px] leading-[26px] font-[600]">
+                                  {name}
+                                </Typography>
+                              </li>
+                            ))}
+                          </ul>
+                        ) : (
+                          <></>
+                        )}
                       </div>
                       <a
                         href={item.url}
@@ -91,13 +107,28 @@ export const ProjectSection = () => {
                   <div className="border-t-3 border-b-3">
                     <div className="border-4 border-gray h-full"></div>
                   </div>
-                  <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2 lg:pl-[54px]">
-                    <div className="mt-4 md:mt-0 mb-4 lg:mb-0 sm:text-center lg:text-start">
-                      <h2 className="mb-4 sm:text-h3Mobile md:text-h3 tracking-tight font-semibold text-gray-900 dark:text-white">
+                  <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2">
+                    <div className="mt-4 md:mt-0 mb-4 lg:mb-0 text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
+                      <h2 className="lg:text-h3-lg md:text-h3-md text-h3-sm lg:leading-[64px] md:leading-[1.1] leading-[40px] font-bold text-gray-900 dark:text-white">
                         {item.title}
                       </h2>
-                      <div className="text-center flex flex-wrap sm:justify-center lg:justify-start gap-2 mb-3">
-                        {item.tools}
+                      <div className="flex flex-wrap justify-start gap-2">
+                        {Array.isArray(item.tools) ? (
+                          <ul className="space-y-2">
+                            {item.tools.map((name, index) => (
+                              <li className="flex items-center gap-2">
+                                <div className="p-1 border-3 border-black bg-green">
+                                  <CheckIcon />
+                                </div>
+                                <Typography className="lg:text-chip-lg text-chip-md lg:leading-[30px] leading-[26px] font-[600]">
+                                  {name}
+                                </Typography>
+                              </li>
+                            ))}
+                          </ul>
+                        ) : (
+                          <></>
+                        )}
                       </div>
                       <a
                         href={item.url}

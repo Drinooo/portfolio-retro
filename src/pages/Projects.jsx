@@ -36,7 +36,7 @@ const Projects = () => {
     <Fragment>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section className="space-y-4 max-w-screen-2xl mx-auto sm:pt-12 lg:pt-24">
-          <div className="">
+          <div>
             <h2 className="mb-0 xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.1] tracking-tight font-semibold text-gray-900">
               Projects
             </h2>
@@ -49,14 +49,20 @@ const Projects = () => {
               }}
             >
               {data.map(({ label, value }) => (
-                <Tab key={value} value={value} className="border-b-3 pt-1 pb-0">
+                <Tab key={value} value={value} className="border-b-3 pt-1">
                   <Typography className="sm:text-aboutMobile md:text-about font-semibold">
                     {label}
                   </Typography>
                 </Tab>
               ))}
             </TabsHeader>
-            <TabsBody className="space-y-6">
+            <TabsBody
+              animate={{
+                initial: { y: 250 },
+                mount: { y: 0 },
+                unmount: { y: 250 },
+              }}
+            >
               {PROJECTS.map((item) => [
                 item.position === "left" ? (
                   <motion.div
@@ -66,7 +72,7 @@ const Projects = () => {
                     <TabPanel
                       key={item.value}
                       value={item.value}
-                      className="p-0"
+                      className="p-0 pb-6"
                     >
                       <div className="flex border-r-3">
                         <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
@@ -178,7 +184,7 @@ const Projects = () => {
                     <TabPanel
                       key={item.value}
                       value={item.value}
-                      className="p-0"
+                      className="p-0 pb-6"
                     >
                       <div className="flex border-l-3">
                         <div className="border-t-3 border-b-3">
