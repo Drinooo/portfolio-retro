@@ -443,6 +443,23 @@ export const PROJECTS = [
   },
   {
     id: 19,
+    value: "wd",
+    img: [
+      "/images/Todo List App/Todo List App - Thumbnail.jpg",
+      "/images/Todo List App/Todo List App - Mockup.jpg",
+    ],
+    title: "Todo List Web App",
+    urlWebsite: "https://todolistapp-creative-drin.vercel.app/",
+    // urlCaseStudy: "#",
+    desc: "",
+    tools: ["Front end web development", "Website application"],
+    path: "/portfolio-todo-list-app",
+    position: "left",
+    website: "yes",
+    caseStudy: "no",
+  },
+  {
+    id: 20,
     value: "ud",
     img: [
       "/images/My Allied Health Academy Web Application/MAHA - Thumbnail.jpg",
@@ -459,7 +476,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
-    id: 20,
+    id: 21,
     value: "ud",
     img: [
       "/images/Share My Circle Web Application/SMC - Thumbnail.jpg",
@@ -476,7 +493,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
-    id: 21,
+    id: 22,
     value: "ud",
     img: [
       "/images/Her Erotic Story Web Application/HES - Thumbnail.jpg",
