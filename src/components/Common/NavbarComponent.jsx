@@ -78,7 +78,8 @@ export const NavbarComponent = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="h-8 w-8"
+                viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth={2}

@@ -8,13 +8,13 @@ const CTASection = () => {
   return (
     <Fragment>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="">
-        <section className="max-w-screen-2xl mx-auto border-3 shadow-aboutShadow">
+        <section className="mx-auto border-3 shadow-aboutShadow">
           <div className="py-8 px-4 mx-auto max-w-full sm:py-16 lg:px-6">
             <div className="mx-auto max-w-full text-center">
-              <Typography className="text-about font-normal">
+              <Typography className="text-about font-normal leading-[1.1]">
                 Do you have a project idea in mind?
               </Typography>
-              <Typography className="md:text-h3 sm:text-h3Mobile font-semibold">
+              <Typography className="lg:text-h3-lg md:text-h3-md text-h3-sm font-semibold">
                 Ready to stand out in the digital world? Let's craft your unique
                 online presence!
               </Typography>

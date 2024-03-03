@@ -9,7 +9,7 @@ const HeroSection = () => {
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section className="max-w-screen">
           <div className="grid max-w-screen-2xl mx-auto lg:gap-8 xl:gap-24 sm:pt-12 lg:pt-24 lg:grid-cols-12">
-            <div className="mr-auto place-self-center lg:col-span-6 sm:pb-16 lg:pb-0">
+            <div className="mr-auto place-self-center lg:col-span-6 sm:pb-4 lg:pb-0">
               <h1 className="mb-4 font-[700] xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.1]">
                 Hi, I'm Aldrin
               </h1>
