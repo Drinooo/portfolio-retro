@@ -5,7 +5,7 @@ import FooterSection from "../components/Sections/FooterSection";
 
 const Base = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto lg:px-12 md:px-10 px-8">
+    <div className="max-w-screen-2xl mx-auto lg:px-12 md:px-10 px-3">
       <NavbarComponent />
       <div className="space-y-24 lg:space-y-20 pb-24">
         <Outlet />
