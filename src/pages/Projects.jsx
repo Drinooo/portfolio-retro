@@ -80,7 +80,7 @@ const Projects = () => {
                     <TabPanel
                       key={item.value}
                       value={item.value}
-                      className="p-0 lg:pb-6 pb-4"
+                      className="p-0 lg:pb-6 pb-[30px]"
                     >
                       <div className="flex border-r-3">
                         <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
