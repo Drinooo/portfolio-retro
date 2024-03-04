@@ -51,14 +51,14 @@ const Projects = () => {
           </div>
           <Tabs value="WEBDEV" id="custom-animation">
             <TabsHeader
-              className="bg-transparent z-0 p-0 lg:pb-6 pb-4"
+              className="bg-transparent z-0 p-0 lg:pb-6 pb-4 overflow-scroll"
               indicatorProps={{
                 className: "bg-green rounded-none border-x-3 border-t-3",
               }}
             >
               {data.map(({ label, value }) => (
                 <Tab key={value} value={value} className="border-b-3 pt-1">
-                  <Typography className="sm:text-aboutMobile md:text-about font-semibold text-ellipsis overflow-hidden">
+                  <Typography className="sm:text-aboutMobile md:text-about font-semibold">
                     {label}
                   </Typography>
                 </Tab>
