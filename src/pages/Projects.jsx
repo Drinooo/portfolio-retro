@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
           <Tabs value="WEBDEV" id="custom-animation">
             <TabsHeader
-              className="bg-transparent z-0 p-0 lg:pb-6 pb-4 overflow-scroll"
+              className="bg-transparent z-0 p-0 lg:pb-6 pb-4 sm:overflow-y-scroll overflow-y-hidden"
               indicatorProps={{
                 className: "bg-green rounded-none border-x-3 border-t-3",
               }}
