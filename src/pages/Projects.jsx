@@ -49,7 +49,7 @@ const Projects = () => {
               Projects
             </h2>
           </div>
-          <Tabs value="wd" id="custom-animation">
+          <Tabs value="WEBDEV" id="custom-animation">
             <TabsHeader
               className="bg-transparent z-0 p-0 lg:pb-6 pb-4"
               indicatorProps={{
