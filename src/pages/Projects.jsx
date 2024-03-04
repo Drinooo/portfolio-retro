@@ -126,7 +126,7 @@ const Projects = () => {
                             )}
                           </div>
 
-                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
+                          <div className="text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
                             <h2 className="lg:text-h3-lg md:text-h3-md text-h3-sm lg:leading-[64px] md:leading-[1.1] leading-[40px] text-start font-bold text-gray-900">
                               {item.title}
                             </h2>
@@ -199,7 +199,7 @@ const Projects = () => {
                           <div className="border-4 border-gray h-full"></div>
                         </div>
                         <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
-                          <div className="mt-4 md:mt-0 mb-4 md:mb-0 text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
+                          <div className="text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
                             <h2 className="lg:text-h3-lg md:text-h3-md text-h3-sm lg:leading-[64px] md:leading-[1.1] leading-[40px] font-bold text-gray-900 dark:text-white">
                               {item.title}
                             </h2>
