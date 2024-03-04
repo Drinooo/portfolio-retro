@@ -20,8 +20,12 @@ import { CheckIcon } from "../components/Common/IconComponent";
 const Projects = () => {
   const data = [
     {
-      label: "Web Design & Development",
-      value: "wd",
+      label: "Web Development",
+      value: "WEBDEV",
+    },
+    {
+      label: "Web Design",
+      value: "WEBDES",
     },
     {
       label: "UI/UX Design",
@@ -30,6 +34,10 @@ const Projects = () => {
     {
       label: "Logo Design",
       value: "ld",
+    },
+    {
+      label: "Graphic Design",
+      value: "GRAPDES",
     },
   ];
   return (
@@ -50,7 +58,7 @@ const Projects = () => {
             >
               {data.map(({ label, value }) => (
                 <Tab key={value} value={value} className="border-b-3 pt-1">
-                  <Typography className="sm:text-aboutMobile md:text-about font-semibold">
+                  <Typography className="sm:text-aboutMobile md:text-about font-semibold text-ellipsis overflow-hidden">
                     {label}
                   </Typography>
                 </Tab>
