@@ -263,6 +263,28 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
+    id: 18,
+    value: "WEBDEV",
+    img: [
+      "/images/Go Find Me Mobile App/Go Find Me App - Thumbnail.jpg",
+      "/images/Go Find Me Mobile App/Go Find Me App - 1.jpg",
+      "/images/Go Find Me Mobile App/Go Find Me App - 2.jpg",
+      "/images/Go Find Me Mobile App/Go Find Me App - 3.jpg",
+      "/images/Go Find Me Mobile App/Go Find Me App - 4.jpg",
+      "/images/Go Find Me Mobile App/Go Find Me App - 5.jpg",
+      "/images/Go Find Me Mobile App/Design System.jpg",
+    ],
+    title: "Go Find Me App",
+    urlWebsite: "#",
+    // urlCaseStudy: "#",
+    desc: "",
+    tools: ["Mobile app design", "Mobile app development"],
+    path: "/portfolio-go-find-me",
+    position: "left",
+    website: "no",
+    caseStudy: "no",
+  },
+  {
     id: 2,
     value: "WEBDES",
     img: [

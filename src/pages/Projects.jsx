@@ -20,7 +20,7 @@ import { CheckIcon } from "../components/Common/IconComponent";
 const Projects = () => {
   const data = [
     {
-      label: "Web Development",
+      label: "Web & Mobile Development",
       value: "WEBDEV",
     },
     {
