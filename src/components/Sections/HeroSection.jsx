@@ -14,7 +14,7 @@ const HeroSection = () => {
                 Hi, I'm Aldrin
               </h1>
               <p className="lg:mb-8 mb-6 font-[500] tracking-tighter xl:text-subhead-xl lg:text-subhead-lg md:text-subhead-md text-subhead-sm leading-[1.2]">
-                I'm a Web Designer, UI/UX Designer and Front-End Developer based
+                I'm a Web Designer and Front-End Developer based
                 in the Philippines.
               </p>
             </div>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                 />
               </div>
               <div className="sm:border-t-0 lg:border-t-3 border-b-3 sm:border-x-3 lg:border-x-0">
-                <div className="border-4 border-gray h-full"></div>
+                <div className="border-4 border-green h-full"></div>
               </div>
             </div>
           </div>

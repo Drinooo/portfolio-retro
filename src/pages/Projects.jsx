@@ -180,7 +180,7 @@ const Projects = () => {
                           </div>
                         </div>
                         <div className="border-t-3 border-b-3">
-                          <div className="border-4 border-gray h-full"></div>
+                          <div className="border-4 border-green h-full"></div>
                         </div>
                       </div>
                     </TabPanel>
@@ -197,7 +197,7 @@ const Projects = () => {
                     >
                       <div className="flex border-l-3">
                         <div className="border-t-3 border-b-3">
-                          <div className="border-4 border-gray h-full"></div>
+                          <div className="border-4 border-green h-full"></div>
                         </div>
                         <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
                           <div className="text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">

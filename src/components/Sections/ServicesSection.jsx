@@ -16,7 +16,7 @@ const ServicesSection = () => {
             {SERVICES.map((item) => (
               <div className="border-3 h-max text-center">
                 <div className="p-4 space-y-2 sm:h-full md:h-96 flex flex-col justify-center">
-                  <div className="bg-gray max-w-fit p-3 rounded-full mx-auto">
+                  <div className="bg-green max-w-fit p-3 rounded-full mx-auto">
                     {item.icon}
                   </div>
                   <div>
@@ -27,7 +27,7 @@ const ServicesSection = () => {
                   <p className="text-body1">{item.desc}</p>
                 </div>
                 <div className="border-t-3"></div>
-                <div className="border-gray border-4"></div>
+                <div className="border-green border-4"></div>
               </div>
             ))}
           </div>

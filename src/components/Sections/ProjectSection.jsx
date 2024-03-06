@@ -119,7 +119,7 @@ export const ProjectSection = () => {
                     </div>
                   </div>
                   <div className="border-t-3 border-b-3">
-                    <div className="border-4 border-gray h-full"></div>
+                    <div className="border-4 border-green h-full"></div>
                   </div>
                 </div>
               </motion.div>
@@ -127,7 +127,7 @@ export const ProjectSection = () => {
               <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
                 <div className="flex border-l-3">
                   <div className="border-t-3 border-b-3">
-                    <div className="border-4 border-gray h-full"></div>
+                    <div className="border-4 border-green h-full"></div>
                   </div>
                   <div className="gap-8 border-3 border-black items-center mx-auto xl:gap-16 lg:grid lg:grid-cols-2">
                     <div className="mt-4 md:mt-0 mb-4 lg:mb-0 text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
