@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { PROJECTS } from "../../utils/data";
-import { ExploreButton, ViewMoreButton } from "../Common/ButtonComponent";
+import { ExploreButton, OutlinedButton, ViewMoreButton } from "../Common/ButtonComponent";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Carousel, Typography } from "@material-tailwind/react";
@@ -88,12 +88,34 @@ export const ProjectSection = () => {
                           <></>
                         )}
                       </div>
-                      <a
-                        href={item.url}
-                        className="flex sm:justify-center lg:justify-start"
+
+                      <div
+                        className={`flex flex-wrap justify-start ${
+                          item.website === "yes" && item.caseStudy === "yes"
+                            ? "gap-4"
+                            : ""
+                        }`}
                       >
-                        <ExploreButton>View Website</ExploreButton>
-                      </a>
+                        <div>
+                          <a href={item.urlWebsite} target="_blank">
+                            {item.website === "yes" ? (
+                              <ExploreButton>Live Preview</ExploreButton>
+                            ) : null}
+                          </a>
+                        </div>
+
+                        <div>
+                          <a
+                            href={`/case-study/${item.id}`}
+                            key={item.id}
+                            target="_blank"
+                          >
+                            {item.caseStudy === "yes" ? (
+                              <OutlinedButton>Case Study</OutlinedButton>
+                            ) : null}
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="border-t-3 border-b-3">
@@ -130,13 +152,24 @@ export const ProjectSection = () => {
                           <></>
                         )}
                       </div>
-                      <a
-                        href={item.url}
-                        target="_blank"
-                        className="flex sm:justify-center lg:justify-start"
+                      <div
+                        className={`flex flex-wrap justify-start ${
+                          item.website === "yes" && item.caseStudy === "yes"
+                            ? "gap-4"
+                            : ""
+                        }`}
                       >
-                        <ExploreButton>View Website</ExploreButton>
-                      </a>
+                        <a href={item.urlWebsite}>
+                          {item.website === "yes" ? (
+                            <ExploreButton>Live Preview</ExploreButton>
+                          ) : null}
+                        </a>
+                        <a href={`/case-study/${item.id}`} key={item.id}>
+                          {item.caseStudy === "yes" ? (
+                            <OutlinedButton>Case Study</OutlinedButton>
+                          ) : null}
+                        </a>
+                      </div>
                     </div>
                     <div className="sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black">
                       {Array.isArray(item.img) ? (

@@ -158,7 +158,7 @@ const Projects = () => {
                               }`}
                             >
                               <div>
-                                <a href={item.urlWebsite}>
+                                <a href={item.urlWebsite} target="_blank">
                                   {item.website === "yes" ? (
                                     <ExploreButton>Live Preview</ExploreButton>
                                   ) : null}
@@ -169,6 +169,7 @@ const Projects = () => {
                                 <a
                                   href={`/case-study/${item.id}`}
                                   key={item.id}
+                                  target="_blank"
                                 >
                                   {item.caseStudy === "yes" ? (
                                     <OutlinedButton>Case Study</OutlinedButton>
