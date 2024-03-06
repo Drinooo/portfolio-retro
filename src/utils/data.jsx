@@ -270,7 +270,11 @@ export const PROJECTS = [
     urlWebsite: "https://remagine.vercel.app/",
     // urlCaseStudy: "#",
     desc: "",
-    tools: ["Landing page design", "ReactJS & TailwindCSS", "From relume design league"],
+    tools: [
+      "Landing page design",
+      "ReactJS & TailwindCSS",
+      "From relume design league",
+    ],
     path: "/portfolio-remagine",
     position: "right",
     website: "yes",
@@ -336,10 +340,7 @@ export const PROJECTS = [
     urlWebsite: "https://montrosesar.org/",
     // urlCaseStudy: "#",
     desc: "",
-    tools: [
-      "Website design",
-      "Collaborated project",
-    ],
+    tools: ["Website design", "Collaborated project"],
     path: "/portfolio-msar",
     position: "right",
     website: "yes",
@@ -769,27 +770,27 @@ export const SERVICES = [
   {
     icon: <WebDesignIcon />,
     title: "Web/Mobile Design",
-    desc: "I design attractive and user-friendly websites and apps using Figma and Adobe XD. Let my expertise transform your ideas into visually appealing digital experiences.",
+    desc: "I create captivating websites and apps with Figma and Adobe XD, turning your ideas into visually stunning digital experiences.",
   },
-  {
-    icon: <UIUXIcon />,
-    title: "UI/UX Design",
-    desc: "I specialize in creating user-friendly, visually appealing interfaces for websites and apps using Figma and Adobe XD, turning your ideas into engaging digital experiences that enhance your brand.",
-  },
+  // {
+  //   icon: <UIUXIcon />,
+  //   title: "UI/UX Design",
+  //   desc: "I specialize in creating user-friendly, visually appealing interfaces for websites and apps using Figma and Adobe XD, turning your ideas into engaging digital experiences that enhance your brand.",
+  // },
   {
     icon: <WebIcon />,
     title: "Front End Web Development",
-    desc: "I create visually appealing, smoothly functioning, and responsive websites using HTML, CSS, and JavaScript. My expertise in React JS, Vite, WordPress, and Webflow ensures dynamic and engaging web experiences.",
+    desc: "I create visually appealing and responsive websites using HTML, CSS, and JavaScript, with expertise in React JS, Vite, WordPress, and Webflow for dynamic and engaging web experiences.",
   },
-  // {
-  //   icon: <GraphicIcon />,
-  //   title: "Graphic Design",
-  //   desc: "",
-  // },
+  {
+    icon: <GraphicIcon />,
+    title: "Graphic Design",
+    desc: "I craft eye-catching graphics with Adobe Photoshop, Adobe Illustrator, and Canva. Let me turn your concepts into visually striking designs that captivate and leave a lasting impression.",
+  },
   {
     icon: <LogoIcon />,
     title: "Logo Design",
-    desc: "I create unique and memorable logos for your business or brand. Using design tools like Adobe Photoshop, Adobe Illustrator, Canva, and Figma, I'll bring your vision to life professionally and eye-catchingly.",
+    desc: "I design distinctive logos for your business using Adobe Photoshop, Adobe Illustrator, Canva, and Figma. Bring your vision to life with a professional and eye-catching touch.",
   },
 ];
 

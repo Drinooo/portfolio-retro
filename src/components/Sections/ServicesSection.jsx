@@ -20,7 +20,7 @@ const ServicesSection = () => {
                     {item.icon}
                   </div>
                   <div>
-                    <h4 className="sm:text-servicesMobile md:text-services">
+                    <h4 className="text-servicesMobile md:text-services font-semibold">
                       {item.title}
                     </h4>
                   </div>
