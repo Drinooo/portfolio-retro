@@ -231,12 +231,16 @@ const Projects = () => {
                                   : ""
                               }`}
                             >
-                              <a href={item.urlWebsite}>
+                              <a href={item.urlWebsite} target="_blank">
                                 {item.website === "yes" ? (
                                   <ExploreButton>Live Preview</ExploreButton>
                                 ) : null}
                               </a>
-                              <a href={`/case-study/${item.id}`} key={item.id}>
+                              <a
+                                href={`/case-study/${item.id}`}
+                                key={item.id}
+                                target="_blank"
+                              >
                                 {item.caseStudy === "yes" ? (
                                   <OutlinedButton>Case Study</OutlinedButton>
                                 ) : null}

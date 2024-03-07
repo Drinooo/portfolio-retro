@@ -1,6 +1,10 @@
 import React, { Fragment } from "react";
 import { PROJECTS } from "../../utils/data";
-import { ExploreButton, OutlinedButton, ViewMoreButton } from "../Common/ButtonComponent";
+import {
+  ExploreButton,
+  OutlinedButton,
+  ViewMoreButton,
+} from "../Common/ButtonComponent";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Carousel, Typography } from "@material-tailwind/react";
@@ -159,12 +163,16 @@ export const ProjectSection = () => {
                             : ""
                         }`}
                       >
-                        <a href={item.urlWebsite}>
+                        <a href={item.urlWebsite} target="_blank">
                           {item.website === "yes" ? (
                             <ExploreButton>Live Preview</ExploreButton>
                           ) : null}
                         </a>
-                        <a href={`/case-study/${item.id}`} key={item.id}>
+                        <a
+                          href={`/case-study/${item.id}`}
+                          key={item.id}
+                          target="_blank"
+                        >
                           {item.caseStudy === "yes" ? (
                             <OutlinedButton>Case Study</OutlinedButton>
                           ) : null}
