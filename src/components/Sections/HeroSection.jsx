@@ -12,10 +12,8 @@ const HeroSection = () => {
                 Hi, I'm Aldrin
               </h1>
               <p className="lg:mb-8 mb-6 font-[500] tracking-tighter xl:text-subhead-xl lg:text-subhead-lg md:text-subhead-md text-subhead-sm leading-[1.2]">
-                I am a skilled Web Designer and Front-End Developer located in
-                the Philippines. Explore my portfolio for innovative website
-                designs and seamless user experiences. Contact me for web design
-                and development services that elevate your online presence.
+                I'm a Web Designer and Front-End Developer based
+                in the Philippines.
               </p>
             </div>
             <div className="lg:mt-0 lg:col-span-6 lg:flex justify-end sm:border-r-0 lg:border-r-3 h-fit">
