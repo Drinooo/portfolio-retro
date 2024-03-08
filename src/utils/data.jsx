@@ -31,6 +31,10 @@ export const MAIN_NAVIGATION = [
     path: "/",
   },
   {
+    title: "Shop",
+    path: "/shop",
+  },
+  {
     title: "Projects",
     path: "/projects",
   },
@@ -694,7 +698,7 @@ export const SERVICES = [
   },
   {
     icon: <WebIcon />,
-    title: "Front End Web Development",
+    title: "Front End Development",
     desc: "I create visually appealing and responsive websites using HTML, CSS, and JavaScript, with expertise in React JS, Vite, WordPress, and Webflow for dynamic and engaging web experiences.",
   },
   {

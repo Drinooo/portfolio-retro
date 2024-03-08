@@ -47,7 +47,7 @@ const Contact = () => {
         <section className="space-y-4 max-w-screen-2xl mx-auto sm:pt-12 lg:pt-24 ">
           <div className="">
             <div className="">
-              <h2 className="mb-0 xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.1] tracking-tight font-semibold text-gray-900">
+              <h2 className="mb-0 xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.1] font-bold text-gray-900">
                 Contact
               </h2>
             </div>

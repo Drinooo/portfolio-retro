@@ -8,8 +8,8 @@ const HeroSection = () => {
         <section className="max-w-screen">
           <div className="grid max-w-screen-2xl mx-auto lg:gap-8 xl:gap-24 sm:pt-12 lg:pt-24 lg:grid-cols-12">
             <div className="mr-auto place-self-center lg:col-span-6 sm:pb-4 lg:pb-0">
-              <h1 className="mb-4 font-[700] xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.1]">
-                Hi, I'm Aldrin
+              <h1 className="mb-4 font-bold xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.1]">
+                Hi, I'm Aldrin Villalobos
               </h1>
               <p className="lg:mb-8 mb-6 font-[500] tracking-tighter xl:text-subhead-xl lg:text-subhead-lg md:text-subhead-md text-subhead-sm leading-[1.2]">
                 I'm a Web Designer and Front-End Developer based

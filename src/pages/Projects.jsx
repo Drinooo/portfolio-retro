@@ -45,20 +45,20 @@ const Projects = () => {
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section className="space-y-4 max-w-screen-2xl mx-auto sm:pt-12 lg:pt-24">
           <div>
-            <h2 className="mb-0 xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.1] tracking-tight font-semibold text-gray-900">
+            <h2 className="mb-0 xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.5] font-bold text-gray-900">
               Projects
             </h2>
           </div>
           <Tabs value="WEBDEV" id="custom-animation">
             <TabsHeader
-              className="bg-transparent z-0 p-0 lg:pb-6 pb-4 sm:overflow-y-scroll overflow-y-hidden"
+              className="bg-transparent rounded-none z-0 p-0 lg:pb-6 pb-4 sm:overflow-y-scroll overflow-y-hidden"
               indicatorProps={{
                 className: "bg-green rounded-none border-x-3 border-t-3",
               }}
             >
               {data.map(({ label, value }) => (
                 <Tab key={value} value={value} className="border-b-3 pt-1">
-                  <Typography className="sm:text-aboutMobile md:text-about font-semibold">
+                  <Typography className="sm:text-aboutMobile md:text-about leading-[1.5] font-semibold">
                     {label}
                   </Typography>
                 </Tab>

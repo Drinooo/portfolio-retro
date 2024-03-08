@@ -19,7 +19,7 @@ export const ProjectSection = () => {
           id="projectSection"
         >
           <div className="border-b-3 flex justify-between">
-            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-normal text-gray-900 dark:text-white border-t-3 border-r-3 border-l-3 w-fit px-5 py-2">
+            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 font-semibold text-gray-900 dark:text-white border-t-3 border-r-3 border-l-3 w-fit px-5 py-2">
               Projects
             </h2>
           </div>

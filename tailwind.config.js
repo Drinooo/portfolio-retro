@@ -53,9 +53,6 @@ module.exports = withMT({
       h2: "10px",
       h2Mobile: "66px",
 
-      h3: "55px",
-      h3Mobile: "35px",
-
       "h3-lg": "60px",
       "h3-md": "48px",
       "h3-sm": "36px",
@@ -66,8 +63,8 @@ module.exports = withMT({
       h5: "46px",
       h5Mobile: "26px",
 
-      h6: "30px",
-      h6Mobile: "22px",
+      h6: "24px",
+      h6Mobile: "18px",
 
       subtitle: "36px",
       subtitleMobile: "26px",
@@ -79,7 +76,7 @@ module.exports = withMT({
 
       client: "20px",
 
-      about: "26px",
+      about: "24px",
       aboutMobile: "18px",
 
       services: "30px",
@@ -145,8 +142,10 @@ module.exports = withMT({
       },
       //TYPOGRAPHY
       fontFamily: {
-        sans: ["Sofia Pro", "sans-serif"],
-        serif: ["Sofia Pro", "serif"],
+        // sans: ["Sofia Pro", "sans-serif"],
+        // serif: ["Sofia Pro", "serif"],
+        sans: ["Poppins", "sans-serif"],
+        serif: ["Poppins", "serif"],
       },
     },
   },

@@ -8,7 +8,7 @@ const ServicesSection = () => {
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section className="space-y-4 max-w-screen-2xl mx-auto ">
           <div className="border-b-3">
-            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 tracking-tight font-normal text-gray-900 dark:text-white border-t-3 border-r-3 border-l-3 w-fit px-5 py-2">
+            <h2 className="mb-0 sm:text-h6Mobile md:text-h6 font-semibold text-gray-900 dark:text-white border-t-3 border-r-3 border-l-3 w-fit px-5 py-2">
               Services
             </h2>
           </div>
@@ -20,7 +20,7 @@ const ServicesSection = () => {
                     {item.icon}
                   </div>
                   <div>
-                    <h4 className="text-servicesMobile md:text-services font-semibold">
+                    <h4 className="text-servicesMobile md:text-services font-medium">
                       {item.title}
                     </h4>
                   </div>

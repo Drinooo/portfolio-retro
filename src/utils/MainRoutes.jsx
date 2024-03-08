@@ -7,6 +7,7 @@ import Contact from "../pages/Contact";
 import ScrollToTop from "./ScrollToTop";
 import Loader from "./Loader";
 import CaseStudy from "../pages/CaseStudy";
+import Shop from "../pages/Shop";
 
 const MainRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const MainRoutes = () => {
       <Routes>
         <Route path="/" element={<Base />}>
           <Route index  element={<Home />} />
+          <Route path="shop" element={<Shop />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
           <Route path="/case-study/:id" element={<CaseStudy />} />
