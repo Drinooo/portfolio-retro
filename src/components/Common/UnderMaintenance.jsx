@@ -2,7 +2,7 @@ import React from "react";
 
 const UnderMaintenance = () => {
   return (
-    <div className="mx-auto max-w-screen-2xl max-h-screen-2xl text-center lg:space-y-10 space-y-8 sm:pt-12 lg:pt-24">
+    <div className="mx-auto max-w-screen-2xl max-h-full text-center lg:space-y-10 space-y-8 sm:pt-12 lg:pt-24">
       <svg
         className="mx-auto mb-4 w-32 h-32 text-gray-400"
         xmlns="http://www.w3.org/2000/svg"
@@ -14,8 +14,9 @@ const UnderMaintenance = () => {
         />
       </svg>
       <h1 className="mb-4 xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm font-bold leading-[1.5] lg:mb-6">
-        Under Maintenance
+        Under Construction
       </h1>
+      <p className="text-body2">Page under construction. Thanks for your patience!</p>
     </div>
   );
 };
