@@ -97,7 +97,7 @@ export const PROJECTS = [
       "/images/Hypeburger Landing Page/Design System.jpg",
     ],
     title: "Hypeburger",
-    urlWebsite: "https://hypeburger.vercel.app/",
+    urlWebsite: "https://hypeburger.drinooo.vercel.app/",
     tools: [
       "Landing page design",
       "ReactJS & TailwindCSS",
