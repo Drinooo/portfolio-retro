@@ -85,6 +85,9 @@ module.exports = withMT({
       chip: "14px",
       "chip-lg": "22px",
       "chip-md": "20px",
+
+      "category": "16px",
+      price: "16px"
     },
 
     borderWidth: {
