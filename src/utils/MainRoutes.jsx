@@ -5,9 +5,9 @@ import Base from "../pages/Base";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
 import ScrollToTop from "./ScrollToTop";
-import Loader from "./Loader";
 import CaseStudy from "../pages/CaseStudy";
 import Shop from "../pages/Shop";
+import Product from "../pages/Product";
 
 const MainRoutes = () => {
   return (
@@ -19,6 +19,7 @@ const MainRoutes = () => {
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
           <Route path="/case-study/:id" element={<CaseStudy />} />
+          <Route path="/shop/:id" element={<Product />} />
         </Route>
       </Routes>
     </ScrollToTop>

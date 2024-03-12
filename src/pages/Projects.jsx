@@ -166,15 +166,31 @@ const Projects = () => {
                               </div>
 
                               <div>
-                                <a
-                                  href={`/case-study/${item.id}`}
-                                  key={item.id}
-                                  target="_blank"
-                                >
-                                  {item.caseStudy === "yes" ? (
-                                    <OutlinedButton>Case Study</OutlinedButton>
-                                  ) : null}
-                                </a>
+                                {item.urlCaseStudy === "#" ? (
+                                  <a
+                                    href={`/case-study/${item.id}`}
+                                    key={item.id}
+                                    target="_blank"
+                                  >
+                                    {item.caseStudy === "yes" ? (
+                                      <OutlinedButton>
+                                        Case Study
+                                      </OutlinedButton>
+                                    ) : null}
+                                  </a>
+                                ) : (
+                                  <a
+                                    href={item.urlCaseStudy}
+                                    key={item.id}
+                                    target="_blank"
+                                  >
+                                    {item.caseStudy === "yes" ? (
+                                      <OutlinedButton>
+                                        Case Study
+                                      </OutlinedButton>
+                                    ) : null}
+                                  </a>
+                                )}
                               </div>
                             </div>
                           </div>
@@ -236,15 +252,27 @@ const Projects = () => {
                                   <ExploreButton>Live Preview</ExploreButton>
                                 ) : null}
                               </a>
-                              <a
-                                href={`/case-study/${item.id}`}
-                                key={item.id}
-                                target="_blank"
-                              >
-                                {item.caseStudy === "yes" ? (
-                                  <OutlinedButton>Case Study</OutlinedButton>
-                                ) : null}
-                              </a>
+                              {item.urlCaseStudy === "#" ? (
+                                <a
+                                  href={`/case-study/${item.id}`}
+                                  key={item.id}
+                                  target="_blank"
+                                >
+                                  {item.caseStudy === "yes" ? (
+                                    <OutlinedButton>Case Study</OutlinedButton>
+                                  ) : null}
+                                </a>
+                              ) : (
+                                <a
+                                  href={`/case-study/${item.path}`}
+                                  key={item.id}
+                                  target="_blank"
+                                >
+                                  {item.caseStudy === "yes" ? (
+                                    <OutlinedButton>Case Study</OutlinedButton>
+                                  ) : null}
+                                </a>
+                              )}
                             </div>
                           </div>
                           <div className="sm:border-t-3 lg:border-t-0 lg:border-l-3 border-black">

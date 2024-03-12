@@ -1,5 +1,5 @@
 export const CONTENT = {
-  1: {
+  2: {
     projectName: "Recozy",
     introduction:
       "Recozy, an online store specializing in stylish and comfortable furniture, aimed to enhance its online presence and improve the overall user experience on its website.",
@@ -81,7 +81,7 @@ export const CONTENT = {
       "Customers are welcomed into a world where their virtual visions of a cozy home effortlessly translate into warm and welcoming realities, thanks to Recozy's successful transformation of the online furniture shopping experience. In addition to the final design, the incorporation of eye-catching imagery, thoughtful product overviews, and improved navigation has established Recozy as a place where customers can effortlessly and joyfully curate cozy-inspired living spaces.",
   },
 
-  5: {
+  13: {
     projectName: "Montrose Search and Rescue",
     introduction:
       "Recozy, an online store specializing in stylish and comfortable furniture, aimed to enhance its online presence and improve the overall user experience on its website.",
@@ -160,7 +160,7 @@ export const CONTENT = {
       "Customers are welcomed into a world where their virtual visions of a cozy home effortlessly translate into warm and welcoming realities, thanks to Recozy's successful transformation of the online furniture shopping experience. In addition to the final design, the incorporation of eye-catching imagery, thoughtful product overviews, and improved navigation has established Recozy as a place where customers can effortlessly and joyfully curate cozy-inspired living spaces.",
   },
 
-  6: {
+  5: {
     projectName: "Gretta",
     introduction:
       "Recozy, an online store specializing in stylish and comfortable furniture, aimed to enhance its online presence and improve the overall user experience on its website.",
@@ -234,7 +234,7 @@ export const CONTENT = {
       "Customers are welcomed into a world where their virtual visions of a cozy home effortlessly translate into warm and welcoming realities, thanks to Recozy's successful transformation of the online furniture shopping experience. In addition to the final design, the incorporation of eye-catching imagery, thoughtful product overviews, and improved navigation has established Recozy as a place where customers can effortlessly and joyfully curate cozy-inspired living spaces.",
   },
 
-  19: {
+  21: {
     projectName: "My Allied Health Academy",
     introduction:
       "My Allied Health Academy (MAHA) provides an ongoing learning subscription in the form of lessons to student practioners who wish to subscribe to the course.",

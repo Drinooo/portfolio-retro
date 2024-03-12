@@ -14,14 +14,13 @@ const CaseStudy = () => {
   const primaryColorsData = CONTENT[id].design.primaryColors;
   const accentColorsData = CONTENT[id].design.accentColors;
 
-
   return (
     <Fragment>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section className="space-y-[94px] max-w-screen-2xl mx-auto sm:pt-12 lg:pt-24 ">
           <div>
             <p className="text-gray2 text-caption">Project Name</p>
-            <h2 className="text-black text-h2 font-bold">
+            <h2 className="text-black xl:text-h2-xl lg:text-h2-lg md:text-h2-md text-h2-sm font-bold">
               {caseStudy.projectName}
             </h2>
           </div>
@@ -148,10 +147,10 @@ const CaseStudy = () => {
             </div>
             <div className="space-y-6">
               {fontsData.map((font) => (
-                <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-start">
+                <div className="grid sm:grid-cols-1 lg:grid-cols-2 items-center">
                   <div className="w-full">
                     <h1
-                      className="text-h2 font-bold"
+                      className="xl:text-h2-xl lg:text-h2-lg md:text-h2-md text-h2-sm font-bold"
                       style={{ fontFamily: font.title }}
                     >
                       {font.title}

@@ -1,15 +1,18 @@
 import React from "react";
-import UnderMaintenance from "../components/Common/UnderMaintenance";
-import { PRODUCTS } from "../utils/products";
+import { PRODUCTS } from "../utils/data";
 
 const Shop = () => {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+    <section className="body-font max-w-screen-2xl mx-auto sm:pt-12 lg:pt-24">
+      <div className="">
         <div className="flex flex-wrap -m-4">
           {PRODUCTS.map((item) => (
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full h-full">
-              <a className="block relative h-full rounded overflow-hidden">
+              <a
+                className="block relative h-full rounded overflow-hidden"
+                href={`/shop/${item.id}`}
+                key={item.id}
+              >
                 <img
                   alt="ecommerce"
                   className="object-cover object-center h-full block"
@@ -23,10 +26,10 @@ const Shop = () => {
                 </div>
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-category tracking-widest title-font mb-1">
+                <h3 className="text-category mb-1">
                   {item.category}
                 </h3>
-                <h2 className="text-gray-900 title-font text-body1 font-medium">
+                <h2 className="text-body1 font-medium">
                   {item.name}
                 </h2>
                 <p className="mt-1 text-price">{item.price}</p>
