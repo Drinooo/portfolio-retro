@@ -46,7 +46,7 @@ export const MAIN_NAVIGATION = [
 
 export const PROJECTS = [
   {
-    id: 1,
+    id: "todo-list-app",
     value: "WEBDEV",
     img: [
       "/images/Todo List App/Todo List App - Thumbnail.jpg",
@@ -62,7 +62,27 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 2,
+    id: "scalbl",
+    value: "WEBDEV",
+    img: [
+      "/images/Scalbl.io/Scalbl.io - Thumbnail.png",
+      "/images/Scalbl.io/Scalbl.io - Mockup.png",
+      "/images/Scalbl.io/Scalbl.io - 1.png",
+      "/images/Scalbl.io/Scalbl.io - 2.png",
+      "/images/Scalbl.io/Scalbl.io - 3.png",
+      "/images/Scalbl.io/Design System.png",
+    ],
+    title: "Scalbl.io",
+    urlWebsite: "https://todolistapp-creative-drin.vercel.app/",
+    urlCaseStudy: "#",
+    tools: ["Landing page design", "GoHighLevel", "Consulting Company"],
+    path: "projects/scalbl",
+    position: "right",
+    website: "yes",
+    caseStudy: "no",
+  },
+  {
+    id: "recozy",
     value: "WEBDEV",
     img: [
       "/images/Recozy Landing Page/Recozy - Thumbnail.jpg",
@@ -82,12 +102,12 @@ export const PROJECTS = [
       "From relume design league",
     ],
     path: "projects/recozy",
-    position: "right",
+    position: "left",
     website: "yes",
     caseStudy: "yes",
   },
   {
-    id: 3,
+    id: "hypeburger",
     value: "WEBDEV",
     img: [
       "/images/Hypeburger Landing Page/Hypeburger - Thumbnail.jpg",
@@ -107,12 +127,12 @@ export const PROJECTS = [
       "From relume design league",
     ],
     path: "projects/hypeburger",
-    position: "left",
+    position: "right",
     website: "yes",
     caseStudy: "no",
   },
   {
-    id: 4,
+    id: "numa",
     value: "WEBDEV",
     img: [
       "/images/Numa Recovery Center Website/Numa - Thumbnail.jpg",
@@ -132,12 +152,12 @@ export const PROJECTS = [
     urlCaseStudy: "#",
     tools: ["Landing page design", "Collaborated project"],
     path: "projects/numa",
-    position: "right",
+    position: "left",
     website: "yes",
     caseStudy: "no",
   },
   {
-    id: 5,
+    id: "gretta",
     value: "WEBDEV",
     img: [
       "/images/Gretta Landing Page/Gretta - Thumbnail.jpg",
@@ -158,12 +178,12 @@ export const PROJECTS = [
       "Relume library kit",
     ],
     path: "projects/gretta",
-    position: "left",
+    position: "right",
     website: "yes",
     caseStudy: "no",
   },
   {
-    id: 6,
+    id: "radiant",
     value: "WEBDEV",
     img: [
       "/images/Radiant Landing Page/Radiant - Thumbnail.jpg",
@@ -184,12 +204,12 @@ export const PROJECTS = [
       "Relume library kit",
     ],
     path: "projects/radiant",
-    position: "right",
+    position: "left",
     website: "yes",
     caseStudy: "no",
   },
   {
-    id: 7,
+    id: "portfolio-v1",
     value: "WEBDEV",
     img: [
       "/images/Portfolio V1 Website/Portfolio V1 - Thumbnail.jpg",
@@ -206,12 +226,12 @@ export const PROJECTS = [
     urlCaseStudy: "#",
     tools: ["Custom portfolio website", "ReactJS & Material UI"],
     path: "projects/v1",
-    position: "left",
+    position: "right",
     website: "yes",
     caseStudy: "no",
   },
   {
-    id: 8,
+    id: "portfolio-v2",
     value: "WEBDEV",
     img: [
       "/images/Portfolio V2 Website/Portfolio V2 - Thumbnail.jpg",
@@ -222,12 +242,12 @@ export const PROJECTS = [
     urlCaseStudy: "#",
     tools: ["Custom portfolio website", "ReactJS & TailwindCSS"],
     path: "projects/v2",
-    position: "right",
+    position: "left",
     website: "yes",
     caseStudy: "no",
   },
   {
-    id: 9,
+    id: "learntxt",
     value: "WEBDEV",
     img: [
       "/images/LearnTXT Website/LearnTXT - Thumbnail.jpg",
@@ -244,12 +264,12 @@ export const PROJECTS = [
     urlCaseStudy: "#",
     tools: ["Website design", "WordPress (Oxygen Builder)"],
     path: "projects/learntxt",
-    position: "left",
+    position: "right",
     website: "yes",
     caseStudy: "no",
   },
   {
-    id: 10,
+    id: "remagine",
     value: "WEBDEV",
     img: [
       "/images/Remagine Landing Page/Remagine - Thumbnail.jpg",
@@ -268,12 +288,12 @@ export const PROJECTS = [
       "From relume design league",
     ],
     path: "projects/remagine",
-    position: "right",
+    position: "left",
     website: "yes",
     caseStudy: "no",
   },
   {
-    id: 11,
+    id: "go-find-me-app",
     value: "WEBDEV",
     img: [
       "/images/Go Find Me Mobile App/Go Find Me App - Thumbnail.jpg",
@@ -294,7 +314,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 12,
+    id: "superare",
     value: "WEBDES",
     img: [
       "/images/Superare Landing Page/Superare - Thumbnail.jpg",
@@ -315,7 +335,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 13,
+    id: "MSAR",
     value: "WEBDES",
     img: [
       "/images/MSAR Website/MSAR - Thumbnail.jpg",
@@ -336,7 +356,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 14,
+    id: "rebank",
     value: "WEBDES",
     img: [
       "/images/Rebank Landing Page/Rebank - Thumbnail.jpg",
@@ -357,7 +377,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 15,
+    id: "travel-agency",
     value: "WEBDES",
     img: [
       "/images/Travel Agency Prototype/Travel Agency - Thumbnail.jpg",
@@ -374,7 +394,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 16,
+    id: "plant-shop",
     value: "WEBDES",
     img: [
       "/images/Plant Shop Landing Page/Plant Shop - Thumbnail.jpg",
@@ -396,7 +416,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 17,
+    id: "nft",
     value: "WEBDES",
     img: [
       "/images/NFT Landing Page/NFT - Thumbnail.jpg",
@@ -417,7 +437,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 18,
+    id: "food",
     value: "WEBDES",
     img: [
       "/images/Food Landing Page/Food - Thumbnail.jpg",
@@ -438,7 +458,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 19,
+    id: "coffee",
     value: "WEBDES",
     img: [
       "/images/Coffee Prototype/Coffee - Thumbnail.jpg",
@@ -455,7 +475,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 20,
+    id: "juice-labs",
     value: "WEBDES",
     img: [
       "/images/Juice Labs Landing Page/Juice Labs - Thumbnail.jpg",
@@ -476,7 +496,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: 21,
+    id: "MAHA",
     value: "ud",
     img: [
       "/images/My Allied Health Academy Web Application/MAHA - Thumbnail.jpg",
@@ -492,7 +512,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
-    id: 22,
+    id: "SMC",
     value: "ud",
     img: [
       "/images/Share My Circle Web Application/SMC - Thumbnail.jpg",
@@ -508,7 +528,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
-    id: 23,
+    id: "HES",
     value: "ud",
     img: [
       "/images/Her Erotic Story Web Application/HES - Thumbnail.jpg",
@@ -524,7 +544,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
-    id: 24,
+    id: "tribetxt-rooms",
     value: "ud",
     img: [
       "/images/TribeTXT Rooms Web Application/TribeTXT - Thumbnail.jpg",
@@ -540,7 +560,7 @@ export const PROJECTS = [
     caseStudy: "yes",
   },
   {
-    id: 25,
+    id: "leadgen-crew",
     value: "ud",
     img: [
       "/images/LeadGen Crew Web Application/LeadGen Crew - Thumbnail.jpg",
