@@ -73,7 +73,7 @@ export const PROJECTS = [
       "/images/Scalbl.io/Design System.png",
     ],
     title: "Scalbl.io",
-    urlWebsite: "https://todolistapp-creative-drin.vercel.app/",
+    urlWebsite: "https://scalbl.io/",
     urlCaseStudy: "#",
     tools: ["Landing page design", "GoHighLevel", "Consulting Company"],
     path: "projects/scalbl",
