@@ -8,6 +8,7 @@ import ScrollToTop from "./ScrollToTop";
 import CaseStudy from "../pages/CaseStudy";
 import Shop from "../pages/Shop";
 import Product from "../pages/Product";
+import Pricing from "../pages/Pricing";
 
 const MainRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const MainRoutes = () => {
         <Route path="/" element={<Base />}>
           <Route index  element={<Home />} />
           <Route path="shop" element={<Shop />} />
+          <Route path="pricing" element={<Pricing />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
           <Route path="/case-study/:id" element={<CaseStudy />} />

@@ -5,6 +5,7 @@ import {
   CanvaIcon,
   FigmaIcon,
   GithubIcon,
+  GoHighLevel,
   GraphicIcon,
   HTMLIcon,
   IonicIcon,
@@ -33,6 +34,10 @@ export const MAIN_NAVIGATION = [
   {
     title: "Shop",
     path: "/shop",
+  },
+  {
+    title: "Pricing",
+    path: "/pricing",
   },
   {
     title: "Projects",
@@ -713,6 +718,10 @@ export const TECH_STACK = [
     label: "Oxygen Builder",
   },
   {
+    icon: <GoHighLevel />,
+    label: "GoHighLevel",
+  },
+  {
     icon: <XDIcon />,
     label: "Adobe XD",
   },
@@ -793,6 +802,9 @@ export const CLIENTS = [
   {
     title: "Los Santos Customs Auto Repair",
   },
+  {
+    title: "Scalbl.io",
+  },
 ];
 
 export const PRODUCTS = [
@@ -801,7 +813,63 @@ export const PRODUCTS = [
     img: "/images/Developer Portfolio/Developer Portfolio - Thumbnail.jpg",
     category: "Portfolio",
     name: "Developer Portfolio",
-    price: "$10.00",
+    price: "$100.00",
     note: "Coming Soon!",
+  },
+];
+
+export const PRICING = [
+  {
+    id: 1,
+    title: "Web Design",
+    desc: "Figma Design only",
+    price: "$50-$100",
+    priceDesc: "per webpage",
+    includes: ["Figma design of the webpage", "2 rounds of revisions"],
+    revision: "$10-$20",
+    note: "",
+  },
+  {
+    id: 2,
+    title: "Web Design and Development",
+    desc: "Figma Design and CMS or Coded",
+    price: "$100-$200",
+    priceDesc: "per webpage",
+    includes: [
+      "Figma design of the webpage",
+      "Development using a Content Management System (CMS) like WordPress or Wix",
+      "Basic SEO optimization",
+      "2 rounds of revisions",
+    ],
+    revision: "$20-$40",
+    note: "",
+  },
+  {
+    id: 3,
+    title: "Web Development",
+    desc: "CMS or Coded",
+    price: "$80-$150",
+    priceDesc: "per webpage",
+    includes: [
+      "Development using a Content Management System (CMS) like WordPress or Wix",
+      "Basic SEO optimization",
+      "1 round of revisions",
+    ],
+    revision: "$15-$30",
+    note: "",
+  },
+  {
+    id: 4,
+    title: "Personalized Service",
+    price: "Price based on client requirements",
+    priceDesc: "",
+    includes: [
+      "Consultation to discuss client requirements and objectives",
+      "Personalized design and development solutions",
+      "Ongoing support",
+      "Additional services as needed",
+    ],
+    revision: "",
+    note: "Prices and scope of work will be determined based on the complexity and scale of the project. Please contact for a personalized quote.",
   },
 ];

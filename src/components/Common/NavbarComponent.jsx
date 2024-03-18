@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import {
   Navbar,
   Typography,
@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 import { DownloadButton } from "./ButtonComponent";
 
 export const NavbarComponent = () => {
-  const [openNav, setOpenNav] = React.useState(false);
+  const [openNav, setOpenNav] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 960 && setOpenNav(false)
@@ -20,10 +20,10 @@ export const NavbarComponent = () => {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 xl:mb-0 xl:mt-0 xl:flex-row xl:items-center xl:gap-6">
       {MAIN_NAVIGATION.map((item) => (
         <li className="">
-          <Link to={item.path} onClick={() => setOpenNav(openNav)}>
+          <Link to={item.path} onClick={() => setOpenNav(false)}>
             <Typography
               as="li"
               variant="small"
@@ -40,7 +40,7 @@ export const NavbarComponent = () => {
 
   return (
     <Fragment>
-      <Navbar className="sticky top-0 z-10 px-0 max-w-full border-none rounded-none shadow-none bg-beige bg-opacity-100 backdrop-saturate-200 backdrop-blur-none lg:py-5 py-3">
+      <Navbar className="sticky top-0 z-10 px-0 max-w-full border-none rounded-none shadow-none bg-beige bg-opacity-100 backdrop-saturate-200 backdrop-blur-none lg:py-4 py-2">
         <div className="mx-auto flex items-center justify-between text-blue-gray-900">
           <a href="/">
             <div className="flex items-center gap-4 hover:text-green">
@@ -53,10 +53,10 @@ export const NavbarComponent = () => {
             </div>
           </a>
 
-          <div className="hidden lg:block">{navList}</div>
+          <div className="hidden xl:block">{navList}</div>
           <IconButton
             variant="text"
-            className="ml-auto h-8 w-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="ml-auto h-8 w-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent xl:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >

@@ -7,7 +7,7 @@ const Shop = () => {
       <div className="">
         <div className="flex flex-wrap -m-4">
           {PRODUCTS.map((item) => (
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full h-full">
+            <div className="xl:w-1/4 lg:w-1/2 p-4 w-full h-full">
               <a
                 className="block relative h-full rounded overflow-hidden"
                 href={`/shop/${item.id}`}

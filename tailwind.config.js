@@ -37,8 +37,8 @@ module.exports = withMT({
       color1: "#1D1D1D",
     },
     fontSize: {
-      "navbar-lg": "30px",
-      "navbar-sm": "26px",
+      "navbar-lg": "28px",
+      "navbar-sm": "22px",
 
       "h1-xl": "96px",
       "h1-lg": "80px",
@@ -50,14 +50,20 @@ module.exports = withMT({
       "h2-md": "50px",
       "h2-sm": "30px",
 
+      "h3-lg": "60px",
+      "h3-md": "48px",
+      "h3-sm": "36px",
+
+      "h4-lg": "28px",
+      "h4-md": "24px",
+      "h4-sm": "20px",
+
       "subhead-xl": "36px",
       "subhead-lg": "32px",
       "subhead-md": "28px",
       "subhead-sm": "24px",
 
-      "h3-lg": "60px",
-      "h3-md": "48px",
-      "h3-sm": "36px",
+
 
       h4: "50px",
       h4Mobile: "30px",
@@ -73,6 +79,7 @@ module.exports = withMT({
 
       body1: "18px",
       body2: "25px",
+      body3: "16px",
 
       caption: "20px",
 

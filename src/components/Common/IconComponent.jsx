@@ -1172,6 +1172,12 @@ export const OxygenIcon = () => {
   );
 };
 
+export const GoHighLevel = () => {
+  return(
+    <img src="/icons/GoHighLevel Logo.png" alt="GoHighLevel Logo" width={"40px"} />
+  )
+}
+
 export const CheckIcon = () => {
   return (
     <svg
