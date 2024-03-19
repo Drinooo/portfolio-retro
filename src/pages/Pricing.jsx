@@ -12,30 +12,33 @@ const Pricing = () => {
           Pricing
         </h2>
       </div>
-      <ul class="grid gap-6 mt-6 md:gap-12 md:grid-cols-2 lg:grid-cols-3">
+
+      <div className="grid gap-6 mt-6 md:gap-12 md:grid-cols-2 lg:grid-cols-3">
         {PRICING.map((item) => (
-          <>
-            <li class="p-6 border-3">
+          <div className="border-3 flex flex-col">
+            <div className="h-full xl:p-6 lg:p-5 md:p-4 p-3">
               <div className="text-center">
-                <h3 class="lg:text-h4-lg md:text-h4-md text-h4-sm font-bold">
+                <h3 className="lg:text-h4-lg md:text-h4-md text-h4-sm font-bold">
                   {item.title}
                 </h3>
-                <p class="mt-3 text-body3 text-black/60">{item.desc}</p>
+                <p className="mt-3 text-body3 text-black/60">{item.desc}</p>
 
-                <p class="mt-6 lg:text-h4-lg md:text-h4-md text-h4-sm font-bold">
+                <p className="mt-6 lg:text-h4-lg md:text-h4-md text-h4-sm font-bold">
                   {item.price}
                 </p>
-                <p class="mt-3 text-body3 text-black/60">{item.priceDesc}</p>
+                <p className="mt-3 text-body3 text-black/60">
+                  {item.priceDesc}
+                </p>
               </div>
 
-              <ul class="mt-6 space-y-1.5">
+              <ul className="mt-6 space-y-1.5">
                 {Array.isArray(item.includes) ? (
                   <>
                     {item.includes.map((item) => (
-                      <li class="flex items-center gap-1.5 font-normal text-body3">
+                      <li className="flex items-center gap-1.5 font-normal text-body3">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="flex-shrink-0 w-5 h-5 text-green"
+                          className="flex-shrink-0 w-5 h-5 text-green"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -60,10 +63,14 @@ const Pricing = () => {
                   <SendButton>Get Started</SendButton>
                 </Link>
               </div>
-            </li>
-          </>
+            </div>
+
+            <div className="border-t-3 w-full">
+              <div className="border-green border-4 w-full"></div>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 };

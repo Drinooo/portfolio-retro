@@ -4,7 +4,12 @@ import { PRODUCTS } from "../utils/data";
 const Shop = () => {
   return (
     <section className="body-font max-w-screen-2xl mx-auto sm:pt-12 lg:pt-24">
-      <div className="">
+      <div>
+        <h2 className="mb-0 xl:text-h1-xl lg:text-h1-lg md:text-h1-md text-h1-sm leading-[1.5] font-bold text-gray-900">
+          Shop
+        </h2>
+      </div>
+      <div className="mt-6">
         <div className="flex flex-wrap -m-4">
           {PRODUCTS.map((item) => (
             <div className="xl:w-1/4 lg:w-1/2 p-4 w-full h-full">
@@ -26,12 +31,8 @@ const Shop = () => {
                 </div>
               </a>
               <div className="mt-4">
-                <h3 className="text-category mb-1">
-                  {item.category}
-                </h3>
-                <h2 className="text-body1 font-medium">
-                  {item.name}
-                </h2>
+                <h3 className="text-category mb-1">{item.category}</h3>
+                <h2 className="text-body1 font-medium">{item.name}</h2>
                 <p className="mt-1 text-price">{item.price}</p>
               </div>
             </div>
