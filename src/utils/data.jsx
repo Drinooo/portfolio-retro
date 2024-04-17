@@ -3,6 +3,7 @@ import {
   BootstrapIcon,
   CSSIcon,
   CanvaIcon,
+  ClickFunnels,
   FigmaIcon,
   GithubIcon,
   GoHighLevel,
@@ -722,6 +723,10 @@ export const TECH_STACK = [
     label: "GoHighLevel",
   },
   {
+    icon: <ClickFunnels />,
+    label: "ClickFunnels",
+  },
+  {
     icon: <XDIcon />,
     label: "Adobe XD",
   },
@@ -804,6 +809,12 @@ export const CLIENTS = [
   },
   {
     title: "Scalbl.io",
+  },
+  {
+    title: "Side Gig Masterclass",
+  },
+  {
+    title: "Launch Loans",
   },
 ];
 
