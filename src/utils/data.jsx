@@ -816,6 +816,9 @@ export const CLIENTS = [
   {
     title: "Launch Loans",
   },
+  {
+    title: "Shorin Travel and Tours",
+  },
 ];
 
 export const PRODUCTS = [
