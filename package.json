@@ -17,6 +17,7 @@
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.1",
+    "react-infinite-logo-slider": "^1.0.13",
     "react-router-dom": "^6.16.0",
     "taos": "^1.0.5"
   },
