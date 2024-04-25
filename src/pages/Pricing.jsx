@@ -59,7 +59,12 @@ const Pricing = () => {
                 )}
               </ul>
               <div className="flex justify-center mt-4">
-                <Link to={"/contact"}>
+                <Link
+                  to={
+                    "https://docs.google.com/forms/d/e/1FAIpQLSc4WpobOQ_YCZWdR_EAO-85yKgGQxJ32DluA-5xvJkco31zEg/viewform?usp=sf_link"
+                  }
+                  target="_blank"
+                >
                   <SendButton>Get Started</SendButton>
                 </Link>
               </div>
