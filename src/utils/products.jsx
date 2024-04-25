@@ -3,7 +3,7 @@ export const PRODUCTS = {
     cat: "Portfolio",
     name: "Developer Portfolio",
     desc: "Developer Portfolio Dark Theme – a fusion of style and substance. Enhance your coding profile with a polished, sophisticated design that's both visually appealing and impactful. No unnecessary elements, just a sleek, modern template to effortlessly showcase your skills.",
-    price: "$10.00",
+    price: "$100.00",
     features: [
       {
         title: "Figma-Designed:",
