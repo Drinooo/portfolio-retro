@@ -48,13 +48,21 @@ const FooterSection = () => {
           </ul>
         </div>
         <hr className="my-6 border-1 border-gray-200 sm:mx-auto lg:my-8" />
-        <span className="block text-sm text-gray-500 text-center">
-          © 2023{" "}
-          <a href="https://flowbite.com/" className="hover:underline">
-            Aldrin Villalobos
-          </a>
-          . All Rights Reserved.
-        </span>
+        <div className="sm:flex flex-wrap items-center sm:justify-between justify-center space-y-2">
+          <div>
+            {" "}
+            <span className="block text-sm text-gray-500 text-center">
+              © 2023{" "}
+              <a href="https://flowbite.com/" className="hover:underline">
+                Aldrin Villalobos
+              </a>
+              . All Rights Reserved.
+            </span>
+          </div>
+          <div className="text-center">
+            <p>This website is inspired by <a href="https://www.mackenziechild.me/" className="text-green">Mackenzie Child</a></p>
+          </div>
+        </div>
       </div>
     </Fragment>
   );
