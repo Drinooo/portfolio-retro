@@ -60,7 +60,7 @@ const FooterSection = () => {
             </span>
           </div>
           <div className="text-center">
-            <p>This website is inspired by <a href="https://www.mackenziechild.me/" className="text-green">Mackenzie Child's website.</a></p>
+            <p>This website is inspired by <a target="_blank" href="https://www.mackenziechild.me/" className="text-green">Mackenzie Child's website.</a></p>
           </div>
         </div>
       </div>
