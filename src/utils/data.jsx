@@ -810,10 +810,10 @@ export const TECH_STACK = [
     icon: <PSDIcon />,
     label: "Adobe Photoshop",
   },
-  {
-    icon: <AIIcon />,
-    label: "Adobe Illustrator",
-  },
+  // {
+  //   icon: <AIIcon />,
+  //   label: "Adobe Illustrator",
+  // },
   {
     icon: <CanvaIcon />,
     label: "Canva",
