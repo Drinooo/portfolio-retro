@@ -127,7 +127,7 @@ const Projects = () => {
                           </div>
 
                           <div className="text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
-                            <h2 className="lg:text-h3-lg md:text-h3-md text-h3-sm lg:leading-[64px] md:leading-[1.1] leading-[40px] text-start font-bold text-gray-900">
+                            <h2 className="xl:text-h3-xl lg:text-h3-lg md:text-h3-md text-h3-sm leading-[1.5] text-start font-bold text-gray-900">
                               {item.title}
                             </h2>
                             <div className="flex flex-wrap justify-start gap-2">
@@ -217,7 +217,7 @@ const Projects = () => {
                         </div>
                         <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
                           <div className="text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
-                            <h2 className="lg:text-h3-lg md:text-h3-md text-h3-sm lg:leading-[64px] md:leading-[1.1] leading-[40px] font-bold text-gray-900 dark:text-white">
+                            <h2 className="xl:text-h3-xl lg:text-h3-lg md:text-h3-md text-h3-sm leading-[1.5] text-start font-bold text-gray-900">
                               {item.title}
                             </h2>
                             <div className="flex flex-wrap justify-start gap-2">

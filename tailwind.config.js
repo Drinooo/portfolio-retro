@@ -40,19 +40,20 @@ module.exports = withMT({
       "navbar-lg": "28px",
       "navbar-sm": "22px",
 
-      "h1-xl": "96px",
-      "h1-lg": "80px",
+      "h1-xl": "80px",
+      "h1-lg": "70px",
       "h1-md": "60px",
       "h1-sm": "40px",
 
-      "h2-xl": "86px",
+      "h2-xl": "80px",
       "h2-lg": "70px",
       "h2-md": "50px",
       "h2-sm": "30px",
 
-      "h3-lg": "60px",
-      "h3-md": "48px",
-      "h3-sm": "36px",
+      "h3-xl": "50px",
+      "h3-lg": "45px",
+      "h3-md": "35px",
+      "h3-sm": "30px",
 
       "h4-lg": "28px",
       "h4-md": "24px",
