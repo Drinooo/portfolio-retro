@@ -897,6 +897,33 @@ export const CLIENTS = [
   },
 ];
 
+export const TESTIMONIALS = [
+  {
+    title: "Aldrin is awesome, very open to suggestions and feedback and does a great job. I'd recommend him any day. He's ready to look up things that are new to him and learn them in order to get the work done well, and most importantly, he's super responsive!",
+    img: "/clients/Kristy Ting.JPG",
+    name: "Kristy Ting",
+    occupation: "Owner",
+    business: "@SideGigMasterclass",
+    website: "https://sidegigmasterclass.com/masterclass",
+  },
+  {
+    title: "Love supporting new creators Aldrin went above and beyond I will definitely be buying more things from him",
+    img: "/clients/placeholder.jpg",
+    name: "ry4n2020",
+    occupation: "Client from",
+    business: "Fiverr.com",
+    website: "https://www.fiverr.com/aldrin18?public_mode=true",
+  },
+  {
+    title: "the work was very quick. happy overall",
+    img: "/clients/Johnhy.png",
+    name: "Johnch3",
+    occupation: "Client from",
+    business: "Fiverr.com",
+    website: "https://www.fiverr.com/aldrin18?public_mode=true",
+  },
+]
+
 export const PRODUCTS = [
   {
     id: 1,

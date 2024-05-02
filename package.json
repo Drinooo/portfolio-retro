@@ -19,6 +19,8 @@
     "react-fast-marquee": "^1.6.1",
     "react-infinite-logo-slider": "^1.0.13",
     "react-router-dom": "^6.16.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
     "taos": "^1.0.5"
   },
   "devDependencies": {
