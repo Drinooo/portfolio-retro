@@ -116,7 +116,7 @@ export const PROJECTS = [
       "/images/Launch Loans Landing Page/Design System.png",
     ],
     title: "Launch Loans",
-    urlWebsite: "https://app.launchpilot.pro/v2/preview/jGXZhIdyqe0onenZg1AU?notrack=true",
+    urlWebsite: "https://launchloans.io/",
     urlCaseStudy: "#",
     tools: ["Figma", "Landing Page", "GoHighLevel", "Loan Company"],
     path: "projects/launch-loans",
