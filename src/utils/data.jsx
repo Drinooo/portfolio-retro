@@ -94,7 +94,7 @@ export const PROJECTS = [
       "/images/Side Gig Masterclass Landing Page/Design System.png",
     ],
     title: "Side Gig Masterclass",
-    urlWebsite: "https://sidegigmasterclass.com/landing-page",
+    urlWebsite: "https://sidegigmasterclass.com/sga",
     urlCaseStudy: "#",
     tools: ["Figma", "Landing Page", "ClickFunnels", "Freelancing Class Online"],
     path: "projects/side-gig-masterclass",
