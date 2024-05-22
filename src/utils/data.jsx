@@ -963,7 +963,7 @@ export const PRICING = [
     id: 1,
     title: "Web Design",
     desc: "Figma Design only",
-    price: "From $60-$200",
+    price: "From $80-$200",
     priceDesc: "per webpage",
     includes: ["Figma design of the webpage", "1 round of revisions"],
     revision: "$5-$20",
@@ -973,7 +973,7 @@ export const PRICING = [
     id: 2,
     title: "Web Design and Development",
     desc: "Figma Design and CMS or Coded",
-    price: "From $180-$1000",
+    price: "From $200-$1000",
     priceDesc: "per webpage",
     includes: [
       "Figma design of the webpage",
