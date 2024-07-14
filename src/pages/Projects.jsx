@@ -20,24 +20,20 @@ import { CheckIcon } from "../components/Common/IconComponent";
 const Projects = () => {
   const data = [
     {
-      label: "Web & Mobile Development",
-      value: "WEBDEV",
-    },
-    {
-      label: "Web Design",
-      value: "WEBDES",
+      label: "Web/Mobile Design",
+      value: "1",
     },
     {
       label: "UI/UX Design",
-      value: "ud",
+      value: "2",
     },
     {
       label: "Logo Design",
-      value: "ld",
+      value: "3",
     },
     {
       label: "Graphic Design",
-      value: "GRAPDES",
+      value: "4",
     },
   ];
   return (
@@ -49,7 +45,7 @@ const Projects = () => {
               Projects
             </h2>
           </div>
-          <Tabs value="WEBDEV" id="custom-animation">
+          <Tabs value="1" id="custom-animation">
             <TabsHeader
               className="bg-transparent rounded-none z-0 p-0 lg:pb-6 pb-4 sm:overflow-y-scroll overflow-y-hidden"
               indicatorProps={{

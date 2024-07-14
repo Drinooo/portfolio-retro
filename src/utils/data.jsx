@@ -51,9 +51,51 @@ export const MAIN_NAVIGATION = [
 ];
 
 export const PROJECTS = [
+  // {
+  //   id: "jarvi",
+  //   value: "1",
+  //   img: [
+  //     "/images/Jarvi AI Website/Jarvi - Thumbnail 1.png",
+  //     "/images/Jarvi AI Website/Jarvi  - Thumbnail 2.png",
+  //     "/images/Jarvi AI Website/Jarvi  - Mockup.png",
+  //     "/images/Jarvi AI Website/Jarvi - 1.png",
+  //     "/images/Jarvi AI Website/Jarvi - 2.png",
+  //     "/images/Jarvi AI Website/Jarvi - 3.png",
+  //     "/images/Jarvi AI Website/Jarvi - 4.png",
+  //     "/images/Jarvi AI Website/Jarvi - 5.png",
+  //     "/images/Jarvi AI Website/Jarvi - 6.png",
+  //     "/images/Jarvi AI Website/Jarvi - 7.png",
+  //   ],
+  //   title: "Jarvi",
+  //   urlWebsite: "https://www.jarvi.io/",
+  //   urlCaseStudy: "#",
+  //   tools: ["Go High Level", "Recruitment Company"],
+  //   path: "projects/jarvi",
+  //   position: "right",
+  //   website: "yes",
+  //   caseStudy: "no",
+  // },
+  {
+    id: "pyramide",
+    value: "1",
+    img: [
+      "/images/Pyramide Mobile View/Pyramide - Thumbnail.png",
+      "/images/Pyramide Mobile View/Pyramide - Mockup 1.png",
+      "/images/Pyramide Mobile View/Pyramide - Mockup 2.png",
+      "/images/Pyramide Mobile View/Design System.png",
+    ],
+    title: "Pyramide Tea Bar (Mobile View)",
+    urlWebsite: "https://pyramide.qa/",
+    urlCaseStudy: "#",
+    tools: ["Figma", "Tea Bar"],
+    path: "projects/pyramide",
+    position: "left",
+    website: "yes",
+    caseStudy: "no",
+  },
   {
     id: "startrisesuccesschallenge",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Start Rise Success Challenge Funnel/Start Rise Success Challenge - Thumbnail 1.png",
       "/images/Start Rise Success Challenge Funnel/Start Rise Success Challenge - Thumbnail 2.png",
@@ -78,7 +120,7 @@ export const PROJECTS = [
   },
   {
     id: "victorybgc",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Victory BGC Home Page/Victory BGC - Thumbnail.png",
       "/images/Victory BGC Home Page/Victory BGC - Mockup.png",
@@ -97,7 +139,7 @@ export const PROJECTS = [
   },
   {
     id: "amcreis",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/AMC Real Estate Investment Services Website/AMC Real Estate Investment Services - Thumbnail.png",
       "/images/AMC Real Estate Investment Services Website/AMC Real Estate Investment Services- Mockup.png",
@@ -117,7 +159,7 @@ export const PROJECTS = [
   },
   {
     id: "amcmedia",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/AMC Media Website/AMC Media - Thumbnail.png",
       "/images/AMC Media Website/AMC Media - Mockup.png",
@@ -140,7 +182,7 @@ export const PROJECTS = [
   },
   {
     id: "sidegigmasterclass",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Side Gig Masterclass Landing Page/Side Gig Masterclass - Thumbnail.png",
       "/images/Side Gig Masterclass Landing Page/Side Gig Masterclass - Mockup.png",
@@ -168,7 +210,7 @@ export const PROJECTS = [
   },
   {
     id: "launchloans",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Launch Loans Landing Page/Launch Loans - Thumbnail.png",
       "/images/Launch Loans Landing Page/Launch Loans - Mockup.png",
@@ -190,7 +232,7 @@ export const PROJECTS = [
   },
   {
     id: "scalbl",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Scalbl.io/Scalbl.io - Thumbnail.png",
       "/images/Scalbl.io/Scalbl.io - Mockup.png",
@@ -210,7 +252,7 @@ export const PROJECTS = [
   },
   {
     id: "todo-list-app",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Todo List App/Todo List App - Thumbnail.jpg",
       "/images/Todo List App/Todo List App - Mockup.jpg",
@@ -226,7 +268,7 @@ export const PROJECTS = [
   },
   {
     id: "recozy",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Recozy Landing Page/Recozy - Thumbnail.jpg",
       "/images/Recozy Landing Page/Recozy - Mockup.jpg",
@@ -252,7 +294,7 @@ export const PROJECTS = [
   },
   {
     id: "hypeburger",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Hypeburger Landing Page/Hypeburger - Thumbnail.jpg",
       "/images/Hypeburger Landing Page/Hypeburger - Mockup.jpg",
@@ -278,7 +320,7 @@ export const PROJECTS = [
   },
   {
     id: "numa",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Numa Recovery Center Website/Numa - Thumbnail.jpg",
       "/images/Numa Recovery Center Website/Numa - Mockup.jpg",
@@ -303,7 +345,7 @@ export const PROJECTS = [
   },
   {
     id: "gretta",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Gretta Landing Page/Gretta - Thumbnail.jpg",
       "/images/Gretta Landing Page/Gretta - Mockup.jpg",
@@ -330,7 +372,7 @@ export const PROJECTS = [
   },
   {
     id: "radiant",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Radiant Landing Page/Radiant - Thumbnail.jpg",
       "/images/Radiant Landing Page/Radiant - Mockup.jpg",
@@ -357,7 +399,7 @@ export const PROJECTS = [
   },
   {
     id: "portfolio-v1",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Portfolio V1 Website/Portfolio V1 - Thumbnail.jpg",
       "/images/Portfolio V1 Website/Portfolio V1 - Mockup.jpg",
@@ -379,7 +421,7 @@ export const PROJECTS = [
   },
   {
     id: "portfolio-v2",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Portfolio V2 Website/Portfolio V2 - Thumbnail.jpg",
       "/images/Portfolio V2 Website/Portfolio V2 - Mockup.jpg",
@@ -395,7 +437,7 @@ export const PROJECTS = [
   },
   {
     id: "learntxt",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/LearnTXT Website/LearnTXT - Thumbnail.jpg",
       "/images/LearnTXT Website/LearnTXT - Mockup.jpg",
@@ -417,7 +459,7 @@ export const PROJECTS = [
   },
   {
     id: "remagine",
-    value: "WEBDEV",
+    value: "1",
     img: [
       "/images/Remagine Landing Page/Remagine - Thumbnail.jpg",
       "/images/Remagine Landing Page/Remagine - Mockup.jpg",
@@ -442,7 +484,7 @@ export const PROJECTS = [
   },
   {
     id: "superare",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/Superare Landing Page/Superare - Thumbnail.jpg",
       "/images/Superare Landing Page/Superare - Mockup.jpg",
@@ -463,7 +505,7 @@ export const PROJECTS = [
   },
   {
     id: "MSAR",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/MSAR Website/MSAR - Thumbnail.jpg",
       "/images/MSAR Website/MSAR - Mockup.jpg",
@@ -484,7 +526,7 @@ export const PROJECTS = [
   },
   {
     id: "rebank",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/Rebank Landing Page/Rebank - Thumbnail.jpg",
       "/images/Rebank Landing Page/Rebank - Mockup.jpg",
@@ -505,7 +547,7 @@ export const PROJECTS = [
   },
   {
     id: "travel-agency",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/Travel Agency Prototype/Travel Agency - Thumbnail.jpg",
       "/images/Travel Agency Prototype/Travel Agency - Mockup.jpg",
@@ -522,7 +564,7 @@ export const PROJECTS = [
   },
   {
     id: "plant-shop",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/Plant Shop Landing Page/Plant Shop - Thumbnail.jpg",
       "/images/Plant Shop Landing Page/Plant Shop - Mockup.jpg",
@@ -544,7 +586,7 @@ export const PROJECTS = [
   },
   {
     id: "nft",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/NFT Landing Page/NFT - Thumbnail.jpg",
       "/images/NFT Landing Page/NFT - Mockup.jpg",
@@ -565,7 +607,7 @@ export const PROJECTS = [
   },
   {
     id: "food",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/Food Landing Page/Food - Thumbnail.jpg",
       "/images/Food Landing Page/Food - Mockup.jpg",
@@ -586,7 +628,7 @@ export const PROJECTS = [
   },
   {
     id: "coffee",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/Coffee Prototype/Coffee - Thumbnail.jpg",
       "/images/Coffee Prototype/Coffee - Mockup.jpg",
@@ -603,7 +645,7 @@ export const PROJECTS = [
   },
   {
     id: "juice-labs",
-    value: "WEBDES",
+    value: "1",
     img: [
       "/images/Juice Labs Landing Page/Juice Labs - Thumbnail.jpg",
       "/images/Juice Labs Landing Page/Juice Labs - Mockup.jpg",
@@ -624,7 +666,7 @@ export const PROJECTS = [
   },
   {
     id: "calensmart",
-    value: "ud",
+    value: "2",
     img: [
       "/images/CalenSmart Mobile App/CalenSmart - Thumbnail.jpg",
       "/images/CalenSmart Mobile App/CalenSmart - 1.jpg",
@@ -645,7 +687,7 @@ export const PROJECTS = [
   },
   {
     id: "go-find-me-app",
-    value: "ud",
+    value: "2",
     img: [
       "/images/Go Find Me Mobile App/Go Find Me App - Thumbnail.jpg",
       "/images/Go Find Me Mobile App/Go Find Me App - 1.jpg",
@@ -666,7 +708,7 @@ export const PROJECTS = [
   },
   {
     id: "MAHA",
-    value: "ud",
+    value: "2",
     img: [
       "/images/My Allied Health Academy Web Application/MAHA - Thumbnail.jpg",
       "/images/My Allied Health Academy Web Application/MAHA - Mockup.jpg",
@@ -682,7 +724,7 @@ export const PROJECTS = [
   },
   {
     id: "SMC",
-    value: "ud",
+    value: "2",
     img: [
       "/images/Share My Circle Web Application/SMC - Thumbnail.jpg",
       "/images/Share My Circle Web Application/SMC - Mockup.jpg",
@@ -698,7 +740,7 @@ export const PROJECTS = [
   },
   {
     id: "HES",
-    value: "ud",
+    value: "2",
     img: [
       "/images/Her Erotic Story Web Application/HES - Thumbnail.jpg",
       "/images/Her Erotic Story Web Application/HES - Mockup.jpg",
@@ -714,7 +756,7 @@ export const PROJECTS = [
   },
   {
     id: "tribetxt-rooms",
-    value: "ud",
+    value: "2",
     img: [
       "/images/TribeTXT Rooms Web Application/TribeTXT - Thumbnail.jpg",
       "/images/TribeTXT Rooms Web Application/TribeTXT - Mockup.jpg",
@@ -730,7 +772,7 @@ export const PROJECTS = [
   },
   {
     id: "leadgen-crew",
-    value: "ud",
+    value: "2",
     img: [
       "/images/LeadGen Crew Web Application/LeadGen Crew - Thumbnail.jpg",
       "/images/LeadGen Crew Web Application/LeadGen Crew - Mockup.jpg",
@@ -746,42 +788,42 @@ export const PROJECTS = [
   },
   {
     id: 26,
-    value: "ld",
+    value: "3",
     img: "/images/Logo/HRG White.png",
     title: "Home Renovation Guy",
     position: "left",
   },
   {
     id: 27,
-    value: "ld",
+    value: "3",
     img: "/images/Logo/GR White.png",
     title: "Giving Recovery",
     position: "right",
   },
   {
     id: 28,
-    value: "ld",
+    value: "3",
     img: "/images/Logo/VS WHite.png",
     title: "VS Gravel and Sand Trading",
     position: "left",
   },
   {
     id: 29,
-    value: "ld",
+    value: "3",
     img: "/images/Logo/LGC 2 White.png",
     title: "LeadGen Crew V1",
     position: "right",
   },
   {
     id: 30,
-    value: "ld",
+    value: "3",
     img: "/images/Logo/LGC White.png",
     title: "LeadGen Crew V2",
     position: "left",
   },
   {
     id: 31,
-    value: "ld",
+    value: "3",
     img: [
       "/images/Stranger Lust Logo/Stranger Lust Banner.png",
       "/images/Stranger Lust Logo/Stranger Lust White.png",
@@ -792,7 +834,7 @@ export const PROJECTS = [
   },
   {
     id: 32,
-    value: "GRAPDES",
+    value: "4",
     img: "/images/Business Card/One Way Leisure Business Card.jpg",
     title: "One Way Leisure",
     tools: ["Business Card"],
@@ -800,7 +842,7 @@ export const PROJECTS = [
   },
   {
     id: 33,
-    value: "GRAPDES",
+    value: "4",
     img: "/images/Business Card/Los santos Customs Auto Repair Business Card.jpg",
     title: "Los Santos Auto Repairs",
     tools: ["Business Card"],
@@ -808,7 +850,7 @@ export const PROJECTS = [
   },
   {
     id: 34,
-    value: "GRAPDES",
+    value: "4",
     img: "/images/Facebook Post/Villalobos-Santiago Facebook Post.png",
     title: "Villalobos-Santiago Land Surveying",
     tools: ["Facebook Post"],
@@ -932,7 +974,7 @@ export const SERVICES = [
 
 export const CLIENTS = [
   {
-    title: "NMS PH",
+    title: "New Media Services",
   },
   {
     title: "TribeTXT",
@@ -974,13 +1016,22 @@ export const CLIENTS = [
     title: "Scalbl.io",
   },
   {
-    title: "Side Gig Masterclass",
+    title: "Side Gig Accelerator",
   },
   {
     title: "Launch Loans",
   },
   {
     title: "Shorin Travel and Tours",
+  },
+  {
+    title: "Taotter",
+  },
+  {
+    title: "AMC Media",
+  },
+  {
+    title: "AMC Real Estate Investment Services",
   },
 ];
 
