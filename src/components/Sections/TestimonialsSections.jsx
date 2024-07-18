@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { TESTIMONIALS } from "../../utils/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 
 const TestimonialsSections = () => {
   var settings = {
