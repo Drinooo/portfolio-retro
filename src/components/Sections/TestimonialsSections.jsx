@@ -65,8 +65,18 @@ const TestimonialsSections = () => {
                   <div>
                     <div className="text-lg font-medium">{item.name}</div>
                     <div className="text-gray-600 dark:text-gray-400">
-                      {item.occupation}{" "}
-                      <a target="_blank" href={item.website} className="text-green">{item.business}</a>
+                      {/* {item.occupation}{" "} */}
+                      {item.website === "#" ? (
+                        <p className="text-green">{item.business}</p>
+                      ) : (
+                        <a
+                          target="_blank"
+                          href={item.website}
+                          className="text-green"
+                        >
+                          {item.business}
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

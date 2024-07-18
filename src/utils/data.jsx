@@ -975,63 +975,77 @@ export const SERVICES = [
 export const CLIENTS = [
   {
     title: "New Media Services",
+    img: "/images/Clients Logo/New Media Services.png",
   },
-  {
-    title: "TribeTXT",
-  },
-  {
-    title: "Share My Circle",
-  },
-  {
-    title: "Her Erotic Story",
-  },
-  {
-    title: "My Allied Health Academy",
-  },
-  {
-    title: "Montrose Search and Rescue",
-  },
-  {
-    title: "Home Renovation Guy",
-  },
-  {
-    title: "Numa Recovery Centers",
-  },
-  {
-    title: "LeadGen Crew",
-  },
+  // {
+  //   title: "TribeTXT",
+  // },
+  // {
+  //   title: "Share My Circle",
+  // },
+  // {
+  //   title: "Her Erotic Story",
+  // },
+  // {
+  //   title: "My Allied Health Academy",
+  // },
+  // {
+  //   title: "Montrose Search and Rescue",
+  // },
+  // {
+  //   title: "Home Renovation Guy",
+  // },
+  // {
+  //   title: "Numa Recovery Centers",
+  // },
+  // {
+  //   title: "LeadGen Crew",
+  // },
   {
     title: "VS Gravel and Sand Trading",
+    img: "/images/Clients Logo/VS Gravel And Sand Trading.png",
   },
   {
     title: "Villalobos-Santiago Land Surveying",
+    img: "/images/Clients Logo/VS Land Surveying Sevices.png",
   },
-  {
-    title: "One Way Leisure",
-  },
-  {
-    title: "Los Santos Customs Auto Repair",
-  },
+  // {
+  //   title: "One Way Leisure",
+  // },
+  // {
+  //   title: "Los Santos Customs Auto Repair",
+  // },
   {
     title: "Scalbl.io",
+    img: "/images/Clients Logo/Scalbl.io.png",
   },
   {
     title: "Side Gig Accelerator",
+    img: "/images/Clients Logo/Side Gig Accelerator.png",
   },
   {
     title: "Launch Loans",
+    img: "/images/Clients Logo/Launch Loans.png",
   },
   {
     title: "Shorin Travel and Tours",
+    img: "/images/Clients Logo/Shorin Travel And Tours.png",
   },
   {
     title: "Taotter",
+    img: "/images/Clients Logo/Taotter.png",
   },
   {
     title: "AMC Media",
+    img: "/images/Clients Logo/AMC Media.png",
   },
   {
     title: "AMC Real Estate Investment Services",
+    img: "/images/Clients Logo/AMC Real Estate Investment Services.png",
+  },
+  {
+    title: "Etch",
+    img: "/images/Clients Logo/Etch.png",
   },
 ];
 
@@ -1041,7 +1055,7 @@ export const TESTIMONIALS = [
     img: "/clients/Kristy Ting.JPG",
     name: "Kristy Ting",
     occupation: "Owner",
-    business: "@SideGigMasterclass",
+    business: "Side Gig Accelerator",
     website: "https://sidegigmasterclass.com/masterclass",
   },
   {
@@ -1049,16 +1063,16 @@ export const TESTIMONIALS = [
     img: "/clients/placeholder.jpg",
     name: "ry4n2020",
     occupation: "Client from",
-    business: "Fiverr.com",
-    website: "https://www.fiverr.com/aldrin18?public_mode=true",
+    business: "Los Santos Customs Auto Repair",
+    website: "#",
   },
   {
     title: "the work was very quick. happy overall",
     img: "/clients/Johnhy.png",
     name: "Johnch3",
     occupation: "Client from",
-    business: "Fiverr.com",
-    website: "https://www.fiverr.com/aldrin18?public_mode=true",
+    business: "One Way Leisure",
+    website: "#",
   },
 ]
 
