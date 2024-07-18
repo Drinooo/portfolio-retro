@@ -34,7 +34,7 @@ export const NavbarComponent = () => {
           </Link>
         </li>
       ))}
-      <DownloadButton>Download CV</DownloadButton>
+      {/* <DownloadButton>Download CV</DownloadButton> */}
     </ul>
   );
 
