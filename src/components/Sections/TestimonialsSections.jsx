@@ -56,7 +56,7 @@ const TestimonialsSections = () => {
           {TESTIMONIALS.map((item) => (
             <div className="border-3 flex flex-col">
               <div className="flex flex-col justify-between w-full h-full px-4 py-4 bg-gray-100 dark:bg-gray-800 rounded-2xl dark:bg-trueGray-800">
-                <p className="text-2xl leading-normal">"{item.title}"</p>
+                <p className="text-2xl leading-normal italic">"{item.title}"</p>
                 <div className="flex items-center mt-8 space-x-3">
                   <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
                     <img alt="Avatar" src={item.img} loading="lazy" />
