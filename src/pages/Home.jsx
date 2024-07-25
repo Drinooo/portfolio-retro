@@ -11,11 +11,12 @@ const Home = () => {
   return (
     <Fragment>
       <HeroSection />
+      
       <ProjectSection />
       <ServicesSection />
       <CTASection />
-      <TechStackSection />
       <ClientsSection />
+      <TechStackSection />
       <TestimonialsSections />
       <CTASection />
     </Fragment>

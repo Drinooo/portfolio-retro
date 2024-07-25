@@ -15,14 +15,14 @@ const ClientsSection = () => {
           </div>
           <div className="sm:text-center md:text-start gap-4">
             <Slider
-            width={"250px"}
+              width={"270px"}
               duration={30}
               blurBorders={false}
               blurBoderColor={"#fff"}
             >
               {CLIENTS.map((item) => (
                 <Slider.Slide>
-                  <img src={item.img} alt={item.title} className="w-50" />
+                  <img src={item.img} alt={item.title} className="pr-2 pl-2" />
                 </Slider.Slide>
               ))}
             </Slider>

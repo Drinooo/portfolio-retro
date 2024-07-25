@@ -1001,6 +1001,50 @@ export const CLIENTS = [
     title: "New Media Services",
     img: "/images/Clients Logo/New Media Services.png",
   },
+  {
+    title: "Scalbl.io",
+    img: "/images/Clients Logo/Scalbl.io.png",
+  },
+  {
+    title: "Villalobos-Santiago Land Surveying",
+    img: "/images/Clients Logo/VS Land Surveying Sevices.png",
+  },
+  {
+    title: "VS Gravel and Sand Trading",
+    img: "/images/Clients Logo/VS Gravel And Sand Trading.png",
+  },
+  {
+    title: "Launch Loans",
+    img: "/images/Clients Logo/Launch Loans.png",
+  },
+  {
+    title: "Side Gig Accelerator",
+    img: "/images/Clients Logo/Side Gig Accelerator.png",
+  },
+  {
+    title: "Taotter",
+    img: "/images/Clients Logo/Taotter.png",
+  },
+  {
+    title: "Shorin Travel and Tours",
+    img: "/images/Clients Logo/Shorin Travel And Tours.png",
+  },
+  {
+    title: "AMC Media",
+    img: "/images/Clients Logo/AMC Media.png",
+  },
+  {
+    title: "Etch",
+    img: "/images/Clients Logo/Etch.png",
+  },
+  {
+    title: "AMC Real Estate Investment Services",
+    img: "/images/Clients Logo/AMC Real Estate Investment Services.png",
+  },
+  {
+    title: "Twelve Gelato",
+    img: "/images/Clients Logo/12 Gelato.png",
+  },
   // {
   //   title: "TribeTXT",
   // },
@@ -1025,56 +1069,12 @@ export const CLIENTS = [
   // {
   //   title: "LeadGen Crew",
   // },
-  {
-    title: "VS Gravel and Sand Trading",
-    img: "/images/Clients Logo/VS Gravel And Sand Trading.png",
-  },
-  {
-    title: "Villalobos-Santiago Land Surveying",
-    img: "/images/Clients Logo/VS Land Surveying Sevices.png",
-  },
   // {
   //   title: "One Way Leisure",
   // },
   // {
   //   title: "Los Santos Customs Auto Repair",
   // },
-  {
-    title: "Scalbl.io",
-    img: "/images/Clients Logo/Scalbl.io.png",
-  },
-  {
-    title: "Side Gig Accelerator",
-    img: "/images/Clients Logo/Side Gig Accelerator.png",
-  },
-  {
-    title: "Launch Loans",
-    img: "/images/Clients Logo/Launch Loans.png",
-  },
-  {
-    title: "Shorin Travel and Tours",
-    img: "/images/Clients Logo/Shorin Travel And Tours.png",
-  },
-  {
-    title: "Taotter",
-    img: "/images/Clients Logo/Taotter.png",
-  },
-  {
-    title: "AMC Media",
-    img: "/images/Clients Logo/AMC Media.png",
-  },
-  {
-    title: "AMC Real Estate Investment Services",
-    img: "/images/Clients Logo/AMC Real Estate Investment Services.png",
-  },
-  {
-    title: "Etch",
-    img: "/images/Clients Logo/Etch.png",
-  },
-  {
-    title: "Twelve Gelato",
-    img: "/images/Clients Logo/12 Gelato.png",
-  },
 ];
 
 export const TESTIMONIALS = [
