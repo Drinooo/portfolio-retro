@@ -136,7 +136,12 @@ export const PROJECTS = [
     title: "Start Rise Success Challenge",
     urlWebsite: "https://startrisesuccesschallenge.com/",
     urlCaseStudy: "#",
-    tools: ["Figma", "Funnel Design", "Go High Level", "Mentorship and Coaching"],
+    tools: [
+      "Figma",
+      "Funnel Design",
+      "Go High Level",
+      "Mentorship and Coaching",
+    ],
     path: "projects/start-rise-success-challenge",
     position: "right",
     website: "yes",
@@ -175,7 +180,12 @@ export const PROJECTS = [
     title: "AMC Real Estate Investment Services",
     urlWebsite: "https://amcreis.com/",
     urlCaseStudy: "#",
-    tools: ["Figma", "Website Design", "WordPress (Elementor)", "Real Estate Company"],
+    tools: [
+      "Figma",
+      "Website Design",
+      "WordPress (Elementor)",
+      "Real Estate Company",
+    ],
     path: "projects/amcreis",
     position: "right",
     website: "yes",
@@ -198,7 +208,12 @@ export const PROJECTS = [
     title: "AMC Media",
     urlWebsite: "https://amcmediainc.com/",
     urlCaseStudy: "#",
-    tools: ["Figma", "Website Design", "WordPress (Elementor)", "Digital Solutions Company"],
+    tools: [
+      "Figma",
+      "Website Design",
+      "WordPress (Elementor)",
+      "Digital Solutions Company",
+    ],
     path: "projects/amc-media",
     position: "left",
     website: "yes",
@@ -724,7 +739,12 @@ export const PROJECTS = [
     title: "Go Find Me App",
     urlWebsite: "#",
     urlCaseStudy: "#",
-    tools: ["Figma", "Mobile Application Design", "Mobile Application Development", "Ionic"],
+    tools: [
+      "Figma",
+      "Mobile Application Design",
+      "Mobile Application Development",
+      "Ionic",
+    ],
     path: "projects/go-find-me",
     position: "right",
     website: "no",
@@ -998,10 +1018,6 @@ export const SERVICES = [
 
 export const CLIENTS = [
   {
-    title: "New Media Services",
-    img: "/images/Clients Logo/New Media Services.png",
-  },
-  {
     title: "Scalbl.io",
     img: "/images/Clients Logo/Scalbl.io.png",
   },
@@ -1079,7 +1095,8 @@ export const CLIENTS = [
 
 export const TESTIMONIALS = [
   {
-    title: "Aldrin is awesome, very open to suggestions and feedback and does a great job. I'd recommend him any day. He's ready to look up things that are new to him and learn them in order to get the work done well, and most importantly, he's super responsive!",
+    title:
+      "Aldrin is awesome, very open to suggestions and feedback and does a great job. I'd recommend him any day. He's ready to look up things that are new to him and learn them in order to get the work done well, and most importantly, he's super responsive!",
     img: "/clients/Kristy Ting.JPG",
     name: "Kristy Ting",
     occupation: "Owner",
@@ -1087,7 +1104,8 @@ export const TESTIMONIALS = [
     website: "https://sidegigmasterclass.com/masterclass",
   },
   {
-    title: "Love supporting new creators Aldrin went above and beyond I will definitely be buying more things from him",
+    title:
+      "Love supporting new creators Aldrin went above and beyond I will definitely be buying more things from him",
     img: "/clients/placeholder.jpg",
     name: "ry4n2020",
     occupation: "Client from",
@@ -1102,7 +1120,7 @@ export const TESTIMONIALS = [
     business: "One Way Leisure",
     website: "#",
   },
-]
+];
 
 export const PRODUCTS = [
   {
