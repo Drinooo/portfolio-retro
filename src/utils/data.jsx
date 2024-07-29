@@ -241,7 +241,7 @@ export const PROJECTS = [
     title: "Side Gig Masterclass",
     urlWebsite: "https://sidegigmasterclass.com/sga",
     urlCaseStudy: "#",
-    tools: ["Figma", "Landing Page", "ClickFunnels", "Coaching Company"],
+    tools: ["Figma", "Funnel Design", "ClickFunnels", "Masterclass Company"],
     path: "projects/side-gig-masterclass",
     position: "right",
     website: "yes",
@@ -1096,10 +1096,19 @@ export const CLIENTS = [
 export const TESTIMONIALS = [
   {
     title:
+      "Aldrin helped me complete multiple websites for three different companies, and they were all phenomenal. He doesn't just build a website and walk away; he stays to promptly answer any questions and address any issues that arise. He collaborated seamlessly with various team members in building and designing our sites. Aldrin even learned and applied a variety of plugins specifically for our needs, ensuring we got the best free options available, saving us time and money. He's easy to talk to, takes feedback constructively, and is one of the best people I have had the pleasure of working with. Aldrin helped me bring my vision to life in a cost-effective, quick, and easy manner. It's hard to find good people nowadays, and Aldrin is definitely one of them!",
+    img: "/clients/Angelo Iacobelli.webp",
+    name: "Angelo Iacobelli",
+    occupation: "Managing Partner",
+    business: "AMC Real Estate Investment Services",
+    website: "https://amcreis.com/",
+  },
+  {
+    title:
       "Aldrin is awesome, very open to suggestions and feedback and does a great job. I'd recommend him any day. He's ready to look up things that are new to him and learn them in order to get the work done well, and most importantly, he's super responsive!",
     img: "/clients/Kristy Ting.JPG",
     name: "Kristy Ting",
-    occupation: "Owner",
+    occupation: "CEO",
     business: "Side Gig Accelerator",
     website: "https://sidegigmasterclass.com/masterclass",
   },
@@ -1108,7 +1117,7 @@ export const TESTIMONIALS = [
       "Love supporting new creators Aldrin went above and beyond I will definitely be buying more things from him",
     img: "/clients/placeholder.jpg",
     name: "ry4n2020",
-    occupation: "Client from",
+    occupation: "Client from Fiverr.com",
     business: "Los Santos Customs Auto Repair",
     website: "#",
   },
@@ -1116,7 +1125,7 @@ export const TESTIMONIALS = [
     title: "the work was very quick. happy overall",
     img: "/clients/Johnhy.png",
     name: "Johnch3",
-    occupation: "Client from",
+    occupation: "Client from Fiverr.com",
     business: "One Way Leisure",
     website: "#",
   },

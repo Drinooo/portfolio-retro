@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { TESTIMONIALS } from "../../utils/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const TestimonialsSections = () => {
   var settings = {
@@ -17,8 +18,7 @@ const TestimonialsSections = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
+          slidesToScroll: 1,
           dots: true,
         },
       },
@@ -26,8 +26,8 @@ const TestimonialsSections = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -52,19 +52,26 @@ const TestimonialsSections = () => {
           </h2>
         </div>
 
-        <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 ">
-          {TESTIMONIALS.map((item) => (
-            <div className="border-3 flex flex-col">
-              <div className="flex flex-col justify-between w-full h-full px-4 py-4 bg-gray-100 dark:bg-gray-800 rounded-2xl dark:bg-trueGray-800">
-                <p className="text-2xl leading-normal italic">"{item.title}"</p>
-                <div className="flex items-center mt-8 space-x-3">
-                  <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                    <img alt="Avatar" src={item.img} loading="lazy" />
-                  </div>
-                  <div>
-                    <div className="text-lg font-medium">{item.name}</div>
-                    <div className="text-gray-600 dark:text-gray-400">
-                      {/* {item.occupation}{" "} */}
+        <div className="slider-container">
+          <Slider {...settings}>
+            {TESTIMONIALS.map((item) => (
+              <div className="border-3 flex flex-col">
+                <div className="border border-solid h-auto border-gray-300 rounded-2xl p-4 w-auto">
+                  <p className="text-2xl leading-normal italic h-40 mb-80">
+                    "{item.title}"
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <img
+                      className="rounded-full w-14 h-14"
+                      src={item.img}
+                      loading="lazy"
+                      alt="avatar"
+                    />
+                    <div className="grid">
+                      <h5 className="text-2xl font-semibold">{item.name}</h5>
+                      <span className="text-sm leading-normal italic text-gray-200">
+                        {item.occupation}{" "}
+                      </span>
                       {item.website === "#" ? (
                         <p className="text-green">{item.business}</p>
                       ) : (
@@ -79,13 +86,13 @@ const TestimonialsSections = () => {
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="border-t-3">
-                <div className="border-green border-4 w-full"></div>
+                <div className="border-t-3">
+                  <div className="border-green border-4 w-full"></div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </Slider>
         </div>
       </section>
     </motion.div>
