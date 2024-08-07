@@ -126,6 +126,7 @@ const Projects = () => {
                             <h2 className="xl:text-h3-xl lg:text-h3-lg md:text-h3-md text-h3-sm leading-[1.5] text-start font-bold text-gray-900">
                               {item.title}
                             </h2>
+                            <p className="text-body1 text-red-900">{item.note}</p>
                             <div className="flex flex-wrap justify-start gap-2">
                               {Array.isArray(item.tools) ? (
                                 <ul className="space-y-2">
@@ -216,6 +217,7 @@ const Projects = () => {
                             <h2 className="xl:text-h3-xl lg:text-h3-lg md:text-h3-md text-h3-sm leading-[1.5] text-start font-bold text-gray-900">
                               {item.title}
                             </h2>
+                            <p className="text-body1 text-red-900">{item.note}</p>
                             <div className="flex flex-wrap justify-start gap-2">
                               {Array.isArray(item.tools) ? (
                                 <ul className="space-y-2">
