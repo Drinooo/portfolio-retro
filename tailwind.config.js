@@ -45,13 +45,13 @@ module.exports = withMT({
       "h1-md": "60px",
       "h1-sm": "40px",
 
-      "h2-xl": "80px",
-      "h2-lg": "70px",
-      "h2-md": "50px",
+      "h2-xl": "75px",
+      "h2-lg": "65px",
+      "h2-md": "45px",
       "h2-sm": "30px",
 
-      "h3-xl": "50px",
-      "h3-lg": "45px",
+      "h3-xl": "45px",
+      "h3-lg": "40px",
       "h3-md": "35px",
       "h3-sm": "30px",
 
