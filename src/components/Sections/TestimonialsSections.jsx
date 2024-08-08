@@ -4,7 +4,6 @@ import { TESTIMONIALS } from "../../utils/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import ReadMoreReact from "read-more-react/dist/components/ReadMoreReact";
 import ReactShowMoreText from "react-show-more-text";
 
 const TestimonialsSections = () => {
@@ -12,6 +11,8 @@ const TestimonialsSections = () => {
     dots: true,
     infinite: false,
     speed: 500,
+    autoplay: true,
+    autoplaySpeed: 5000,
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
