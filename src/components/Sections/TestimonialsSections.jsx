@@ -4,6 +4,8 @@ import { TESTIMONIALS } from "../../utils/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ReadMoreReact from "read-more-react/dist/components/ReadMoreReact";
+import ReactShowMoreText from "react-show-more-text";
 
 const TestimonialsSections = () => {
   var settings = {
@@ -55,12 +57,21 @@ const TestimonialsSections = () => {
         <div className="slider-container">
           <Slider {...settings}>
             {TESTIMONIALS.map((item) => (
-              <div className="border-3 flex flex-col">
-                <div className="border border-solid h-auto border-gray-300 rounded-2xl p-4 w-auto">
-                  <p className="text-2xl leading-normal italic h-40 mb-80">
-                    "{item.title}"
-                  </p>
-                  <div className="flex items-center gap-2">
+              <div className="border-3 flex flex-col h-fit">
+                <div className="border border-solid border-gray-300 rounded-2xl p-4 w-auto">
+                  <ReactShowMoreText
+                    lines={6}
+                    more="Read more"
+                    less="Show less"
+                    expanded={false}
+                    truncatedEndingComponent={"... "}
+                    className="italic"
+                  >
+                    <p className="text-2xl leading-normal h-28 mb-80">
+                      "{item.title}"
+                    </p>
+                  </ReactShowMoreText>
+                  <div className="flex items-center gap-2 mt-10">
                     <img
                       className="rounded-full w-14 h-14"
                       src={item.img}

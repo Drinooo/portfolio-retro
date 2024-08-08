@@ -19,7 +19,9 @@
     "react-fast-marquee": "^1.6.1",
     "react-infinite-logo-slider": "^1.0.13",
     "react-router-dom": "^6.16.0",
+    "react-show-more-text": "^1.7.1",
     "react-slick": "^0.30.2",
+    "read-more-react": "^1.0.10",
     "slick-carousel": "^1.8.1",
     "taos": "^1.0.5"
   },

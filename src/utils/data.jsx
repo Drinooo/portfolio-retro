@@ -1149,6 +1149,15 @@ export const CLIENTS = [
 ];
 
 export const TESTIMONIALS = [
+    {
+    title:
+      "Aldrin is a true creative professional in every sense of the word! He works with quality, speed and enthusiasm. I will absolutely continue to work with him (and you should too)!",
+    img: "/clients/Kyle Courtright.jpg",
+    name: "Kyle Courtright",
+    occupation: "Founder",
+    business: "Etch",
+    website: "https://etchdesign.co/",
+  },
   {
     title:
       "Aldrin helped me complete multiple websites for three different companies, and they were all phenomenal. He doesn't just build a website and walk away; he stays to promptly answer any questions and address any issues that arise. He collaborated seamlessly with various team members in building and designing our sites. Aldrin even learned and applied a variety of plugins specifically for our needs, ensuring we got the best free options available, saving us time and money. He's easy to talk to, takes feedback constructively, and is one of the best people I have had the pleasure of working with. Aldrin helped me bring my vision to life in a cost-effective, quick, and easy manner. It's hard to find good people nowadays, and Aldrin is definitely one of them!",
@@ -1163,7 +1172,7 @@ export const TESTIMONIALS = [
       "Aldrin is awesome, very open to suggestions and feedback and does a great job. I'd recommend him any day. He's ready to look up things that are new to him and learn them in order to get the work done well, and most importantly, he's super responsive!",
     img: "/clients/Kristy Ting.JPG",
     name: "Kristy Ting",
-    occupation: "CEO",
+    occupation: "Founder",
     business: "Side Gig Accelerator",
     website: "https://sidegigmasterclass.com/masterclass",
   },
