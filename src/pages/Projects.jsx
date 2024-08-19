@@ -123,10 +123,10 @@ const Projects = () => {
                           </div>
 
                           <div className="text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
-                            <h2 className="xl:text-h3-xl lg:text-h3-lg md:text-h3-md text-h3-sm leading-[1.5] text-start font-bold text-gray-900">
+                            <h2 className="xl:text-h3-xl lg:text-h3-lg md:text-h3-md text-h3-sm leading-[1.3] text-start font-bold text-gray-900">
                               {item.title}
                             </h2>
-                            <p className="text-body1 text-red-900">{item.note}</p>
+                            <p className="text-body1 text-red-900 leading-[1.3]">{item.note}</p>
                             <div className="flex flex-wrap justify-start gap-2">
                               {Array.isArray(item.tools) ? (
                                 <ul className="space-y-2">
@@ -214,10 +214,10 @@ const Projects = () => {
                         </div>
                         <div className="border-3 border-black items-center mx-auto lg:grid lg:grid-cols-2">
                           <div className="text-start space-y-5 flex flex-col justify-center xl:p-[48px] p-[24px]">
-                            <h2 className="xl:text-h3-xl lg:text-h3-lg md:text-h3-md text-h3-sm leading-[1.5] text-start font-bold text-gray-900">
+                            <h2 className="xl:text-h3-xl lg:text-h3-lg md:text-h3-md text-h3-sm leading-[1.3] text-start font-bold text-gray-900">
                               {item.title}
                             </h2>
-                            <p className="text-body1 text-red-900">{item.note}</p>
+                            <p className="text-body1 text-red-900 leading-[1.3]">{item.note}</p>
                             <div className="flex flex-wrap justify-start gap-2">
                               {Array.isArray(item.tools) ? (
                                 <ul className="space-y-2">
