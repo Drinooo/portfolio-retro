@@ -52,7 +52,7 @@ export const MAIN_NAVIGATION = [
 
 export const PROJECTS = [
   {
-    id: "fabulous50s-14-day-lose-belly-fat-challenge",
+    id: "fabulous50s-14-day-lose-your-belly-fat-challenge",
     value: "1",
     img: [
       "/images/Fabulous50s - 14-Day Lose Belly Fat Challenge/Fabulous50s - 14-Day Lose Belly Fat Challenge - Thumbnail 1.png",
@@ -72,11 +72,11 @@ export const PROJECTS = [
       "/images/Fabulous50s - 14-Day Lose Belly Fat Challenge/Fabulous50s - 14-Day Lose Belly Fat Challenge - 11.png",
       "/images/Fabulous50s - 14-Day Lose Belly Fat Challenge/Fabulous50s - 14-Day Lose Belly Fat Challenge - 12.png",
     ],
-    title: "Fabulous50s - 14-Day Lose Belly Fat Challenge",
+    title: "Fabulous50s - 14-Day Lose Your Belly Fat Challenge",
     urlWebsite: "https://fabulous50s.com/14-day-lose-your-belly-fat-challenge/",
     urlCaseStudy: "#",
     tools: ["Figma", "WordPress (Elementor)", "Funnel Design", "Women's Health Community"],
-    path: "projects/fabulous50s-14-day-lose-belly-fat-challenge",
+    path: "projects/fabulous50s-14-day-lose-your-belly-fat-challenge",
     position: "left",
     website: "yes",
     caseStudy: "no",
@@ -119,7 +119,7 @@ export const PROJECTS = [
       "/images/Body Works Medical Center - Knee Pain/Body Works Medical Center - Knee Pain - 3.png",
     ],
     title: "Body Works Medical Center - Knee Pain",
-    urlWebsite: "https://consult.bodyworksmed.net/knee-pain",
+    urlWebsite: "https://consult.bodyworksmed.net/knee-pain-cs",
     urlCaseStudy: "#",
     tools: ["Figma", "Go High Level", "Funnel Design", "Medical Services"],
     path: "projects/bwmc-knee-pain",
@@ -141,7 +141,7 @@ export const PROJECTS = [
       "/images/Body Works Medical Center - Back Pain/Body Works Medical Center - Back Pain - 4.png",
     ],
     title: "Body Works Medical Center - Back Pain",
-    urlWebsite: "https://consult.bodyworksmed.net/back-pain",
+    urlWebsite: "https://consult.bodyworksmed.net/back-pain-cs",
     urlCaseStudy: "#",
     tools: ["Figma", "Go High Level", "Funnel Design", "Medical Services"],
     path: "projects/bwmc-back-pain",
