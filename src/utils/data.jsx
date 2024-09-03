@@ -75,7 +75,6 @@ export const PROJECTS = [
     title: "Fabulous50s - 14-Day Lose Belly Fat Challenge",
     urlWebsite: "https://fabulous50s.com/14-day-lose-your-belly-fat-challenge/",
     urlCaseStudy: "#",
-    note: "Website not yet published.",
     tools: ["Figma", "WordPress (Elementor)", "Funnel Design", "Women's Health Community"],
     path: "projects/fabulous50s-14-day-lose-belly-fat-challenge",
     position: "left",
