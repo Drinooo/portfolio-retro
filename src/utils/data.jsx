@@ -52,6 +52,28 @@ export const MAIN_NAVIGATION = [
 
 export const PROJECTS = [
   {
+    id: "mmc-digestive-recovery",
+    value: "1",
+    img: [
+      "/images/Magnolia Medical Center - Digestive Recovery/Digestive Recovery - Thumbnail 1.png",
+      "/images/Magnolia Medical Center - Digestive Recovery/Digestive Recovery - Thumbnail 2.png",
+      "/images/Magnolia Medical Center - Digestive Recovery/Digestive Recovery - Mockup 1.png",
+      "/images/Magnolia Medical Center - Digestive Recovery/Digestive Recovery - Mockup 2.png",
+      "/images/Magnolia Medical Center - Digestive Recovery/Digestive Recovery - 1.png",
+      "/images/Magnolia Medical Center - Digestive Recovery/Digestive Recovery - 2.png",
+      "/images/Magnolia Medical Center - Digestive Recovery/Digestive Recovery - 3.png",
+      "/images/Magnolia Medical Center - Digestive Recovery/Digestive Recovery - 4.png",
+    ],
+    title: "Magnolia Medical Center - Digestive Recovery",
+    urlWebsite: "https://www.magnoliamedical-center.com/digestiverecoverytraining",
+    urlCaseStudy: "#",
+    tools: ["Figma", "Go High Level", "Funnel Design", "Medical Services"],
+    path: "projects/mmc-digestive-recovery",
+    position: "right",
+    website: "yes",
+    caseStudy: "no",
+  },
+  {
     id: "fabulous50s-14-day-lose-your-belly-fat-challenge",
     value: "1",
     img: [
