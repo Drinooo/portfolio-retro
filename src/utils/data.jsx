@@ -74,7 +74,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: "fabulous50s-14-day-lose-your-belly-fat-challenge",
+    id: "fabulous50s-14-day-lose-belly-fat-challenge",
     value: "1",
     img: [
       "/images/Fabulous50s - 14-Day Lose Belly Fat Challenge/Fabulous50s - 14-Day Lose Belly Fat Challenge - Thumbnail 1.png",
@@ -94,8 +94,8 @@ export const PROJECTS = [
       "/images/Fabulous50s - 14-Day Lose Belly Fat Challenge/Fabulous50s - 14-Day Lose Belly Fat Challenge - 11.png",
       "/images/Fabulous50s - 14-Day Lose Belly Fat Challenge/Fabulous50s - 14-Day Lose Belly Fat Challenge - 12.png",
     ],
-    title: "Fabulous50s - 14-Day Lose Your Belly Fat Challenge",
-    urlWebsite: "https://fabulous50s.com/14-day-lose-your-belly-fat-challenge/",
+    title: "Fabulous50s - 14-Day Lose Belly Fat Challenge",
+    urlWebsite: "https://fabulous50s.com/14-day-lose-belly-fat-challenge/",
     urlCaseStudy: "#",
     tools: ["Figma", "WordPress (Elementor)", "Funnel Design", "Women's Health Community"],
     path: "projects/fabulous50s-14-day-lose-your-belly-fat-challenge",
