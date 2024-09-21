@@ -286,7 +286,7 @@ export const PROJECTS = [
       "/images/Jarvi AI Website/Jarvi - 7.png",
     ],
     title: "Jarvi",
-    urlWebsite: "https://www.jarvi.io/",
+    urlWebsite: "https://app.gohighlevel.com/v2/preview/jAIfzmTGKv66hancCBeR?notrack=true",
     urlCaseStudy: "#",
     note: "Initially developed by creative.drin, not designed; now redesigned and developed by other agency.",
     tools: ["Go High Level", "Human Resources Industry"],
