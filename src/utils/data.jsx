@@ -271,7 +271,7 @@ export const PROJECTS = [
     caseStudy: "no",
   },
   {
-    id: "jarvi",
+    id: "jarvi-ai",
     value: "1",
     img: [
       "/images/Jarvi AI Website/Jarvi - Thumbnail 1.png",
@@ -285,10 +285,9 @@ export const PROJECTS = [
       "/images/Jarvi AI Website/Jarvi - 6.png",
       "/images/Jarvi AI Website/Jarvi - 7.png",
     ],
-    title: "Jarvi",
+    title: "Jarvi AI",
     urlWebsite: "https://app.gohighlevel.com/v2/preview/jAIfzmTGKv66hancCBeR?notrack=true",
     urlCaseStudy: "#",
-    note: "Initially developed by creative.drin, not designed; now redesigned and developed by other agency.",
     tools: ["Go High Level", "Human Resources Industry"],
     path: "projects/jarvi",
     position: "left",
